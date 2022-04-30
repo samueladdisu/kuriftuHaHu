@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kuriftur/public_html/build
+    - /bin/cp -R * $DEPLOYPATH

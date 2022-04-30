@@ -1,0 +1,28 @@
+{
+  "name": "Kuriftu_Site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "aos": "^2.3.4",
+    "core-js": "^3.15.1",
+    "npm": "^8.3.0",
+    "nuxt": "^2.15.7",
+    "nuxt-compress": "^5.0.0",
+    "vue-dragscroll": "^3.0.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
+    "node-sass": "^6.0.1",
+    "push-dir": "^0.4.1",
+    "sass": "^1.45.1",
+    "sass-loader": "^10.2.0"
+  }
+}
