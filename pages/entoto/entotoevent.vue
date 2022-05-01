@@ -1,12 +1,13 @@
 <template>
   <div class="main">
-   <Destinationheader :src="require(`../../assets/image/entoto-logo.svg`)"/>
-         <div class="destination-links2">
+    <Destinationheader :src="require(`../../assets/image/entoto-logo.svg`)" />
+    <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-               <nuxt-link  class="a-link active" to="entotoevent"><p>Entoto</p>
+              <nuxt-link class="a-link active" to="entotoevent"
+                ><p>Entoto</p>
                 <img
                   class="drop-icon"
                   src="../../assets/image/Icons/next2.svg"
@@ -15,19 +16,41 @@
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
-           
-            <li><nuxt-link  class="a-link " to="entotoaccommodation"> <p>Accomodation</p>   </nuxt-link > </li>
-            <li><nuxt-link  class="a-link "  to="entotoexperience">Experiences</nuxt-link ></li>
-            <li><nuxt-link  class="a-link "  to="entotowellness">Wellness</nuxt-link ></li>
-            <li><nuxt-link  class="a-link "  to="entotodining   active">Dining</nuxt-link ></li>
-            <li>
-              <nuxt-link  class="a-link " to="entotoevent">Celebration & Events</nuxt-link >
-              </li>
-            <li><nuxt-link  class="a-link "   to="entotogallery">Gallery</nuxt-link ></li>
+                  <li>
+                    <nuxt-link class="a-link" to="entotoaccommodation">
+                      <p>Accomodation</p>
+                    </nuxt-link>
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entotoexperience"
+                      >Experiences</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entotowellness"
+                      >Wellness</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entotodining   active"
+                      >Dining</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entotoevent"
+                      >Celebration & Events</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entotogallery"
+                      >Gallery</nuxt-link
+                    >
+                  </li>
 
-            <li>
-              <nuxt-link  class="a-link " to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link >
-              </li> </div>
+                  <li>
+                     <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                  </li>
+                </div>
               </ul>
             </li>
           </ul>
@@ -49,7 +72,7 @@
                 <p>Accomodation</p>
               </nuxt-link>
             </li>
-          
+
             <li>
               <nuxt-link class="a-link" to="entotoexperience"
                 >Experiences</nuxt-link
@@ -69,11 +92,11 @@
                 <hr class="activeline"
               /></nuxt-link>
             </li>
-              <li>
+            <li>
               <nuxt-link class="a-link" to="entotogallery">Gallery </nuxt-link>
             </li>
             <li>
-              <nuxt-link class="a-link" to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link>
+               <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
             </li>
           </ul>
           <hr class="line" />
@@ -101,73 +124,99 @@
             <img src="../../assets/image/entoto9.jpg" alt="" />
             <div class="content-details fadeIn-bottom">
               <h3 class="content-title">Conferences</h3>
-              <p class="content-text">Invite your guests to experience the once in a lifetime discoveries and natural surroundings of Kuriftu Bishoftu. Our resort hold the key to endless exploration and provide unique ways to team build and connect. </p>
+              <p class="content-text">
+                Invite your guests to experience the once in a lifetime
+                discoveries and natural surroundings of Kuriftu Bishoftu. Our
+                resort hold the key to endless exploration and provide unique
+                ways to team build and connect.
+              </p>
             </div>
           </div>
-        
+
           <div class="content single-image1 grid-top3" data-aos="zoom-in">
-             <div class="content-overlay"></div>
-               <img src="../../assets/image/celebration.jpg" alt="" />
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/celebration.jpg" alt="" />
             <div class="content-details fadeIn-bottom">
               <h3 class="content-title">Retreats</h3>
-              <p class="content-text">Known for our hospitality in an all inclusive setting, we set the stage for an unforgettable retreat</p>
+              <p class="content-text">
+                Known for our hospitality in an all inclusive setting, we set
+                the stage for an unforgettable retreat
+              </p>
             </div>
-         
           </div>
           <div class="content single-image1 grid-top" data-aos="zoom-in">
-              <div class="content-overlay"></div>
-           <img src="../../assets/image/celeb3.jpg" alt="" />
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/celeb3.jpg" alt="" />
             <div class="content-details fadeIn-bottom">
               <h3 class="content-title">Special Events</h3>
-              <p class="content-text">Known for our hospitality in an all inclusive setting, we set the stage for an unforgettable retreat</p>
+              <p class="content-text">
+                Known for our hospitality in an all inclusive setting, we set
+                the stage for an unforgettable retreat
+              </p>
             </div>
-            
           </div>
           <div class="content single-image grid-top2" data-aos="zoom-in">
-                  <div class="content-overlay"></div>
-           <img src="../../assets/image/ent1.jpg" alt="" />
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/ent1.jpg" alt="" />
             <div class="content-details fadeIn-bottom">
               <h3 class="content-title">Bridal</h3>
-              <p class="content-text">Dreaming of a wedding destination that's as pure, wild and gentle as your love? At our resort you and your guests will find the adventure of a lifetime, sourrounded by nature. Suited for all guests  our venue is the perfect setting for an intimate celebration filled with romance.</p>
+              <p class="content-text">
+                Dreaming of a wedding destination that's as pure, wild and
+                gentle as your love? At our resort you and your guests will find
+                the adventure of a lifetime, sourrounded by nature. Suited for
+                all guests our venue is the perfect setting for an intimate
+                celebration filled with romance.
+              </p>
             </div>
-            
           </div>
           <div class="content single-image grid-top" data-aos="zoom-in">
-                  <div class="content-overlay"></div>
-      <img src="../../assets/image/ent3.jpg" alt="" />
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/ent3.jpg" alt="" />
             <div class="content-details fadeIn-bottom">
               <h3 class="content-title">Birthdays</h3>
-              <p class="content-text">Birtdays come and go wny not make them memorable by connecting to where we come from, nature.</p>
+              <p class="content-text">
+                Birtdays come and go wny not make them memorable by connecting
+                to where we come from, nature.
+              </p>
             </div>
-            
           </div>
           <div class="content single-image1 grid-top3" data-aos="zoom-in">
-                  <div class="content-overlay"></div>
-             <img src="../../assets/image/celeb4.jpg" alt="" />
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/celeb4.jpg" alt="" />
             <div class="content-details fadeIn-bottom">
               <h3 class="content-title">Special Events</h3>
-              <p class="content-text">Known for our hospitality in an all inclusive setting, we set the stage for an unforgettable retreat</p>
+              <p class="content-text">
+                Known for our hospitality in an all inclusive setting, we set
+                the stage for an unforgettable retreat
+              </p>
             </div>
-      
           </div>
           <div class="content single-image1 grid-top" data-aos="zoom-in">
-                  <div class="content-overlay"></div>
-          <img src="../../assets/image/entoto0.jpg" alt="" />
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/entoto0.jpg" alt="" />
             <div class="content-details fadeIn-bottom">
               <h3 class="content-title">Wedding</h3>
-              <p class="content-text">Dreaming of a wedding destination that's as pure, wild and gentle as your love? At our resort you and your guests will find the adventure of a lfetime, sourrounded by nature. Suited for all guests  our venue is the perfect setting for an intimate celebration filled with romance.</p>
+              <p class="content-text">
+                Dreaming of a wedding destination that's as pure, wild and
+                gentle as your love? At our resort you and your guests will find
+                the adventure of a lfetime, sourrounded by nature. Suited for
+                all guests our venue is the perfect setting for an intimate
+                celebration filled with romance.
+              </p>
             </div>
-            
           </div>
 
           <div class="content single-image grid-top2" data-aos="zoom-in">
-                  <div class="content-overlay"></div>
-       <img src="../../assets/image/celeb1.jpg" alt="" />
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/celeb1.jpg" alt="" />
             <div class="content-details fadeIn-bottom">
-              <h3 class="content-title">Celebrations & Events 2022 Catalogue</h3>
-              <p class="content-text">This is Celebrations & Events 2022 Catalogue </p>
+              <h3 class="content-title">
+                Celebrations & Events 2022 Catalogue
+              </h3>
+              <p class="content-text">
+                This is Celebrations & Events 2022 Catalogue
+              </p>
             </div>
-           
           </div>
         </div>
       </div>
@@ -293,7 +342,7 @@ export default {
   .destination-links {
     display: none;
   }
-     .destination-links2 {
+  .destination-links2 {
     .container {
       .wrapper {
         .link-destination {
@@ -324,7 +373,7 @@ export default {
               display: none;
               position: absolute;
               top: 25px;
-              left:0px;
+              left: 0px;
               // @include responsive($md){
               //   left: 15rem;
               // }
@@ -342,7 +391,7 @@ export default {
                 li {
                   margin-left: 0.3rem;
                   margin-top: 0.5rem;
-  
+
                   .a-link {
                     color: $kuriftu-grey;
                     font-size: 0.88rem;
@@ -459,7 +508,6 @@ export default {
           position: relative;
           width: 100%;
 
-       
           overflow: hidden;
         }
 
@@ -506,7 +554,7 @@ export default {
         }
 
         .content-details h3 {
-           @extend .title;
+          @extend .title;
           color: #fff;
           font-size: 1.5rem;
           font-weight: 500;

@@ -50,10 +50,7 @@
                     >
                   </li>
                   <li>
-                    <nuxt-link
-                      class="a-link"
-                      to="https://versavvymedia.com/reservation_system/reserve.php"
-                      >Reserve</nuxt-link
+                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
                     >
                   </li>
                 </div>
@@ -104,11 +101,7 @@
               >
             </li>
             <li>
-              <nuxt-link
-                class="a-link"
-                to="https://versavvymedia.com/reservation_system/reserve.php"
-                >Reserve</nuxt-link
-              >
+              <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
             </li>
           </ul>
           <hr class="line" />

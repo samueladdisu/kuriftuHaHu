@@ -1,6 +1,7 @@
 <template>
   <div class="fixed-button">
-    <a class="btn btn-outline-white" @click="redirect">BOOK NOW</a>
+    <!-- <a class="btn btn-outline-white" @click="redirect">BOOK NOW</a> -->
+    <nuxt-link to="/book" class="btn btn-outline-white"> BOOK NOW </nuxt-link>
   </div>
 </template>
 

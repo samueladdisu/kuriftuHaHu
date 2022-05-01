@@ -1,12 +1,15 @@
 <template>
   <div class="main">
-  <Destinationheader :src="require(`../../assets/image/Icons/waterpark.svg`)"/>
-             <div class="destination-links2">
+    <Destinationheader
+      :src="require(`../../assets/image/Icons/waterpark.svg`)"
+    />
+    <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-               <nuxt-link  class="a-link active" to="waterparkexperience"><p>Water Park</p>
+              <nuxt-link class="a-link active" to="waterparkexperience"
+                ><p>Water Park</p>
                 <img
                   class="drop-icon"
                   src="../../assets/image/Icons/next2.svg"
@@ -15,18 +18,31 @@
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
-           
-                 <li><nuxt-link  class="a-link "  to="waterparkexperience">Experiences</nuxt-link ></li>
-        
-                <li><nuxt-link  class="a-link "  to="waterparkdining">Dining </nuxt-link ></li>
-            <li>
-              <nuxt-link  class="a-link " to="waterparkevent">Celebration & Events</nuxt-link >
-              </li>
-                     <li><nuxt-link  class="a-link active"   to="waterparkgallery">Gallery </nuxt-link ></li>
-            <li>
-              <nuxt-link  class="a-link " to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link >
-              </li>
-               </div>
+                  <li>
+                    <nuxt-link class="a-link" to="waterparkexperience"
+                      >Experiences</nuxt-link
+                    >
+                  </li>
+
+                  <li>
+                    <nuxt-link class="a-link" to="waterparkdining"
+                      >Dining
+                    </nuxt-link>
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="waterparkevent"
+                      >Celebration & Events</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link active" to="waterparkgallery"
+                      >Gallery
+                    </nuxt-link>
+                  </li>
+                  <li>
+                     <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                  </li>
+                </div>
               </ul>
             </li>
           </ul>
@@ -36,34 +52,44 @@
     <div class="destination-links">
       <div class="container">
         <div class="wrapper">
-     <ul class="link-destination">
+          <ul class="link-destination">
             <li>
-                 <nuxt-link  class="a-link active" to="/destinationwaterpark">Water Park</nuxt-link 
+              <nuxt-link class="a-link active" to="/destinationwaterpark"
+                >Water Park</nuxt-link
               >
               <img src="../../assets/image/Icons/next2.svg" alt="" />
             </li>
-            
-      
-            <li><nuxt-link  class="a-link "  to="waterparkexperience">Experiences</nuxt-link ></li>
-        
-                <li><nuxt-link  class="a-link "  to="waterparkdining">Dining </nuxt-link ></li>
+
             <li>
-              <nuxt-link  class="a-link " to="waterparkevent">Celebration & Events</nuxt-link >
-              </li>
-                     <li><nuxt-link  class="a-link active"   to="waterparkgallery">Gallery <hr class="activeline"
-              /></nuxt-link ></li>
+              <nuxt-link class="a-link" to="waterparkexperience"
+                >Experiences</nuxt-link
+              >
+            </li>
+
             <li>
-              <nuxt-link  class="a-link " to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link >
-              </li>
+              <nuxt-link class="a-link" to="waterparkdining">Dining </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="waterparkevent"
+                >Celebration & Events</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link active" to="waterparkgallery"
+                >Gallery
+                <hr class="activeline"
+              /></nuxt-link>
+            </li>
+            <li>
+               <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+            </li>
           </ul>
           <hr class="line" />
         </div>
       </div>
     </div>
     <section class="top-gallery">
-      
       <div class="container">
-
         <div class="image-wrapper">
           <div class="single-image" data-aos="zoom-in">
             <img src="../../assets/image/dz-cover.jpg" alt="" />
@@ -72,10 +98,16 @@
             <img src="../../assets/image/waterpark2.jpg" alt="" />
           </div>
           <div class="single-image1 grid-top" data-aos="zoom-in">
-            <img src="../../assets/image/kuriftu dec 22-5391-min (1).jpg" alt="" />
+            <img
+              src="../../assets/image/kuriftu dec 22-5391-min (1).jpg"
+              alt=""
+            />
           </div>
           <div class="single-image grid-top2" data-aos="zoom-in">
-            <img src="../../assets/image/kuriftu dec 22-5422-min (1).jpg" alt="" />
+            <img
+              src="../../assets/image/kuriftu dec 22-5422-min (1).jpg"
+              alt=""
+            />
           </div>
           <div class="single-image grid-top" data-aos="zoom-in">
             <img src="../../assets/image/_DSC5641 (2)-min.jpg" alt="" />
@@ -244,7 +276,7 @@ export default {
   .destination-links {
     display: none;
   }
-     .destination-links2 {
+  .destination-links2 {
     .container {
       .wrapper {
         .link-destination {
@@ -275,7 +307,7 @@ export default {
               display: none;
               position: absolute;
               top: 25px;
-              left:0px;
+              left: 0px;
               // @include responsive($md){
               //   left: 15rem;
               // }
@@ -293,7 +325,7 @@ export default {
                 li {
                   margin-left: 0.3rem;
                   margin-top: 0.5rem;
-  
+
                   .a-link {
                     color: $kuriftu-grey;
                     font-size: 0.88rem;
@@ -472,11 +504,11 @@ export default {
         @include responsive($md) {
           padding: 2rem;
         }
-       
+
         .close {
           display: flex;
           justify-content: space-between;
-place-items: center;
+          place-items: center;
           .gallery-title {
             p {
               text-transform: uppercase;
@@ -510,7 +542,6 @@ place-items: center;
             @include responsive($md) {
               height: 40rem;
               width: 100%;
-            
             }
           }
         }

@@ -24,7 +24,7 @@
             <li><nuxt-link  class="a-link " to="entoto/entotodining">Dining</nuxt-link></li>
             <li><nuxt-link  class="a-link " to="entoto/entotoevent">Celebration & Events</nuxt-link></li>
              <li><nuxt-link class="a-link " to="entoto/entotogallery">Gallery</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link></li>
+            <li> <nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
           </div>
               </ul>
             </li>
@@ -47,7 +47,7 @@
             <li><nuxt-link  class="a-link " to="entoto/entotodining">Dining</nuxt-link></li>
             <li><nuxt-link  class="a-link " to="entoto/entotoevent">Celebration & Events</nuxt-link></li>
              <li><nuxt-link class="a-link " to="entoto/entotogallery">Gallery</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link></li>
+            <li> <nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
           </ul>
           <hr class="line" />
         </div>

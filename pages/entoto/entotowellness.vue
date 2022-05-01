@@ -1,12 +1,13 @@
 <template>
   <div class="main">
-   <Destinationheader :src="require(`../../assets/image/entoto-logo.svg`)"/>
-      <div class="destination-links2">
+    <Destinationheader :src="require(`../../assets/image/entoto-logo.svg`)" />
+    <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-               <nuxt-link  class="a-link active" to="entotowellness"><p>Entoto</p>
+              <nuxt-link class="a-link active" to="entotowellness"
+                ><p>Entoto</p>
                 <img
                   class="drop-icon"
                   src="../../assets/image/Icons/next2.svg"
@@ -15,19 +16,41 @@
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
-           
-            <li><nuxt-link  class="a-link " to="entotoaccommodation"> <p>Accomodation</p> </nuxt-link > </li>
-            <li><nuxt-link  class="a-link "  to="entotoexperience">Experiences</nuxt-link ></li>
-            <li><nuxt-link  class="a-link active"  to="entotowellness">Wellness</nuxt-link ></li>
-            <li><nuxt-link  class="a-link "  to="entotodining">Dining</nuxt-link ></li>
-            <li>
-              <nuxt-link  class="a-link " to="entotoevent">Celebration & Events</nuxt-link >
-              </li>
-            <li><nuxt-link  class="a-link "   to="entotogallery ">Gallery</nuxt-link ></li>
+                  <li>
+                    <nuxt-link class="a-link" to="entotoaccommodation">
+                      <p>Accomodation</p>
+                    </nuxt-link>
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entotoexperience"
+                      >Experiences</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link active" to="entotowellness"
+                      >Wellness</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entotodining"
+                      >Dining</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entotoevent"
+                      >Celebration & Events</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entotogallery "
+                      >Gallery</nuxt-link
+                    >
+                  </li>
 
-            <li>
-              <nuxt-link  class="a-link " to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link >
-              </li> </div>
+                  <li>
+                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                  </li>
+                </div>
               </ul>
             </li>
           </ul>
@@ -39,25 +62,42 @@
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-                 <nuxt-link  class="a-link active" to="/destinationentoto">Entoto</nuxt-link 
+              <nuxt-link class="a-link active" to="/destinationentoto"
+                >Entoto</nuxt-link
               >
               <img src="../../assets/image/Icons/next2.svg" alt="" />
             </li>
             <li>
-              <nuxt-link  class="a-link " to="entotoaccommodation"> <p>Accomodation</p> </nuxt-link > 
+              <nuxt-link class="a-link" to="entotoaccommodation">
+                <p>Accomodation</p>
+              </nuxt-link>
             </li>
-          
-            <li><nuxt-link  class="a-link "  to="entotoexperience">Experiences</nuxt-link ></li>
-            <li><nuxt-link  class="a-link  active"  to="entotowellness">Wellness <hr class="activeline"
-              /></nuxt-link></li>
-                <li><nuxt-link  class="a-link "  to="entotodining">Dining</nuxt-link ></li>
+
             <li>
-              <nuxt-link  class="a-link " to="entotoevent">Celebration & Events</nuxt-link >
-              </li>
-                 <li><nuxt-link  class="a-link "   to="entotogallery">Gallery</nuxt-link ></li>
+              <nuxt-link class="a-link" to="entotoexperience"
+                >Experiences</nuxt-link
+              >
+            </li>
             <li>
-              <nuxt-link  class="a-link " to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link >
-              </li>
+              <nuxt-link class="a-link active" to="entotowellness"
+                >Wellness
+                <hr class="activeline"
+              /></nuxt-link>
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="entotodining">Dining</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="entotoevent"
+                >Celebration & Events</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="entotogallery">Gallery</nuxt-link>
+            </li>
+            <li>
+               <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+            </li>
           </ul>
           <hr class="line" />
         </div>
@@ -281,7 +321,7 @@ export default {
   .destination-links {
     display: none;
   }
-     .destination-links2 {
+  .destination-links2 {
     .container {
       .wrapper {
         .link-destination {
@@ -312,7 +352,7 @@ export default {
               display: none;
               position: absolute;
               top: 25px;
-              left:0px;
+              left: 0px;
               // @include responsive($md){
               //   left: 15rem;
               // }
@@ -330,7 +370,7 @@ export default {
                 li {
                   margin-left: 0.3rem;
                   margin-top: 0.5rem;
-  
+
                   .a-link {
                     color: $kuriftu-grey;
                     font-size: 0.88rem;
@@ -677,7 +717,7 @@ export default {
             .menu-img {
               position: relative;
               img {
-               width:100%;
+                width: 100%;
                 height: 18rem;
                 object-fit: cover;
               }
@@ -698,7 +738,7 @@ export default {
               right: 0;
               left: 0;
               bottom: 0;
-               z-index: 999;
+              z-index: 999;
               display: grid;
               place-items: center;
               h4 {
