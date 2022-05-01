@@ -17,6 +17,9 @@ export default {
       { rel: 'stylesheet', type: "text/css", href: 'https://unpkg.com/swiper/swiper-bundle.min.css' },
 
     ],
+    script: [
+      { src: 'https://unpkg.com/swiper/swiper-bundle.min.js', defer: true }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -32,7 +35,7 @@ export default {
     { src: '~/plugins/jqueryP.js', mode: 'client' },
     { src: '~/plugins/scroll.js', mode: 'client' },
     { src: '~/plugins/scrollPlugin.js', mode: 'client' },
-    { src: '~/plugins/swiper.js', mode: 'client' }
+    // { src: '~/plugins/swiper.js', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

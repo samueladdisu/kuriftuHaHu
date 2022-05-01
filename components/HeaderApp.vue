@@ -29,7 +29,9 @@
             </div>
 
             <div class="nav-book-button">
-              <a class="btn btn-outline-white" @click="redirect">BOOK NOW</a>
+              <nuxt-link to="/book" class="btn btn-outline-white">
+                BOOK NOW
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -48,7 +50,10 @@
             </div>
 
             <div class="nav-book-button">
-              <a class="btn btn-outline-white" @click="redirect">BOOK NOW</a>
+              <!-- <a class="btn btn-outline-white" @click="redirect">BOOK NOW</a> -->
+              <nuxt-link to="/book" class="btn btn-outline-white">
+                BOOK NOW
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -203,7 +208,7 @@ header {
     .element1 {
       top: 0;
       bottom: 0;
-      height: 10vh;
+      height: 13vh;
       width: 100%;
       margin: 0 auto;
       position: fixed;
@@ -238,12 +243,12 @@ header {
         .nav-book-button {
           display: none;
         }
-          @include responsive($lg) {
-        .nav-book-button {
-          margin-top: 1rem;
-          display: block;
+        @include responsive($lg) {
+          .nav-book-button {
+            margin-top: 1rem;
+            display: block;
+          }
         }
-      }
       }
     }
     .show-element {
@@ -276,7 +281,6 @@ header {
       .nav-book-button {
         display: none;
       }
-    
     }
     .social {
       .container {

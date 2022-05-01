@@ -33,9 +33,10 @@
               <nuxt-link to="/event"> Celebration & Events</nuxt-link>
             </li>
             <li>
-              <a href="https://versavvymedia.com/reservation_system/reserve.php"
+              <!-- <a href="https://versavvymedia.com/reservation_system/reserve.php"
                 >Reservation</a
-              >
+              > -->
+              <nuxt-link to="/book">Reservation </nuxt-link>
             </li>
 
             <li class="bottom-nav">
@@ -83,10 +84,10 @@
               <li>
                 <nuxt-link to="/destinationafar">Afar</nuxt-link>
               </li>
-                <li>
+              <li>
                 <nuxt-link to="/destinationboston">Boston</nuxt-link>
               </li>
-                <li>
+              <li>
                 <nuxt-link to="/destinationwaterpark">Water Park</nuxt-link>
               </li>
             </ul>

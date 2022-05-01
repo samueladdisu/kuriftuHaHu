@@ -3,25 +3,20 @@
     <div class="swiper-wrapper">
       <div class="event-cards swiper-slide a">
         <img src="../assets/image/_DSC5820 (2)-min.jpg" alt="" />
-    
       </div>
 
       <div class="event-cards swiper-slide b">
         <img src="../assets/image/_DSC5806 (2)-min.jpg" alt="" />
-     
       </div>
 
       <div class="event-cards swiper-slide c">
         <img src="../assets/image/_DSC5351 (2)-min.jpg" alt="" />
-      
       </div>
       <div class="event-cards swiper-slide c">
         <img src="../assets/image/_DSC5400 (2)-min.jpg" alt="" />
-       
       </div>
       <div class="event-cards swiper-slide c">
         <img src="../assets/image/_DSC4667 (2)-min.jpg" alt="" />
-     
       </div>
     </div>
     <!-- <div class="swiper-pagination"></div> -->
@@ -39,7 +34,7 @@ export default {
       loop: true,
       coverflowEffect: {
         rotate: 0,
-     
+
         stretch: 0,
         depth: 100,
         modifier: 1,
@@ -55,15 +50,14 @@ export default {
 
 <style lang="scss" scoped>
 .event-wrapper2 {
-    margin-top: 2rem;
+  margin-top: 2rem;
   .swiper-wrapper {
     .swiper-slide {
-   margin-left: 2rem;
+      margin-left: 2rem;
       margin-right: 2rem;
-  
+
       max-width: 30rem;
       max-height: 20rem;
-  
     }
   }
   .event-cards {

@@ -45,7 +45,10 @@
                     alt=""
                   />
                 </div>
-                <a class="btn btn-outline-black" @click="redirect">BOOK NOW</a>
+                <!-- <a class="btn btn-outline-black" @click="redirect">BOOK NOW</a> -->
+                <nuxt-link to="/book" class="btn btn-outline-black">
+                  BOOK NOW
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -143,7 +146,7 @@ header {
       width: 100vw;
       margin: 0 auto;
       @include responsive($lg) {
-        height: 9vh;
+        height: 13vh;
       }
     }
     .container {
