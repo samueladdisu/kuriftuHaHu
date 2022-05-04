@@ -1,87 +1,201 @@
 <template>
   <div class="main">
-    <HeaderApp :src="require(`../assets/image/event-bg.jpg`)" />
-
-    <section class="event-links">
+    <Destinationheader :src="require(`../assets/image/entoto-logo.svg`)" />
+    <div class="destination-links2">
       <div class="container">
-        <div class="destination-links">
-          <ul>
-            <li><a class="active" href="#">Wedding</a></li>
-            <li><a href="#">Corporate events</a></li>
-            <li><a href="#">Brithday</a></li>
+        <div class="wrapper">
+          <ul class="link-destination">
+            <li>
+              <nuxt-link class="a-link active" to="/event">
+                <p>Celebration & Events</p>
+                <img
+                  class="drop-icon"
+                  src="../assets/image/Icons/next2.svg"
+                  alt=""
+                />
+              </nuxt-link>
+
+              <ul class="dropdown-content">
+                <div class="drop-down-list">
+                  <li>
+                    <nuxt-link
+                      class="a-link"
+                      to="/destinationevent/bishoftuevent"
+                    >
+                      <p>Bishoftu</p>
+                    </nuxt-link>
+                  </li>
+
+                  <li>
+                    <nuxt-link class="a-link" to="/destinationevent/waterpark"
+                      >Water park</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="/destinationevent/entoto">
+                      <p>Entoto</p>
+                    </nuxt-link>
+                  </li>
+
+                  <li>
+                    <nuxt-link class="a-link" to="/destinationevent/tana"
+                      >Lake Tana</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="/destinationevent/awash"
+                      >Awash</nuxt-link
+                    >
+                  </li>
+
+                  <li>
+                    <nuxt-link class="a-link" to="/destinationevent/afar"
+                      >Afar</nuxt-link
+                    >
+                  </li>
+                </div>
+              </ul>
+            </li>
           </ul>
         </div>
-        <div class="exper-wrapper">
-          <div class="exper-card" data-aos="slide-up">
-            <div class="exper-img">
-              <img src="../assets/image/celeb1.jpg" alt="" />
-            </div>
-            <div class="exper-title">
-              <h3>Concerts</h3>
-            </div>
-            <div class="exper-desc">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <div class="explore">
-                <a href="#"
-                  >EXPLORE
-                  <hr
-                /></a>
-              </div>
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class="destination-links">
+      <div class="container">
+        <div class="wrapper">
+          <ul class="link-destination">
+            <li>
+              <nuxt-link class="a-link active" to="/event"
+                >Clebration & Events</nuxt-link
+              ><img src="../assets/image/Icons/next2.svg" alt="" />
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="/destinationevent/bishoftuevent">
+                <p>Bishoftu</p>
+              </nuxt-link>
+            </li>
 
-          <div class="exper-card1" data-aos="slide-up" data-aos-delay="500">
-            <div class="exper-img">
-              <img src="../assets/image/lequanda.jpg" alt="" />
-            </div>
-            <div class="exper-title">
-              <h3>Lequada fest</h3>
-            </div>
-            <div class="exper-desc">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <div class="explore">
-                <a href="#"
-                  >EXPLORE
-                  <hr
-                /></a>
-              </div>
-            </div>
-          </div>
+            <li>
+              <nuxt-link class="a-link" to="/destinationevent/waterpark"
+                >Water Park</nuxt-link
+              >
+            </li>
+
+            <li>
+              <nuxt-link class="a-link" to="/destinationevent/entoto"
+                >Entoto
+              </nuxt-link>
+            </li>
+
+            <li>
+              <nuxt-link class="a-link" to="/destinationevent/tana"
+                >Lake Tana</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="/destinationevent/awash"
+                >Awash</nuxt-link
+              >
+            </li>
+
+            <li>
+              <nuxt-link class="a-link" to="/destinationevent/afar"
+                >Afar</nuxt-link
+              >
+            </li>
+          </ul>
+          <hr class="line" />
         </div>
-        <div class="exper-wrapper">
-          <div class="exper-card" data-aos="slide-up">
-            <div class="exper-img">
-              <img src="../assets/image/celeb3.jpg" alt="" />
-            </div>
-            <div class="exper-title">
-              <h3>Valentines day</h3>
-            </div>
-            <div class="exper-desc">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <div class="explore">
-                <a href="#"
-                  >EXPLORE
-                  <hr
-                /></a>
-              </div>
-            </div>
-          </div>
+      </div>
+    </div>
 
-          <div class="exper-card1" data-aos="slide-up" data-aos-delay="500">
-            <div class="exper-img">
-              <img src="../assets/image/celeb4.jpg" alt="" />
+    <section class="general-experience">
+      <div class="container">
+        <div class="all-wrapper">
+          <div class="all-cards">
+            <div
+              class="single-card"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <img src="../assets/image/friststory.jpg" alt="" />
+              <h3>Bishoftu</h3>
+              <p>
+                listening to tropical and the gentle nature from the privacy of
+                your luxurious villa , there is simply no more romantic or
+                exotic setting for your special occasion. Whether you are
+                planning a honeymoon or celebrating a wedding, an anniversary,
+                or a birthday, we can take care of all the details, so you will
+                return home relaxed, rejuvenated and with memories you’ll
+                cherish for a lifetime.
+              </p>
             </div>
-            <div class="exper-title">
-              <h3>Kebela</h3>
+            <div
+              class="single-card"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <img
+                class="right-card"
+                src="../assets/image/kuriftu dec 22-5422-min (1).jpg"
+                alt=""
+              />
+              <h3>Water Park</h3>
+              <p>
+                Whether you want to enjoy a big splash or a relaxing float,
+                Kuriftu Waterpark Resort offers ample facilities to keep you
+                entertained. The day will go by in a blur but memories that last
+                a lifetime will be made. Take a plunge and dive on in, we can’t
+                wait to show you what you’ve been missing! Join us for a day
+                full of memories and fun things to do in Kuriftu Waterpark.
+              </p>
             </div>
-            <div class="exper-desc">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <div class="explore">
-                <a href="#"
-                  >EXPLORE
-                  <hr
-                /></a>
-              </div>
+            <div
+              class="single-card"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <img src="../assets/image/entoto.jpg" alt="" />
+              <h3>Entoto</h3>
+              <p>
+                Luxurious Glamping Tents placed under tree branches will give
+                you a chance to discover the pristine and peaceful nature and
+                fill your lungs with oxygen, that is tirelessly produced by the
+                surrounding forest. Kuriftu Entoto Resort is the place to be for
+                all who want to be in touch with nature and experience the best
+                of what Entoto Forest have to offer.
+              </p>
+            </div>
+            <div class="single-card" data-aos="fade-up">
+              <img class="right-card" src="../assets/image/tana.jpg" alt="" />
+              <h3>Lake Tana</h3>
+              <p>
+                Make a stunning impression no matter the type of meetings or
+                events you're planning to bring to life at Kuriftu Resorts &
+                Spa.
+              </p>
+            </div>
+            <div
+              class="single-card"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <img src="../assets/image/awashfalls.jpg" alt="" />
+              <h3>Awash Falls</h3>
+              <p></p>
+            </div>
+            <div
+              class="single-card"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <img
+                class="right-card"
+                src="../assets/image/KURIFTU Afar-0195-min.jpg"
+                alt=""
+              />
+              <h3>Afar</h3>
+              <p></p>
             </div>
           </div>
         </div>
@@ -89,44 +203,11 @@
     </section>
   </div>
 </template>
+
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import HeaderApp from "../components/HeaderApp.vue";
 export default {
-  components: {
-    HeaderApp,
-  },
-  data() {
-    return {
-      corporate: [
-        {
-          id: 1,
-          title: "Concerts",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          img: "../assets/image/celeb1.jpg",
-        },
-        {
-          id: 2,
-          title: "Lequada fest",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          img: "../assets/image/lequanda.jpg",
-        },
-        {
-          id: 3,
-          title: "Valentines day",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          img: "../assets/image/celeb3.jpg",
-        },
-        {
-          id: 4,
-          title: "Kebela",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          img: "../assets/image/celeb4.jpg",
-        },
-      ],
-    };
-  },
   mounted() {
     AOS.init({
       duration: 1500,
@@ -141,86 +222,81 @@ export default {
 
 <style lang="scss" scoped>
 .main {
-  background: $kuriftu-white;
+  header {
+    width: 100%;
+    height: 10vh;
+    position: relative;
 
-  .event-links {
-    margin-top: 6.25rem;
-    .container {
-      .destination-links {
-        ul {
-          display: flex;
-          justify-content: center;
-          gap: 1rem;
-          li {
-            a {
-              @extend .title;
-              font-size: 0.9rem;
-              text-transform: uppercase;
-              color: $kuriftu-grey;
+    &::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(0, 6, 27);
+    }
+    nav {
+      z-index: 999;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
 
-              &:hover {
-                color: $kuriftu-green;
-              }
-              .active {
-                color: $kuriftu-green;
-              }
+      .top-nav {
+        position: sticky;
+        top: 0;
+        bottom: 0;
+        width: 90%;
+        margin: 0 auto;
+      }
+      .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .menu-line {
+          margin-top: 1rem;
+          cursor: pointer;
+          .line {
+            hr {
+              margin: auto;
+              margin-top: 1rem;
+              color: $kuriftu-black;
+              // height: 10rem;
+              width: 2.35rem;
             }
           }
         }
+        .logo {
+          margin-top: 1rem;
+          width: 9rem;
+          @include responsive($md) {
+            width: 11rem;
+          }
+        }
+        .nav-book-button {
+          display: none;
+        }
       }
-      .exper-wrapper {
-        display: grid;
-        place-items: center;
+    }
+  }
+  @include responsive($lg) {
+    header {
+      nav {
+        .container {
+          align-items: center;
 
-        .exper-card,
-        .exper-card1 {
-          margin-top: 1.88rem;
-          .exper-img {
-            img {
-              width: 20rem;
-            }
-          }
-          .exper-title {
-            background: $kuriftu-green;
-            padding: 0.8rem;
-            width: 50%;
-            min-width: 11.31rem;
-            position: absolute;
-            // bottom: 0;
-
-            // margin-top: 15.2rem;
-            margin-top: -3.23rem;
-
-            h3 {
-              color: $kuriftu-white;
-              @extend .caps;
-              font-size: 0.9rem;
-
-              text-align: center;
-            }
-          }
-          .exper-desc {
-            width: 85%;
-            background: #fff;
-            padding: 1rem;
-            p {
-              @extend .text;
-
-              color: $kuriftu-grey;
-              font-size: 0.8rem;
-              line-height: 1.3rem;
-              text-align: left;
-            }
-            .explore {
-              margin-top: 1rem;
-              display: grid;
-              place-items: left;
-              a {
-                font-size: 0.8rem;
-                color: $kuriftu-grey;
-                hr {
-                  color: $kuriftu-grey;
-                  width: 4rem;
+          .nav-book-button {
+            margin-top: 1rem;
+            display: block;
+            .wrapper {
+              display: flex;
+              gap: 1rem;
+              .social {
+                display: flex;
+                gap: 0.5rem;
+                .icon {
+                  width: 1rem;
                 }
               }
             }
@@ -229,142 +305,201 @@ export default {
       }
     }
   }
-  @include responsive($md) {
-    .event-links {
-      .container {
-        .destination-links {
-          ul {
-            gap: 2rem;
-            li {
-              a {
-                font-size: 1rem;
+  .destination-links {
+    display: none;
+  }
+  .destination-links2 {
+    .container {
+      .wrapper {
+        .link-destination {
+          display: grid;
+          // place-content: center;
+          margin-top: 4rem;
+          gap: 3rem;
+          position: relative;
+
+          li {
+            display: flex;
+            align-items: flex-start;
+
+            .a-link {
+              color: $kuriftu-grey;
+              font-size: 0.88rem;
+              display: flex;
+              align-items: center;
+              .drop-icon {
+                transform: rotate(90deg);
+              }
+            }
+
+            .active {
+              color: $kuriftu-black;
+            }
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              top: 25px;
+              left: 0px;
+              // @include responsive($md){
+              //   left: 15rem;
+              // }
+              border: 1px solid #efefef;
+              background: $kuriftu-white;
+              border-radius: 0.4em;
+              min-width: 200px;
+              box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+              padding: 12px 12px;
+              z-index: 999;
+              .drop-down-list {
+                // display: grid;
+                // grid-template-columns: 1fr 1fr 1fr;
+                // gap: .3rem;
+                li {
+                  margin-left: 0.3rem;
+                  margin-top: 0.5rem;
+
+                  .a-link {
+                    color: $kuriftu-grey;
+                    font-size: 0.88rem;
+                  }
+                  .drop-icon {
+                    transform: rotate(90deg);
+                  }
+                  .active {
+                    color: $kuriftu-black;
+                  }
+                }
               }
             }
           }
-        }
-        .exper-wrapper {
-          display: flex;
-          gap: 5rem;
-          justify-content: center;
-          .exper-card {
-            .exper-title {
-              width: 10%;
-            }
-          }
-          .exper-card1 {
-            margin-bottom: -10rem;
-            .exper-title {
-              width: 10%;
-            }
+          li:hover .dropdown-content {
+            display: block;
           }
         }
       }
     }
   }
   @include responsive($lg) {
-    .event-links {
-      margin-top: 8.13rem;
+    .destination-links2 {
+      display: none;
+    }
+    .destination-links {
+      display: block;
       .container {
-        .destination-links {
-          ul {
+        .wrapper {
+          .link-destination {
+            display: flex;
+            margin-top: 4rem;
+            gap: 3rem;
+            place-content: center;
+            li {
+              display: flex;
+              align-items: center;
+              .a-link {
+                color: $kuriftu-grey;
+                font-size: 0.88rem;
+              }
+              .active {
+                color: $kuriftu-black;
+                font-weight: 600;
+              }
+            }
+            .activeline {
+              margin-top: 0.6rem;
+              margin-bottom: -1.1rem;
+              color: $kuriftu-black;
+              opacity: 1;
+            }
+          }
+          .line {
+            // border-style:solid ;
+            color: $kuriftu-grey;
+            @include responsive($xl) {
+              width: 60rem;
+            }
+
+            margin-top: 0.6rem;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  .display-video {
+    margin-top: 4rem;
+  }
+  @include responsive($md) {
+    .display-video {
+      margin-top: 5rem;
+    }
+  }
+  .general-experience {
+    margin-top: 5rem;
+    @include responsive($md) {
+      margin-top: 8rem;
+    }
+    .container {
+      .all-wrapper {
+        .see-more {
+          display: flex;
+          align-items: center;
+          gap: 2rem;
+          margin-top: 3rem;
+          @include responsive($md) {
+            margin-top: 5rem;
+          }
+          hr {
+            border-style: solid;
+            color: $kuriftu-grey;
+            opacity: 0.5;
+
+            width: 100%;
+          }
+          p {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            color: $kuriftu-grey;
+            width: 6rem;
+          }
+        }
+        .all-cards {
+          @include responsive($md) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+          }
+          @include responsive($lg) {
             gap: 5rem;
           }
-        }
-        .exper-wrapper {
-          // margin-left: 5rem;
-          // margin-right: 5rem;
-          gap: 3rem;
 
-          .exper-card {
-            margin-top: 4rem;
-          }
-          .exper-card1 {
-            margin-top: 4rem;
-          }
-        }
-      }
-    }
-  }
-  @include responsive($xl) {
-    .event-links {
-      .container {
-        .destination-links {
-          ul {
-            gap: 6rem;
-          }
-        }
-        .exper-wrapper {
-          // margin-left: 5rem;
-          // margin-right: 5rem;
-          gap: 10rem;
+          .single-card {
+            margin-top: 3rem;
 
-          .exper-card {
-            margin-top: 4.88rem;
-            .exper-img {
-              img {
-                width: 25rem;
+            .right-card {
+              margin-top: 6rem;
+            }
+            img {
+              width: 20rem;
+              height: 25rem;
+              object-fit: cover;
+              @include responsive($lg) {
+                width: 100%;
+                height: 35rem;
               }
             }
-            .exper-desc {
-              width: 75%;
-              p {
-                font-size: 1rem;
-              }
-              .explore {
-                a {
-                  font-size: 1rem;
-                  hr {
-                    width: 5rem;
-                  }
-                }
-              }
+            h3 {
+              @extend .title;
+              font-size: 1rem;
+              margin-top: 0.98rem;
+              text-transform: uppercase;
             }
-          }
-          .exper-card1 {
-            margin-top: 4.88rem;
-            .exper-img {
-              img {
-                width: 25rem;
-              }
-            }
-            .exper-desc {
-              width: 75%;
-              p {
-                font-size: 1rem;
-              }
-              .explore {
-                a {
-                  font-size: 1rem;
-                  hr {
-                    width: 5rem;
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  @include responsive($xxl) {
-    .event-links {
-      .container {
-        .exper-wrapper {
-          // margin-left: 5rem;
-          // margin-right: 5rem;
-          // gap: 6rem;
-          margin-top: 6rem;
-          .exper-card {
-            .exper-img {
-              img {
-                width: 25rem;
-              }
-            }
-          }
-          .exper-card1 {
-            .exper-img {
-              img {
-                width: 25rem;
+            p {
+              @extend .text;
+              margin-top: 0.98rem;
+              width: 20rem;
+              font-size: 0.95rem;
+              @include responsive($lg) {
+                width: 100%;
               }
             }
           }

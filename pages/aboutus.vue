@@ -1,0 +1,1617 @@
+<template>
+  <div class="main">
+    <Destinationheader :src="require(`../assets/image/LOGO 2.svg`)" />
+
+    <section class="display-video">
+      <div class="container">
+        <div class="video-wrapper">
+          <img src="../assets/image/What Makes us unique.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <div class="page-title">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+          excepturi placeat delectus cupiditate, necessitatibus libero ut.
+        </p>
+      </div>
+    </div>
+    <!-- <section class="main-page-desc">
+      <div class="container">
+        <div class="wrapper">
+          <div class="main-title">
+            <h2>Entoto National Park</h2>
+            <p>
+              This Adventure Park is the first of its kind in Ethiopia and has
+              even been selected as one of the top destinations in the world by
+              Conde Nast Traveler. Our park is absolutely beyond comparable and
+              is a must for national park enthusiasts. You can come accros a
+              variety of landscapes which offer some incredible hiking
+              experiances.
+            </p>
+          </div>
+          <Entotoslide />
+
+          <div class="tabs">
+            <div class="tabs-container" @click="tabs">
+              <div class="tab a"></div>
+              <div class="tab b"></div>
+              <div class="tab c"></div>
+              <div class="active"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="ceo">
+      <div class="container">
+        <div class="ceo-all">
+          <div class="stay-slide">
+            <div class="slide-card">
+              <img src="../assets/image/tadiwos.jpg" alt="" />
+            </div>
+          </div>
+          <div class="stay-desc">
+            <h4>WRITE A MESSAGE FROM TADIWOS G. BELETE</h4>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
+              tincidunt nisl elementum ultrices luctus habitasse. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit. Aperiam perferendis
+              molestias accusantium eligendi sint ea corporis totam animi,
+              delectus deleniti quidem amet, reprehenderit natus? Id quia odio
+              maxime ipsam possimus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="who-we-are">
+      <div class="container">
+        <h2>WHO WE ARE</h2>
+        <div class="who-we-are-all">
+          <div class="stay-slide">
+            <div class="slide-card">
+              <img src="../assets/image/whoweare.PNG" alt="" />
+              <div class="logo-over">
+                <!-- <img src="../assets/image/LOGO 2.svg" alt="" /> -->
+              </div>
+            </div>
+          </div>
+          <div class="stay-desc">
+            <h4>who we are</h4>
+
+            <p>
+              Boston Partners PLC, parent company of Kuriftu Resort, was
+              established in 2002 and is the leading, internationally renowned,
+              hospitality group based in Ethiopia, owning and operating
+              innovative brands across East Africa. The latest initiative of
+              Boston Partners PLC is to spearhead a promotional campaign to
+              promote Inter-African Tourism with a focus on fostering a new
+              mindset for the travel market.
+            </p>
+          </div>
+        </div>
+        <div class="unique">
+          <h4>WHAT MAKES US UNIQUE?</h4>
+          <p></p>
+          <p>
+            <b> We </b> are a company solely owned and operated by Africans.
+          </p>
+          <p>
+            <b> We </b> provide permanent employment opportunities to 2000+
+            people thus far.
+          </p>
+          <p>
+            <b> We </b> support local businesses by purchasing from the
+            communities that neighbor our resorts.
+          </p>
+          <p>
+            <b> We </b>are a Strategic Partner of Ethiopian Airlines and
+            Ethiopias Tourism Organization
+          </p>
+          <p>
+            <b> We </b>produce all furniture in-house as well as other
+            culturally artisanal design elements of our resorts (Thatched Roof,
+            Woodwork, Leather Braiding, Stonework etc.).
+          </p>
+          <p>
+            <b> We </b>design all of our resorts in-house and construct them
+            with our own construction team.
+          </p>
+          <p>
+            <b> Our </b> CEO is an active member of the Ethiopian Board of
+            Tourism.<br />
+          </p>
+          <p><b> Our </b>78% is corporate team.</p>
+
+          <!-- 71% of our line staff are females as well as 78% of our corporate team<br>
+62% of all line staff emerge from our construction team<br>
+80% of our hiring is done within the local community of each resort<br>
+100% of our staff join our company with zero work experience, including management<br> -->
+        </div>
+        <div data-aos="slide-up">
+          <div class="wrapper">
+            <div class="all-wrapper">
+              <div class="counter">
+                <div class="persent-wrapper">
+                  <h2
+                    class="timer count-title count-number"
+                    data-to="71"
+                    data-speed="10000"
+                  ></h2>
+                  <h4>%</h4>
+                </div>
+
+                <p class="count-text">Our line staff are females</p>
+              </div>
+
+              <!-- <div class="counter ">
+      <div class="persent-wrapper">
+     <h2
+              class="timer count-title count-number"
+              data-to="78"
+              data-speed="10000"
+            >
+              </h2><h4>%</h4>
+      </div>
+
+       
+            <p class="count-text">Our Corporate Team</p>
+          </div> -->
+
+              <div class="counter">
+                <div class="persent-wrapper">
+                  <h2
+                    class="timer count-title count-number"
+                    data-to="62"
+                    data-speed="10000"
+                  ></h2>
+                  <h4>%</h4>
+                </div>
+
+                <p class="count-text">
+                  Staff Emerge from Our Construction Team
+                </p>
+              </div>
+
+              <div class="counter">
+                <div class="persent-wrapper">
+                  <h2
+                    class="timer count-title count-number"
+                    data-to="80"
+                    data-speed="10000"
+                  ></h2>
+                  <h4>%</h4>
+                </div>
+
+                <p class="count-text">
+                  Hiring is Done Within the Local Community
+                </p>
+              </div>
+              <div class="counter">
+                <div class="persent-wrapper">
+                  <h2
+                    class="timer count-title count-number"
+                    data-to="100"
+                    data-speed="10000"
+                  ></h2>
+                  <h4>%</h4>
+                </div>
+
+                <p class="count-text">
+                  Our Staff Join in Zero Work Experience, Including Management
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="corporate" data-aos="slide-up">
+          <h3 class="corporate-txt">Corporate Social Responsibility</h3>
+          <div class="wrapper">
+            <div class="corporate-text">
+              <h4 class="corporate-txt2">
+                Kuriftu Resorts focuses its efforts on social responsibility by
+                delivering lasting benefits to communities around Ethiopia:
+              </h4>
+
+              <p class="corporate-txt3">
+                Kuriftu Resorts donated 1.5 million ETB in an effort to aid in
+                the struggle against COVID-19
+              </p>
+              <p class="corporate-txt3">
+                Kuriftu Resorts donated 200 Water-park entrance tickets to kids
+                from Sele Enat Mahiber (SEM), an organization dedicated to
+                improving life in vulnerable communities around Ethiopia.
+              </p>
+              <p class="corporate-txt3">
+                In an effort to minimize car accidents and maximize car safety
+                measures, Kuriftu Resorts setup 60 traffic billboards across the
+                Oromia and Amhara regions
+              </p>
+
+              <p class="corporate-txt3">
+                Kuriftu Resorts has always prioritized environmental advocacy,
+                the resort has donated 2.5 million ETB for the Addis Ababa
+                beautification project in continued support
+              </p>
+              <p class="corporate-txt3">
+                Tesfa Addis Parents Childhood Cancer Organization(TAPCCO)
+                established in 2012 works to help children with cancer while
+                supporting families. Kuriftu Resort and Spa has given TAPCCO
+                kids free entrance to the Kuriftu Water-park and Kuriftu Resort
+                on different occasions to provide fun, relaxing experiences
+              </p>
+            </div>
+            <div class="style-image">
+              <img src="../assets/image/What Makes us unique.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-team">
+      <div class="container">
+        <h2>Meet The Team</h2>
+
+        <div class="our-team-wrapper">
+          <div class="single-team-member">
+            <img class="team-image" src="../assets/image/Tadiwos.png" alt="" />
+            <div class="name-title">Tadiwos Getachew Belete</div>
+            <div class="memeber-title">Founder /CEO</div>
+            <!-- <div class="memeber-year-exp">20 years</div> -->
+          </div>
+          <div class="single-team-member">
+            <img class="team-image" src="../assets/image/yonaiel.png" alt="" />
+            <div class="name-title">Yonaiel Tadiwos Belete</div>
+            <div class="memeber-title">Operations Director</div>
+            <!-- <div class="memeber-year-exp">15 Years</div> -->
+          </div>
+          <div class="single-team-member">
+            <img
+              class="team-image"
+              src="../assets/image/Tesegreda.png"
+              alt=""
+            />
+            <div class="name-title">Tsegereda Abebe</div>
+            <div class="memeber-title">Operations Managing Director</div>
+            <div class="memeber-year-exp">15 Years</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="company-profile">
+      <div class="container">
+        <div class="company-profile-all">
+          <div class="company-profile-slide" data-aos="slide-up">
+            <!-- <div class="back-icon">
+              <img src="../../assets/image/Icons/spaback.svg" alt="" />
+            </div> -->
+            <div class="slide-card">
+              <img src="../assets/image/dz-cover.jpg" alt="" />
+            </div>
+            <!-- <div class="next-icon">
+              <img src="../../assets/image/Icons/spanext.svg" alt="" />
+            </div> -->
+          </div>
+          <div class="gift-desc" data-aos="slide-up">
+            <h4>COMPANY PROFILE</h4>
+            <p class="header-title"></p>
+            <p>
+              DOWNLOADABLE BUTTON WITH UPDATED COMPANY PROFILE, ADD LINKS TO ALL
+              PRESS RELEASE ARTICLES
+            </p>
+            <div class="book-buttons">
+              <a class="btn btn-outline-black" href="#"
+                ><i class="fa fa-download"></i>DOWNLOAD COMPANY PROFILE</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="container">
+        <h2>Strategic Partners</h2>
+        <p>
+          Kuriftu Resort & Spa values unique strategic partnerships that help
+          our brand reach new heights through collaborative marketing.
+        </p>
+        <div class="image-wrapper">
+          <img
+            src="../assets/image/Icons/bgi_owler_20191231_023901_original.png"
+            alt=""
+          />
+          <img src="../assets/image/Icons/ethiopian-airlines-logo.png" alt="" />
+          <img src="../assets/image/Icons/coca-cola-logo.svg" alt="" />
+          <img src="../assets/image/Icons/ETO-Logo-1024x684.png" alt="" />
+          <img
+            src="../assets/image/Icons/dashen_bank-removebg-preview.png"
+            alt=""
+          />
+        </div>
+
+        <!-- <p>BGI, Coca Cola, Ethiopian Airlines, Dashen Bank, Ethiopian Tourism Organization</p> -->
+      </div>
+    </section>
+    <section class="clients">
+      <div class="container">
+        <h2>Corporate Clients</h2>
+
+        <div class="catagory-wrapper">
+          <div class="catagory">
+            <h4>AU</h4>
+
+            <div class="image-wrapper">
+              <img
+                src="../assets/image/Icons/african_union-emblem1.png"
+                alt=""
+              />
+              <img
+                src="../assets/image/Icons/african_union-emblem1.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="catagory">
+            <h4>UN</h4>
+
+            <div class="image-wrapper">
+              <img src="../assets/image/Icons/UN-removebg-preview.png" alt="" />
+              <img src="../assets/image/Icons/UN-removebg-preview.png" alt="" />
+            </div>
+          </div>
+          <!-- <div class="catagory">
+            <h4>NGO</h4>
+
+            <div class="image-wrapper">
+              <img src="../assets/image/image.png" alt="" />
+                <img src="../assets/image/image.png" alt="" />
+               
+            </div>
+          </div>
+           <div class="catagory">
+            <h4>BANK</h4>
+
+            <div class="image-wrapper">
+              <img src="../assets/image/image.png" alt="" />
+                <img src="../assets/image/image.png" alt="" />
+               
+            </div>
+          </div>
+            <div class="catagory">
+            <h4>GOVERNMENTAL</h4>
+
+            <div class="image-wrapper">
+              <img src="../assets/image/image.png" alt="" />
+                <img src="../assets/image/image.png" alt="" />
+               
+            </div>
+          </div> -->
+          <div class="catagory">
+            <h4>SCHOOLS</h4>
+
+            <div class="image-wrapper">
+              <img src="../assets/image/image.png" alt="" />
+              <img src="../assets/image/image.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- <p>BGI, Coca Cola, Ethiopian Airlines, Dashen Bank, Ethiopian Tourism Organization</p> -->
+      </div>
+    </section>
+  </div>
+</template>
+
+<script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+(function ($) {
+  $.fn.countTo = function (options) {
+    options = options || {};
+
+    return $(this).each(function () {
+      // set options for current element
+      var settings = $.extend(
+        {},
+        $.fn.countTo.defaults,
+        {
+          from: $(this).data("from"),
+          to: $(this).data("to"),
+          speed: $(this).data("speed"),
+          refreshInterval: $(this).data("refresh-interval"),
+          decimals: $(this).data("decimals"),
+        },
+        options
+      );
+
+      // how many times to update the value, and how much to increment the value on each update
+      var loops = Math.ceil(settings.speed / settings.refreshInterval),
+        increment = (settings.to - settings.from) / loops;
+
+      // references & variables that will change with each update
+      var self = this,
+        $self = $(this),
+        loopCount = 0,
+        value = settings.from,
+        data = $self.data("countTo") || {};
+
+      $self.data("countTo", data);
+
+      // if an existing interval can be found, clear it first
+      if (data.interval) {
+        clearInterval(data.interval);
+      }
+      data.interval = setInterval(updateTimer, settings.refreshInterval);
+
+      // initialize the element with the starting value
+      render(value);
+
+      function updateTimer() {
+        value += increment;
+        loopCount++;
+
+        render(value);
+
+        if (typeof settings.onUpdate == "function") {
+          settings.onUpdate.call(self, value);
+        }
+
+        if (loopCount >= loops) {
+          // remove the interval
+          $self.removeData("countTo");
+          clearInterval(data.interval);
+          value = settings.to;
+
+          if (typeof settings.onComplete == "function") {
+            settings.onComplete.call(self, value);
+          }
+        }
+      }
+
+      function render(value) {
+        var formattedValue = settings.formatter.call(self, value, settings);
+        $self.html(formattedValue);
+      }
+    });
+  };
+
+  $.fn.countTo.defaults = {
+    from: 0, // the number the element should start at
+    to: 0, // the number the element should end at
+    speed: 1000, // how long it should take to count between the target numbers
+    refreshInterval: 100, // how often the element should be updated
+    decimals: 0, // the number of decimal places to show
+    formatter: formatter, // handler for formatting the value before rendering
+    onUpdate: null, // callback method for every time the element is updated
+    onComplete: null, // callback method for when the element finishes updating
+  };
+
+  function formatter(value, settings) {
+    return value.toFixed(settings.decimals);
+  }
+})(jQuery);
+
+jQuery(function ($) {
+  // custom formatting example
+  $(".count-number").data("countToOptions", {
+    formatter: function (value, options) {
+      return value
+        .toFixed(options.decimals)
+        .replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
+    },
+  });
+
+  // start all the timers
+  $(".timer").each(count);
+
+  function count(options) {
+    var $this = $(this);
+    options = $.extend({}, options || {}, $this.data("countToOptions") || {});
+    $this.countTo(options);
+  }
+});
+export default {
+  mounted() {
+    AOS.init({
+      duration: 1500,
+      offset: 120,
+      easing: "ease",
+      once: false,
+      anchorPlacement: "top-bottom",
+    });
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.main {
+  header {
+    width: 100%;
+    height: 10vh;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(0, 6, 27);
+    }
+    nav {
+      z-index: 999;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+
+      .top-nav {
+        position: sticky;
+        top: 0;
+        bottom: 0;
+        width: 90%;
+        margin: 0 auto;
+      }
+      .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .menu-line {
+          margin-top: 1rem;
+          cursor: pointer;
+          .line {
+            hr {
+              margin: auto;
+              margin-top: 1rem;
+              color: $kuriftu-black;
+              // height: 10rem;
+              width: 2.35rem;
+            }
+          }
+        }
+        .logo {
+          margin-top: 1rem;
+          width: 9rem;
+          @include responsive($md) {
+            width: 11rem;
+          }
+        }
+        .nav-book-button {
+          display: none;
+        }
+      }
+    }
+  }
+  @include responsive($lg) {
+    header {
+      nav {
+        .container {
+          align-items: center;
+
+          .nav-book-button {
+            margin-top: 1rem;
+            display: block;
+            .wrapper {
+              display: flex;
+              gap: 1rem;
+              .social {
+                display: flex;
+                gap: 0.5rem;
+                .icon {
+                  width: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .destination-links {
+    display: none;
+  }
+  .destination-links2 {
+    .container {
+      .wrapper {
+        .link-destination {
+          display: grid;
+          // place-content: center;
+          margin-top: 4rem;
+          gap: 3rem;
+          position: relative;
+
+          li {
+            display: flex;
+            align-items: flex-start;
+
+            .a-link {
+              color: $kuriftu-grey;
+              font-size: 0.88rem;
+              display: flex;
+              align-items: center;
+              .drop-icon {
+                transform: rotate(90deg);
+              }
+            }
+
+            .active {
+              color: $kuriftu-black;
+            }
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              top: 25px;
+              left: 0px;
+              // @include responsive($md){
+              //   left: 15rem;
+              // }
+              border: 1px solid #efefef;
+              background: $kuriftu-white;
+              border-radius: 0.4em;
+              min-width: 200px;
+              box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+              padding: 12px 12px;
+              z-index: 999;
+              .drop-down-list {
+                // display: grid;
+                // grid-template-columns: 1fr 1fr 1fr;
+                // gap: .3rem;
+                li {
+                  margin-left: 0.3rem;
+                  margin-top: 0.5rem;
+
+                  .a-link {
+                    color: $kuriftu-grey;
+                    font-size: 0.88rem;
+                  }
+                  .drop-icon {
+                    transform: rotate(90deg);
+                  }
+                  .active {
+                    color: $kuriftu-black;
+                  }
+                }
+              }
+            }
+          }
+          li:hover .dropdown-content {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  @include responsive($lg) {
+    .destination-links2 {
+      display: none;
+    }
+    .destination-links {
+      display: block;
+      .container {
+        .wrapper {
+          .link-destination {
+            display: flex;
+            margin-top: 4rem;
+            gap: 3rem;
+            place-content: center;
+            li {
+              display: flex;
+              align-items: center;
+              .a-link {
+                color: $kuriftu-grey;
+                font-size: 0.88rem;
+              }
+              .active {
+                color: $kuriftu-black;
+              }
+            }
+          }
+          .line {
+            // border-style:solid ;
+            color: $kuriftu-grey;
+            @include responsive($xl) {
+              width: 60rem;
+            }
+            margin-top: 0.6rem;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  @include responsive($lg) {
+    .destination-links2 {
+      display: none;
+    }
+    .destination-links {
+      display: block;
+      .container {
+        .wrapper {
+          .link-destination {
+            display: flex;
+            margin-top: 4rem;
+            gap: 3rem;
+            place-content: center;
+            li {
+              display: flex;
+              align-items: center;
+              .a-link {
+                color: $kuriftu-grey;
+                font-size: 0.88rem;
+              }
+              .active {
+                color: $kuriftu-black;
+              }
+            }
+          }
+          .line {
+            // border-style:solid ;
+            color: $kuriftu-grey;
+            @include responsive($xl) {
+              width: 60rem;
+            }
+            margin-top: 0.6rem;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  .display-video {
+  }
+  @include responsive($md) {
+    .display-video {
+    }
+  }
+  .page-title {
+    .container {
+      margin-top: 5rem;
+      display: grid;
+      place-items: center;
+      h2 {
+        @extend .title;
+        text-transform: uppercase;
+        font-size: 2rem;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+        color: $kuriftu-grey;
+        width: 20rem;
+        margin-top: 1rem;
+        font-size: 0.8rem;
+      }
+      @include responsive($md) {
+        h2 {
+          font-size: 2rem;
+        }
+        p {
+          width: 40rem;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  .main-page-desc {
+    margin-top: 5rem;
+    .container {
+      .wrapper {
+        .main-title {
+          display: grid;
+          place-items: center;
+          h2 {
+            text-align: center;
+            font-size: 1.5rem;
+          }
+          p {
+            text-align: center;
+            color: $kuriftu-grey;
+            margin-top: 1rem;
+            font-size: 0.8rem;
+          }
+          @include responsive($md) {
+            h2 {
+              font-size: 2rem;
+            }
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+        .tabs {
+          margin: 1.88rem auto 6.25rem;
+          // background: lightblue;
+          display: grid;
+          place-items: center;
+          width: 100%;
+          margin-top: 4rem;
+          .tabs-container {
+            display: flex;
+            position: relative;
+            .active {
+              position: absolute;
+              top: 0;
+              height: 0.25rem;
+              width: 5.94rem;
+              transform: translate(100%, -30%);
+              background: $kuriftu-black;
+            }
+            .tab {
+              height: 0.13rem;
+              width: 5.94rem;
+              background: #c4c4c4;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ceo {
+    margin-top: 6.25rem;
+
+    .container {
+      display: grid;
+      place-content: center;
+      h2 {
+        color: $kuriftu-black;
+        @extend .title;
+
+        margin-top: 0.94rem;
+        text-align: left;
+      }
+      .ceo-all {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        .stay-slide {
+          margin-top: 1.88rem;
+          display: flex;
+          align-items: center;
+          justify-items: center;
+          gap: 0.5rem;
+          .slide-card {
+            img {
+              width: 25rem;
+              object-fit: cover;
+            }
+          }
+        }
+        .stay-desc {
+          margin-top: 1.88rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
+          h4 {
+            @extend .title;
+            font-size: 1.5rem;
+            margin-top: 0.94rem;
+            color: $kuriftu-black;
+            text-transform: uppercase;
+            text-align: left;
+          }
+          .header-title {
+            color: $kuriftu-grey;
+          }
+          p {
+            @extend .text;
+            margin-top: 0.94rem;
+            color: $kuriftu-black;
+            font-size: 0.88rem;
+
+            text-align: left;
+          }
+          .book-buttons {
+            display: grid;
+            place-items: left;
+            margin-top: 3rem;
+            .view {
+              color: $kuriftu-grey;
+              font-size: 0.8rem;
+              .lower-line {
+                opacity: 0.7;
+                border-style: solid;
+
+                width: 8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @include responsive($md) {
+    .ceo {
+      .container {
+        .ceo-all {
+          .stay-desc {
+            p {
+              width: 30rem;
+            }
+          }
+          .stay-slide {
+            .slide-card {
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @include responsive($lg) {
+    .ceo {
+      margin-top: 8.13rem;
+      .container {
+        .ceo-all {
+          flex-direction: row;
+          gap: 2rem;
+          .stay-slide {
+            margin-top: 4.37rem;
+            .slide-card {
+              img {
+                width: 50rem;
+              }
+            }
+          }
+          .stay-desc {
+            margin-top: 4.5rem;
+            h4 {
+              margin-top: 0rem;
+            }
+            p {
+              margin-top: 2rem;
+            }
+            .book-buttons {
+              display: flex;
+              justify-content: left;
+
+              margin-top: 6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include responsive($xl) {
+    .ceo {
+      .container {
+        .ceo-all {
+          .stay-slide {
+            .slide-card {
+              img {
+                width: 30rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .who-we-are {
+    margin-top: 6.25rem;
+    width: 100%;
+    .container {
+      display: grid;
+      place-content: center;
+      align-items: center;
+      h2 {
+        color: $kuriftu-brown;
+        @extend .title;
+        margin-top: 0.94rem;
+        text-align: left;
+      }
+      .who-we-are-all {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        @include responsive($lg) {
+          margin-top: 4rem;
+        }
+        .stay-slide {
+          margin-top: 1.88rem;
+          display: flex;
+          align-items: center;
+          justify-items: center;
+          gap: 0.5rem;
+          .slide-card {
+            position: relative;
+            background: rgba(0, 0, 0, 0.1);
+            img {
+              width: 25rem;
+              object-fit: cover;
+            }
+            .logo-over {
+              bottom: 0;
+              right: 0;
+
+              position: absolute;
+              img {
+                width: 15rem;
+              }
+            }
+          }
+        }
+        .stay-desc {
+          margin-top: 1.88rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
+          h4 {
+            @extend .title;
+            font-size: 1.5rem;
+            margin-top: 0.94rem;
+            color: $kuriftu-black;
+            text-transform: uppercase;
+            text-align: left;
+          }
+          .header-title {
+            color: $kuriftu-grey;
+          }
+          p {
+            @extend .text;
+            margin-top: 0.94rem;
+            color: $kuriftu-black;
+            font-size: 1rem;
+
+            text-align: left;
+          }
+          .book-buttons {
+            display: grid;
+            place-items: left;
+            margin-top: 3rem;
+            .view {
+              color: $kuriftu-grey;
+              font-size: 0.8rem;
+              .lower-line {
+                opacity: 0.7;
+                border-style: solid;
+
+                width: 8rem;
+              }
+            }
+          }
+        }
+      }
+      .unique {
+        margin-top: 4rem;
+        h4 {
+          @extend .title;
+          font-size: 1.5rem;
+          margin-top: 0.94rem;
+          margin-bottom: 2rem;
+          color: $kuriftu-black;
+          text-transform: uppercase;
+          text-align: left;
+        }
+        @include responsive($lg) {
+          display: grid;
+          gap: 0.5rem;
+          grid-template-columns: 1fr 1fr;
+        }
+        p {
+          @extend .text;
+          margin-top: 0.94rem;
+          color: $kuriftu-black;
+          font-size: 1rem;
+          max-width: 30rem;
+          text-align: left;
+          @include responsive($lg) {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+  @include responsive($md) {
+    .who-we-are {
+      .container {
+        .who-we-are-all {
+          .stay-desc {
+            p {
+              width: 30rem;
+            }
+          }
+          .stay-slide {
+            .slide-card {
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @include responsive($lg) {
+    .who-we-are {
+      .container {
+        .who-we-are-all {
+          flex-direction: row;
+          gap: 2rem;
+          .stay-slide {
+            margin-top: 4.37rem;
+            .slide-card {
+              img {
+                width: 50rem;
+              }
+            }
+          }
+          .stay-desc {
+            margin-top: 4.5rem;
+            h4 {
+              margin-top: 0rem;
+            }
+            p {
+              margin-top: 2rem;
+            }
+            .book-buttons {
+              display: flex;
+              justify-content: left;
+
+              margin-top: 6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include responsive($xl) {
+    .who-we-are {
+      display: grid;
+      place-content: center;
+      .container {
+        .who-we-are-all {
+          .stay-slide {
+            .slide-card {
+              img {
+                width: 37rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .wrapper {
+    margin-top: 3rem;
+    position: relative;
+
+    .all-wrapper {
+      display: grid;
+      place-items: center;
+      align-items: flex-start;
+      gap: 1rem;
+      grid-template-columns: 1fr;
+      @include responsive($md) {
+        grid-template-columns: 1fr 1fr;
+      }
+      @include responsive($lg) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      .counter {
+        padding: 20px 0;
+        border-radius: 5px;
+        .persent-wrapper {
+          display: flex;
+          justify-content: center;
+          gap: 0.5rem;
+        }
+        h4 {
+          @extend .title;
+          font-size: 3rem;
+          color: $kuriftu-brown;
+          font-weight: normal;
+          margin-top: 10px;
+          margin-bottom: 0;
+          text-align: center;
+        }
+      }
+      .count-title {
+        @extend .title;
+        font-size: 3rem;
+        color: $kuriftu-brown;
+        font-weight: normal;
+        margin-top: 10px;
+        margin-bottom: 0;
+        text-align: center;
+      }
+      .count-text {
+        @extend .text;
+        font-size: 0.9rem;
+        color: $kuriftu-grey;
+        font-weight: normal;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        text-align: center;
+      }
+      .fa-2x {
+        margin: 0 auto;
+        float: none;
+        display: table;
+        color: #4ad1e5;
+      }
+    }
+  }
+  .corporate {
+    margin-top: 4rem;
+    display: grid;
+    .corporate-txt {
+      @extend .title;
+      font-size: 1.5rem;
+      margin-top: 0.94rem;
+      margin-bottom: 2rem;
+      color: $kuriftu-black;
+      text-transform: uppercase;
+      text-align: left;
+    }
+    .wrapper {
+      @include responsive($lg) {
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+      }
+
+      .corporate-text {
+        .corporate-txt2 {
+          @extend .title;
+          font-size: 1rem;
+        }
+
+        .corporate-txt3 {
+          @extend .text;
+          margin-top: 0.4rem;
+          color: $kuriftu-black;
+          font-size: 1rem;
+
+          text-align: left;
+        }
+      }
+    }
+  }
+  .our-team {
+    margin-top: 5rem;
+
+    .container {
+      display: grid;
+      place-items: center;
+      h2 {
+        @extend .text;
+        text-transform: uppercase;
+        color: $kuriftu-black;
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      .our-team-wrapper {
+        margin-top: 2rem;
+
+        @include responsive($md) {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 5rem;
+        }
+        @include responsive($lg) {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+        @include responsive($xl) {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .single-team-member {
+          display: grid;
+          place-items: center;
+          margin-bottom: 2rem;
+
+          .team-image {
+            border-radius: 20rem;
+            margin-top: 1rem;
+
+            width: 15rem;
+          }
+          .name-title,
+          .memeber-title,
+          .memeber-year-exp,
+          .member-email {
+            text-align: center;
+            margin-top: 1rem;
+          }
+          .name-title {
+            text-transform: uppercase;
+            text-align: center;
+            color: $kuriftu-brown;
+            margin-top: 2rem;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+
+  @include responsive($lg) {
+    .our-team {
+      margin-top: 8.13rem;
+      .container {
+        .gallery-wrapper {
+          gap: 2rem;
+
+          margin-top: 4.37rem;
+          .gallery-frist-img {
+            margin-top: 2rem;
+            img {
+              width: 55rem;
+              height: 42rem;
+              object-fit: cover;
+            }
+          }
+          .gallery-imgs {
+            .gallery-img {
+              margin-top: 2rem;
+              img {
+                width: 40rem;
+                height: 20rem;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .company-profile {
+    margin-top: 6.25rem;
+    .container {
+      h2 {
+        color: $kuriftu-black;
+        @extend .title;
+        margin-top: 0.94rem;
+        text-align: left;
+      }
+      .company-profile-all {
+        display: grid;
+        place-items: center;
+
+        // margin: 0 auto;
+        // width: 20rem;
+        .company-profile-slide {
+          display: flex;
+          align-items: center;
+          justify-items: center;
+          gap: 0.5rem;
+          .back-icon,
+          .next-icon {
+            img {
+              width: 2rem;
+            }
+          }
+        }
+        .gift-desc {
+          margin-top: 1.88rem;
+          margin-left: 1rem;
+          margin: 0 auto;
+
+          h3 {
+            @extend .nav;
+            margin-top: 0.94rem;
+            font-size: 0.7rem;
+            letter-spacing: 0.2rem;
+            line-height: 0.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $kuriftu-grey;
+          }
+          h4 {
+            @extend .title;
+            margin-top: 1.88rem;
+            color: $kuriftu-black;
+          }
+          .header-title {
+            color: $kuriftu-grey;
+          }
+          p {
+            @extend .text;
+            margin-top: 0.94rem;
+            color: $kuriftu-black;
+            font-size: 0.88rem;
+            text-align: left;
+          }
+          .book-buttons {
+            display: flex;
+            justify-content: left;
+
+            margin-top: 1.88rem;
+          }
+        }
+      }
+    }
+  }
+  @include responsive($md) {
+    .company-profile {
+      // width: 100%;
+      .container {
+        .company-profile-all {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          .company-profile-slide {
+            .slide-card {
+              img {
+                width: 25rem;
+              }
+            }
+          }
+          .gift-desc {
+            width: 25rem;
+            // margin-left: 5rem;
+            // margin-right: 5rem;
+            h4 {
+              margin-top: 0rem;
+              line-height: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include responsive($lg) {
+    .company-profile {
+      margin-top: 8.13rem;
+
+      .container {
+        .company-profile-all {
+          display: flex;
+
+          .company-profile-slide {
+            .slide-card {
+              img {
+                width: 25rem;
+              }
+            }
+
+            .next-icon,
+            .back-icon {
+              img {
+                width: 2rem;
+              }
+            }
+          }
+          .gift-desc {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin: 0 auto;
+            width: 25rem;
+            .book-buttons {
+              display: flex;
+              justify-content: left;
+
+              margin-top: 1.88rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include responsive($xl) {
+    .company-profile {
+      .container {
+        .company-profile-all {
+          display: flex;
+          align-items: flex-start;
+          .company-profile-slide {
+            .slide-card {
+              img {
+                width: 30rem;
+              }
+            }
+          }
+          .gift-desc {
+            margin-left: 2rem;
+            margin-right: 2rem;
+            width: 30rem;
+          }
+        }
+      }
+    }
+  }
+  .partners {
+    margin-top: 5rem;
+    @include responsive($lg) {
+      margin-top: 8rem;
+    }
+    .container {
+      display: grid;
+      place-items: center;
+      h2 {
+        @extend .title;
+        color: $kuriftu-black;
+        text-align: center;
+        font-size: 1.5rem;
+      }
+      p {
+        text-align: center;
+        color: $kuriftu-grey;
+        width: 20rem;
+        margin-top: 1rem;
+        font-size: 0.8rem;
+      }
+      .image-wrapper {
+        img {
+          width: 13rem;
+          margin-top: 2rem;
+          object-fit: cover;
+        }
+        @include responsive($md) {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          align-items: center;
+          place-items: center;
+          gap: 1rem;
+        }
+        @include responsive($lg) {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          gap: 2rem;
+        }
+        @include responsive($xl) {
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          gap: 3rem;
+        }
+      }
+    }
+  }
+  .clients {
+    margin-top: 5rem;
+    @include responsive($lg) {
+      margin-top: 8rem;
+    }
+    .container {
+      h2 {
+        @extend .title;
+        color: $kuriftu-black;
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      .catagory-wrapper {
+        margin-top: 4rem;
+        .catagory {
+          margin-top: 3rem;
+          h4 {
+            @extend .title;
+            font-size: 1.5rem;
+          }
+          .image-wrapper {
+            img {
+              width: 10rem;
+              margin-top: 2rem;
+              object-fit: cover;
+            }
+            @include responsive($md) {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              align-items: center;
+              place-items: center;
+              gap: 1rem;
+            }
+            @include responsive($lg) {
+              grid-template-columns: 1fr 1fr 1fr 1fr;
+              gap: 2rem;
+            }
+            @include responsive($xl) {
+              grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+              gap: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+</style>

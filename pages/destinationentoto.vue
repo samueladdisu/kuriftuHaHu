@@ -1,7 +1,7 @@
 <template>
   <div class="main">
-   <Destinationheader :src="require(`../assets/image/entoto-logo.svg`)"/>
-        <div class="destination-links2">
+    <Destinationheader :src="require(`../assets/image/entoto-logo.svg`)" />
+    <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
@@ -16,16 +16,41 @@
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
-           
-            <li><nuxt-link  class="a-link " to="entoto/entotoaccommodation">Accomodation</nuxt-link></li>
-           
-            <li><nuxt-link  class="a-link " to="entoto/entotoexperience">Experiences</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="entoto/entotowellness">Wellness</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="entoto/entotodining">Dining</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="entoto/entotoevent">Celebration & Events</nuxt-link></li>
-             <li><nuxt-link class="a-link " to="entoto/entotogallery">Gallery</nuxt-link></li>
-            <li> <nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
-          </div>
+                  <li>
+                    <nuxt-link class="a-link" to="entoto/entotoaccommodation"
+                      >Accomodation</nuxt-link
+                    >
+                  </li>
+
+                  <li>
+                    <nuxt-link class="a-link" to="entoto/entotoexperience"
+                      >Experiences</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entoto/entotowellness"
+                      >Wellness</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entoto/entotodining"
+                      >Dining</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entoto/entotoevent"
+                      >Celebration & Events</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="entoto/entotogallery"
+                      >Gallery</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                  </li>
+                </div>
               </ul>
             </li>
           </ul>
@@ -37,17 +62,42 @@
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-              <nuxt-link class="a-link active" to="/destinationentoto">Entoto</nuxt-link
+              <nuxt-link class="a-link active" to="/destinationentoto"
+                >Entoto</nuxt-link
               ><img src="../assets/image/Icons/next2.svg" alt="" />
             </li>
-            <li><nuxt-link  class="a-link " to="entoto/entotoaccommodation">Accomodation</nuxt-link></li>
-           
-            <li><nuxt-link  class="a-link " to="entoto/entotoexperience">Experiences</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="entoto/entotowellness">Wellness</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="entoto/entotodining">Dining</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="entoto/entotoevent">Celebration & Events</nuxt-link></li>
-             <li><nuxt-link class="a-link " to="entoto/entotogallery">Gallery</nuxt-link></li>
-            <li> <nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
+            <li>
+              <nuxt-link class="a-link" to="entoto/entotoaccommodation"
+                >Accomodation</nuxt-link
+              >
+            </li>
+
+            <li>
+              <nuxt-link class="a-link" to="entoto/entotoexperience"
+                >Experiences</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="entoto/entotowellness"
+                >Wellness</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="entoto/entotodining"
+                >Dining</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="entoto/entotoevent"
+                >Celebration & Events</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="entoto/entotogallery"
+                >Gallery</nuxt-link
+              >
+            </li>
+            <li><nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
           </ul>
           <hr class="line" />
         </div>
@@ -56,7 +106,23 @@
     <section class="display-video">
       <div class="container">
         <div class="video-wrapper">
-          <img src="../assets/image/entoto-bg2.jpg" alt="" />
+          <!-- <img src="../assets/image/entoto-bg2.jpg" alt="" /> -->
+          <div style="padding: 56.25% 0 0 0; position: relative">
+            <iframe
+              src="https://player.vimeo.com/video/705084951?api=1&autoplay=1&controls=0&sidedock=0&loop=1&title=0&byline=0&portrait=0&muted=1&background=1"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </div>
     </section>
@@ -105,11 +171,11 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
               tincidunt nisl elementum ultrices luctus habitasse.
             </p>
-            <div class="book-buttons">            
+            <div class="book-buttons">
               <nuxt-link to="entoto/entotogallery" class="view"
                 >View Accomodation
                 <hr class="lower-line" />
-            </nuxt-link>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -118,23 +184,23 @@
     <section class="gallery">
       <div class="container">
         <div class="gallery-wrapper">
-           <nuxt-link to="entoto/entotogallery">
-          <div class="gallery-frist-img">
-            <img src="../assets/image/entoto1.jpg" alt="" />
-          </div>
-           </nuxt-link>
-           
+          <nuxt-link to="entoto/entotogallery">
+            <div class="gallery-frist-img">
+              <img src="../assets/image/entoto1.jpg" alt="" />
+            </div>
+          </nuxt-link>
+
           <div class="gallery-imgs">
-             <nuxt-link to="entoto/entotogallery">
-            <div class="gallery-img">
-              <img src="../assets/image/kart.jpg" alt="" />
-            </div>
-           </nuxt-link>
             <nuxt-link to="entoto/entotogallery">
-            <div class="gallery-img">
-              <img src="../assets/image/well.jpg" alt="" />
-            </div>
-           </nuxt-link>
+              <div class="gallery-img">
+                <img src="../assets/image/kart.jpg" alt="" />
+              </div>
+            </nuxt-link>
+            <nuxt-link to="entoto/entotogallery">
+              <div class="gallery-img">
+                <img src="../assets/image/well.jpg" alt="" />
+              </div>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -148,24 +214,23 @@
           inner peace.
         </p>
         <div class="gallery-wrapper">
-            <nuxt-link to="entoto/entotowellness">
-          <div class="gallery-frist-img">
-            <img src="../assets/image/Spa.jpg" alt="" />
-          </div>
-             </nuxt-link>
+          <nuxt-link to="entoto/entotowellness">
+            <div class="gallery-frist-img">
+              <img src="../assets/image/Spa.jpg" alt="" />
+            </div>
+          </nuxt-link>
           <div class="gallery-imgs">
-              <nuxt-link to="entoto/entotowellness">
-                <div class="gallery-img">
-              <img src="../assets/image/wellness-min.jpg" alt="" />
-            </div>
-               </nuxt-link>
-          
-               <nuxt-link to="entoto/entotowellness"> 
-               <div class="gallery-img">
-              <img src="../assets/image/Spa-min.jpg" alt="" />
-            </div>
-               </nuxt-link>
-            
+            <nuxt-link to="entoto/entotowellness">
+              <div class="gallery-img">
+                <img src="../assets/image/wellness-min.jpg" alt="" />
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="entoto/entotowellness">
+              <div class="gallery-img">
+                <img src="../assets/image/Spa-min.jpg" alt="" />
+              </div>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -183,49 +248,54 @@
             </div>
           </div>
           <div class="exper-card" data-aos="slide-up">
-            <nuxt-link  to="entoto/entotoexperience">   <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/archery.jpg" alt="" />
+            <nuxt-link to="entoto/entotoexperience">
+              <div class="exper-single-card">
+                <div class="exper-img">
+                  <img src="../assets/image/archery.jpg" alt="" />
+                </div>
+                <div class="exper-title">
+                  <h3>Archery</h3>
+                </div>
+                <div class="exper-desc">
+                  <p>
+                    Archery is the art,sport ,practice or skill of using a bow
+                    to shoot arrows...
+                  </p>
+                </div>
+              </div></nuxt-link
+            >
+            <nuxt-link to="entoto/entotoexperience">
+              <div class="exper-single-card">
+                <div class="exper-img">
+                  <img src="../assets/image/cycling.jpg" alt="" />
+                </div>
+                <div class="exper-title">
+                  <h3>Cycling</h3>
+                </div>
+                <div class="exper-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    consectetur adipiscing elit
+                  </p>
+                </div>
+              </div></nuxt-link
+            >
+            <nuxt-link to="entoto/entotoexperience">
+              <div class="exper-single-card">
+                <div class="exper-img">
+                  <img src="../assets/image/gokart.jpg" alt="" />
+                </div>
+                <div class="exper-title">
+                  <h3>Go kart</h3>
+                </div>
+                <div class="exper-desc">
+                  <p>
+                    A electronice go- kart is a type of open-wheel car.Go karts
+                    come in all shapes and forms...
+                  </p>
+                </div>
               </div>
-              <div class="exper-title">
-                <h3>Archery</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-                  Archery is the art,sport ,practice or skill of using a bow to
-                  shoot arrows...
-                </p>
-              </div>
-            </div></nuxt-link>
-          <nuxt-link  to="entoto/entotoexperience">   <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/cycling.jpg" alt="" />
-              </div>
-              <div class="exper-title">
-                <h3>Cycling</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  consectetur adipiscing elit
-                </p>
-              </div>
-            </div></nuxt-link>
-          <nuxt-link to="entoto/entotoexperience"> <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/gokart.jpg" alt="" />
-              </div>
-              <div class="exper-title">
-                <h3>Go kart</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-                  A electronice go- kart is a type of open-wheel car.Go karts
-                  come in all shapes and forms...
-                </p>
-              </div>
-            </div> </nuxt-link>
-           
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -338,7 +408,7 @@ export default {
   .destination-links {
     display: none;
   }
-      .destination-links2 {
+  .destination-links2 {
     .container {
       .wrapper {
         .link-destination {
@@ -369,7 +439,7 @@ export default {
               display: none;
               position: absolute;
               top: 25px;
-              left:0px;
+              left: 0px;
               // @include responsive($md){
               //   left: 15rem;
               // }
@@ -387,7 +457,7 @@ export default {
                 li {
                   margin-left: 0.3rem;
                   margin-top: 0.5rem;
-  
+
                   .a-link {
                     color: $kuriftu-grey;
                     font-size: 0.88rem;
@@ -950,6 +1020,5 @@ export default {
       }
     }
   }
-
 }
 </style>

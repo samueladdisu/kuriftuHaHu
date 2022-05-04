@@ -1,22 +1,22 @@
 <template>
-  <div class="event-wrapper2 swiper">
+  <div class="event-wrapper3 swiper">
     <div class="swiper-wrapper">
       <div class="event-cards swiper-slide a">
-        <img src="../assets/image/bishRoom1.jpg" alt="" />
+        <img src="../assets/image/_DSC5820 (2)-min.jpg" alt="" />
       </div>
 
       <div class="event-cards swiper-slide b">
-        <img src="../assets/image/bishRoom2.jpg" alt="" />
+        <img src="../assets/image/_DSC5806 (2)-min.jpg" alt="" />
       </div>
 
       <div class="event-cards swiper-slide c">
-        <img src="../assets/image/bishRoom3.jpg" alt="" />
+        <img src="../assets/image/_DSC5351 (2)-min.jpg" alt="" />
       </div>
       <div class="event-cards swiper-slide c">
-        <img src="../assets/image/bishRoom2.jpg" alt="" />
+        <img src="../assets/image/_DSC5400 (2)-min.jpg" alt="" />
       </div>
       <div class="event-cards swiper-slide c">
-        <img src="../assets/image/bishRoom1.jpg" alt="" />
+        <img src="../assets/image/_DSC4667 (2)-min.jpg" alt="" />
       </div>
     </div>
     <!-- <div class="swiper-pagination"></div> -->
@@ -26,16 +26,14 @@
 <script>
 export default {
   mounted() {
-    var swiper = new Swiper(".event-wrapper2", {
-      // effect: "coverflow",
+    var swiper = new Swiper(".event-wrapper3", {
+      effect: "coverflow",
       grabCursor: true,
-      // centeredSlides: true,
+      centeredSlides: true,
       slidesPerView: "auto",
-      // loop: true,
-      spaceBetween: 30,
+      loop: true,
       coverflowEffect: {
         rotate: 0,
-
         stretch: 0,
         depth: 100,
         modifier: 1,
@@ -50,14 +48,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.event-wrapper2 {
+.event-wrapper3 {
   margin-top: 2rem;
-  padding-left: 3rem;
   .swiper-wrapper {
     .swiper-slide {
       margin-left: 2rem;
       margin-right: 2rem;
-
       max-width: 30rem;
       max-height: 20rem;
     }
@@ -65,7 +61,6 @@ export default {
   .event-cards {
     margin-top: 2.88rem;
     margin-bottom: 5rem;
-
     .event-img {
       width: 100%;
     }
@@ -76,7 +71,6 @@ export default {
       font-size: 1.2rem;
       text-align: center;
     }
-
     p {
       @extend .text;
       margin-top: 0.94rem;

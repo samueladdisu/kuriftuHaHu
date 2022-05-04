@@ -48,7 +48,7 @@
                   </li>
 
                   <li>
-                     <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
                   </li>
                 </div>
               </ul>
@@ -96,7 +96,7 @@
               <nuxt-link class="a-link" to="bishoftugallery">Gallery</nuxt-link>
             </li>
             <li>
-               <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+              <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
             </li>
           </ul>
           <hr class="line" />
@@ -116,7 +116,7 @@
           </p>
         </div>
 
-        <div class="image-wrapper">
+        <!-- <div class="image-wrapper">
           <div class="single-image" data-aos="zoom-in">
             <img src="../../assets/image/wellness.jpg" alt="" />
           </div>
@@ -128,6 +128,89 @@
           </div>
           <div class="single-image grid-top2" data-aos="zoom-in">
             <img src="../../assets/image/Icons/kuriftuentoto.jpg" alt="" />
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="accomondation">
+      <div class="container">
+        <div class="accomondation-room">
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img src="../../assets/image/wellness.jpg" alt="" />
+            <div class="room-name">
+              <h4>Wellness 1</h4>
+            </div>
+            <div class="room-desc">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Facilisis tincidunt nisl elementum ultrices luctus habitasse. Ut
+                orci nam lectus at massa enim elementum varius dictumst. Nulla
+                a, sed enim turpis non lacinia fusce.massa enim elementum varius
+                dictumst. Nulla a, sed enim turpis non lacinia fusce.
+              </p>
+            </div>
+          </div>
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img src="../../assets/image/Icons/kuriftuentoto2.jpg" alt="" />
+            <div class="room-name">
+              <h4>Wellness 2</h4>
+            </div>
+            <div class="room-desc">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Facilisis tincidunt nisl elementum ultrices luctus habitasse. Ut
+                orci nam lectus at massa enim elementum varius dictumst. Nulla
+                a, sed enim turpis non lacinia fusce.massa enim elementum varius
+                dictumst. Nulla a, sed enim turpis non lacinia fusce.
+              </p>
+            </div>
+          </div>
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img src="../../assets/image/_DSC1724-min.jpg" alt="" />
+            <div class="room-name">
+              <h4>Wellness 3</h4>
+            </div>
+            <div class="room-desc">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Facilisis tincidunt nisl elementum ultrices luctus habitasse. Ut
+                orci nam lectus at massa enim elementum varius dictumst. Nulla
+                a, sed enim turpis non lacinia fusce.massa enim elementum varius
+                dictumst. Nulla a, sed enim turpis non lacinia fusce.
+              </p>
+            </div>
+          </div>
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img src="../../assets/image/Icons/kuriftuentoto.jpg" alt="" />
+            <div class="room-name">
+              <h4>Wellness 4</h4>
+            </div>
+            <div class="room-desc">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Facilisis tincidunt nisl elementum ultrices luctus habitasse. Ut
+                orci nam lectus at massa enim elementum varius dictumst. Nulla
+                a, sed enim turpis non lacinia fusce.massa enim elementum varius
+                dictumst. Nulla a, sed enim turpis non lacinia fusce.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -166,7 +249,7 @@
         </div>
       </div>
     </section>
-    <section class="spa-menu">
+    <!-- <section class="spa-menu">
       <div class="container">
         <div class="menu-wrapper">
           <h3>Menu</h3>
@@ -199,18 +282,14 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Event from "../../components/Event.vue";
 export default {
-  components: {
-    Event,
-  },
   data() {
     return {
       checkIn: "",

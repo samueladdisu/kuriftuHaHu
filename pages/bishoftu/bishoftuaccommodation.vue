@@ -102,37 +102,16 @@
         </div>
       </div>
     </div>
-    <section class="entoto-general">
-      <div class="container">
-        <div class="main-title">
-          <h2>Bishoftu & The 7 Crater Lakes</h2>
-          <p>
-            Bishoftu is home to 7 crater lakes and is a renowed resort town
-            which serves as an amazing getaway from the hustle and bustle of the
-            city life.
-          </p>
-        </div>
-        <Bishoftuslide />
 
-        <div class="tabs">
-          <div class="tabs-container" @click="tabs">
-            <div class="tab a"></div>
-            <div class="tab b"></div>
-            <div class="tab c"></div>
-            <div class="active"></div>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="accomondation">
       <div class="container">
-        <div class="recommended">
-          <hr class="rec-line" />
-          <p>recommended</p>
-        </div>
         <div class="accomondation-room">
-          <div class="single-accomondation">
-            <img src="../../assets/image/_DSC5248 (2)-min.jpg" alt="" />
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img src="../../assets/image/bishRoom1.jpg" alt="" />
             <div class="room-name">
               <h4>Room</h4>
             </div>
@@ -149,8 +128,12 @@
               <a class="btn btn-primary" href="#">BOOK NOW</a>
             </div>
           </div>
-          <div class="single-accomondation">
-            <img src="../../assets/image/_DSC5248 (2)-min.jpg" alt="" />
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img src="../../assets/image/bishRoom2.jpg" alt="" />
             <div class="room-name">
               <h4>Room</h4>
             </div>
@@ -167,8 +150,12 @@
               <a class="btn btn-primary" href="#">BOOK NOW</a>
             </div>
           </div>
-          <div class="single-accomondation">
-            <img src="../../assets/image/_DSC5248 (2)-min.jpg" alt="" />
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img src="../../assets/image/bishRoom3.jpg" alt="" />
             <div class="room-name">
               <h4>Room</h4>
             </div>
@@ -185,8 +172,12 @@
               <a class="btn btn-primary" href="#">BOOK NOW</a>
             </div>
           </div>
-          <div class="single-accomondation">
-            <img src="../../assets/image/_DSC5248 (2)-min.jpg" alt="" />
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img src="../../assets/image/bishRoom1.jpg" alt="" />
             <div class="room-name">
               <h4>Room</h4>
             </div>

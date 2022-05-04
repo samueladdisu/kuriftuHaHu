@@ -102,103 +102,124 @@
         </div>
       </div>
     </div>
-    <section class="display-video">
+    <!-- <section class="display-video">
       <div class="container">
         <div class="video-wrapper">
           <img src="../../assets/image/Home.jpg" alt="" />
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="general-experience">
+    <section class="accomondation">
       <div class="container">
-        <div class="all-wrapper">
-          <div class="see-more">
-            <p>Experience</p>
-            <hr class="see-line" />
-          </div>
-          <div class="all-cards">
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img src="../../assets/image/waterpark.jpg" alt="" />
-              <h3>Water Park</h3>
+        <div class="accomondation-room">
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img src="../../assets/image/waterpark.jpg" alt="" />
+
+            <div class="room-name">
+              <h4>Water Park</h4>
+            </div>
+            <div class="room-desc">
               <p>
                 our acquatic playgrounds with winding waterslides, suspended
                 buckets of water, and interactive playscapes offer a fun way to
                 beat the heat.
               </p>
             </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img
-                class="right-card"
-                src="../../assets/image/dz-cover.jpg"
-                alt=""
-              />
-              <h3>Kayaking</h3>
+          </div>
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img
+              class="right-card"
+              src="../../assets/image/dz-cover.jpg"
+              alt=""
+            />
+            <div class="room-name">
+              <h4>Kayaking</h4>
+            </div>
+            <div class="room-desc">
               <p>
                 enjoy your stay with our Sunrise, Mid-day, and Sunset Kayaking
                 on the lake of bishoftu.
               </p>
-              <!-- <img  class="right-card" src="../../assets/image/cycling.jpg" alt="">
-            <h3>Cycling</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem corrupti eos officiis est similique, quas sunt a ipsum explicabo libero aliquam sint inventore, temporibus vel. Delectus maxime magnam vitae. </p> -->
             </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img src="../../assets/image/_DSC4621 (2)-min.jpg" alt="" />
-              <h3>Cinema</h3>
+          </div>
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img src="../../assets/image/_DSC4621 (2)-min.jpg" alt="" />
+
+            <div class="room-name">
+              <h4>Cinema</h4>
+            </div>
+            <div class="room-desc">
               <p>
                 lean back and enjoy an exclusive movie feeling with the latest
                 films in our resort.
               </p>
             </div>
-            <div class="single-card" data-aos="fade-up">
-              <img
-                class="right-card"
-                src="../../assets/image/_DSC4621 (2)-min.jpg"
-                alt=""
-              />
-              <h3>Billiards & Table Tennis</h3>
+          </div>
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img
+              class="right-card"
+              src="../../assets/image/_DSC4621 (2)-min.jpg"
+              alt=""
+            />
+            <div class="room-name">
+              <h4>Billiards & Table Tennis</h4>
+            </div>
+            <div class="room-desc">
               <p>
                 Enjoy a bit of fun in the shade with our billiards and table
                 tennis to try out your skill.
               </p>
             </div>
+          </div>
 
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img src="../../assets/image/_DSC4621 (2)-min.jpg" alt="" />
-              <h3>Gift Shop</h3>
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img src="../../assets/image/_DSC4621 (2)-min.jpg" alt="" />
+            <div class="room-name">
+              <h4>Gift Shop</h4>
+            </div>
+            <div class="room-desc">
               <p>
                 you will never fail to find something special for you or your
                 loved ones in our locally sourced gift shops.
               </p>
             </div>
+          </div>
 
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img
-                class="right-card"
-                src="../../assets/image/exprience.jpg"
-                alt=""
-              />
-              <h3>Swimming Pool</h3>
+          <div
+            class="single-accomondation"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <img
+              class="right-card"
+              src="../../assets/image/exprience.jpg"
+              alt=""
+            />
+            <div class="room-name">
+              <h4>Swimming Pool</h4>
+            </div>
+            <div class="room-desc">
               <p>
                 Whether you’re looking for an early-morning workout or just for
                 refreshment after your spa treatment, the pools at Kuriftu
@@ -443,74 +464,141 @@ export default {
       margin-top: 5rem;
     }
   }
-  .general-experience {
+  .entoto-general {
     margin-top: 5rem;
-    @include responsive($md) {
+    @include responsive($lg) {
       margin-top: 8rem;
     }
     .container {
-      .all-wrapper {
-        .see-more {
-          display: flex;
-          align-items: center;
-          gap: 2rem;
-          margin-top: 3rem;
-          @include responsive($md) {
-            margin-top: 5rem;
-          }
-          hr {
-            border-style: solid;
-            color: $kuriftu-grey;
-            opacity: 0.5;
-
-            width: 100%;
+      .main-title {
+        display: grid;
+        place-items: center;
+        h2 {
+          text-align: center;
+          font-size: 1.5rem;
+          font-weight: 600;
+        }
+        p {
+          text-align: center;
+          color: $kuriftu-grey;
+          width: 20rem;
+          margin-top: 1rem;
+          font-size: 0.8rem;
+        }
+        @include responsive($md) {
+          h2 {
+            font-size: 2rem;
           }
           p {
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            color: $kuriftu-grey;
-            width: 6rem;
+            width: 40rem;
+            font-size: 1rem;
           }
         }
-        .all-cards {
-          @include responsive($md) {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
+      }
+      .tabs {
+        margin: 1.88rem auto 6.25rem;
+        // background: lightblue;
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin-top: 4rem;
+        .tabs-container {
+          display: flex;
+          position: relative;
+          .active {
+            position: absolute;
+            top: 0;
+            height: 0.25rem;
+            width: 5.94rem;
+            transform: translate(100%, -30%);
+            background: $kuriftu-black;
           }
-          @include responsive($lg) {
-            gap: 5rem;
+          .tab {
+            height: 0.13rem;
+            width: 5.94rem;
+            background: #c4c4c4;
           }
+        }
+      }
+    }
+  }
+  .accomondation {
+    .container {
+      .recommended {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        hr {
+          border-style: solid;
+          color: $kuriftu-grey;
+          opacity: 0.5;
 
-          .single-card {
-            margin-top: 3rem;
-
-            .right-card {
-              margin-top: 6rem;
-            }
-            img {
+          width: 100%;
+        }
+        p {
+          font-size: 0.7rem;
+          text-transform: uppercase;
+          color: $kuriftu-grey;
+        }
+      }
+      .accomondation-room {
+        margin-top: 3rem;
+        display: grid;
+        @include responsive($md) {
+          grid-template-columns: 1fr 1fr;
+          gap: 2rem;
+        }
+        @include responsive($xl) {
+          // gap: 8rem;
+        }
+        .single-accomondation {
+          margin-top: 2.88rem;
+          img {
+            @include responsive($md) {
               width: 20rem;
-              height: 25rem;
+              height: 15rem;
               object-fit: cover;
-              @include responsive($lg) {
-                width: 100%;
-                height: 35rem;
-              }
             }
-            h3 {
-              @extend .title;
-              font-size: 1rem;
-              margin-top: 0.98rem;
-              text-transform: uppercase;
+
+            @include responsive($lg) {
+              width: 100%;
+              height: 20rem;
             }
+
+            @include responsive($xl) {
+              height: 28rem;
+            }
+          }
+          .room-name {
+            h4 {
+              font-size: 1.5rem;
+              font-weight: 600;
+              margin-top: 1.88rem;
+              color: $kuriftu-black;
+            }
+          }
+          .room-desc {
             p {
               @extend .text;
-              margin-top: 0.98rem;
-              width: 20rem;
-              font-size: 0.95rem;
-              @include responsive($lg) {
-                width: 100%;
+              margin-top: 0.94rem;
+              color: $kuriftu-black;
+              font-size: 0.88rem;
+              text-align: left;
+              @include responsive($md) {
+                width: 20rem;
               }
+              @include responsive($lg) {
+                width: 26rem;
+              }
+              @include responsive($xl) {
+                width: 30rem;
+              }
+            }
+          }
+          .book-buttons {
+            margin-top: 1.88rem;
+            @include responsive($lg) {
+              margin-top: 3rem;
             }
           }
         }

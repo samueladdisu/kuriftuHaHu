@@ -1,7 +1,7 @@
 <template>
   <div class="main">
-   <Destinationheader :src="require(`../assets/image/tana-logo.svg`)"/>
-       <div class="destination-links2">
+    <Destinationheader :src="require(`../assets/image/tana-logo.svg`)" />
+    <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
@@ -16,14 +16,40 @@
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
-              <li><nuxt-link  class="a-link " to="laketana/tanaaccommodation">Accomodation</nuxt-link></li>
-           
-            <li><nuxt-link  class="a-link " to="laketana/tanaexperience">Experiences</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="laketana/tanawellness">Wellness</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="laketana/tanadining">Dining</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="laketana/tanaevent">Celebration & Events</nuxt-link></li>
-             <li><nuxt-link class="a-link " to="laketana/tanagallery">Gallery</nuxt-link></li>
-            <li> <nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
+                  <li>
+                    <nuxt-link class="a-link" to="laketana/tanaaccommodation"
+                      >Accomodation</nuxt-link
+                    >
+                  </li>
+
+                  <li>
+                    <nuxt-link class="a-link" to="laketana/tanaexperience"
+                      >Experiences</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="laketana/tanawellness"
+                      >Wellness</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="laketana/tanadining"
+                      >Dining</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="laketana/tanaevent"
+                      >Celebration & Events</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="laketana/tanagallery"
+                      >Gallery</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                  </li>
                 </div>
               </ul>
             </li>
@@ -36,17 +62,42 @@
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-              <nuxt-link class="a-link active" to="/destinationtana">Tana</nuxt-link
+              <nuxt-link class="a-link active" to="/destinationtana"
+                >Tana</nuxt-link
               ><img src="../assets/image/Icons/next2.svg" alt="" />
             </li>
-            <li><nuxt-link  class="a-link " to="laketana/tanaaccommodation">Accomodation</nuxt-link></li>
-           
-            <li><nuxt-link  class="a-link " to="laketana/tanaexperience">Experiences</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="laketana/tanawellness">Wellness</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="laketana/tanadining">Dining</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="laketana/tanaevent">Celebration & Events</nuxt-link></li>
-             <li><nuxt-link class="a-link " to="laketana/tanagallery">Gallery</nuxt-link></li>
-            <li> <nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
+            <li>
+              <nuxt-link class="a-link" to="laketana/tanaaccommodation"
+                >Accomodation</nuxt-link
+              >
+            </li>
+
+            <li>
+              <nuxt-link class="a-link" to="laketana/tanaexperience"
+                >Experiences</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="laketana/tanawellness"
+                >Wellness</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="laketana/tanadining"
+                >Dining</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="laketana/tanaevent"
+                >Celebration & Events</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="laketana/tanagallery"
+                >Gallery</nuxt-link
+              >
+            </li>
+            <li><nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
           </ul>
           <hr class="line" />
         </div>
@@ -55,7 +106,39 @@
     <section class="display-video">
       <div class="container">
         <div class="video-wrapper">
-          <img src="../assets/image/tana.jpg" alt="" />
+          <!-- <img src="../assets/image/tana.jpg" alt="" /> -->
+          <!-- <div style="padding: 56.25% 0 0 0; position: relative">
+            <iframe
+              src="https://player.vimeo.com/video/705261600?h=dbf94e2334&autoplay=1&loop=1&title=0&byline=0&portrait=0"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script> -->
+          <div style="padding: 56.25% 0 0 0; position: relative">
+            <iframe
+              src="https://player.vimeo.com/video/242045253?h=bfab025076&autoplay=1&loop=1&title=0&portrait=0"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </div>
     </section>
@@ -65,7 +148,10 @@
           <div class="main-title">
             <h2>Lake Tana</h2>
             <p>
-             Your Ethiopian adventure is not complete until you make way to Lake Tana, the source of the legendary Blue Nile. Located in Bahir Dar, immerse yourself in the history of Ethiopia with landscapes of native architecture and cool shoreside weather all year round.
+              Your Ethiopian adventure is not complete until you make way to
+              Lake Tana, the source of the legendary Blue Nile. Located in Bahir
+              Dar, immerse yourself in the history of Ethiopia with landscapes
+              of native architecture and cool shoreside weather all year round.
             </p>
           </div>
           <Tanaslide />
@@ -96,17 +182,15 @@
               Treat your loved ones to Ethiopia’s greatest family destination
             </p> -->
             <p>
-Our all inclusive resort offers full scale amenities 
-including private verandas, spa, and a lakeside 
-restaurant, making your stay a true step into the 
-Garden of Eden
-
+              Our all inclusive resort offers full scale amenities including
+              private verandas, spa, and a lakeside restaurant, making your stay
+              a true step into the Garden of Eden
             </p>
-            <div class="book-buttons">            
+            <div class="book-buttons">
               <nuxt-link to="laketana/tanagallery" class="view"
                 >View Accomodation
                 <hr class="lower-line" />
-            </nuxt-link>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -115,23 +199,23 @@ Garden of Eden
     <section class="gallery">
       <div class="container">
         <div class="gallery-wrapper">
-           <nuxt-link to="laketana/tanagallery">
-          <div class="gallery-frist-img">
-            <img src="../assets/image/Bahir Dar-41-min.jpg" alt="" />
-          </div>
-           </nuxt-link>
-           
+          <nuxt-link to="laketana/tanagallery">
+            <div class="gallery-frist-img">
+              <img src="../assets/image/Bahir Dar-41-min.jpg" alt="" />
+            </div>
+          </nuxt-link>
+
           <div class="gallery-imgs">
-             <nuxt-link to="laketana/tanagallery">
-            <div class="gallery-img">
-              <img src="../assets/image/Bahir Dar-20-min.jpg" alt="" />
-            </div>
-           </nuxt-link>
             <nuxt-link to="laketana/tanagallery">
-            <div class="gallery-img">
-              <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
-            </div>
-           </nuxt-link>
+              <div class="gallery-img">
+                <img src="../assets/image/Bahir Dar-20-min.jpg" alt="" />
+              </div>
+            </nuxt-link>
+            <nuxt-link to="laketana/tanagallery">
+              <div class="gallery-img">
+                <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
+              </div>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -140,27 +224,27 @@ Garden of Eden
       <div class="container">
         <h2>Kuriftu Resort & Spa Lake Tana</h2>
         <p>
- The Spa offers a vast array of choices to soothe the spirit, rejuvenate the body and enrich the mind.
+          The Spa offers a vast array of choices to soothe the spirit,
+          rejuvenate the body and enrich the mind.
         </p>
         <div class="gallery-wrapper">
-            <nuxt-link to="laketana/tanawellness">
-          <div class="gallery-frist-img">
-            <img src="../assets/image/IMG_1346-min.JPG" alt="" />
-          </div>
-             </nuxt-link>
+          <nuxt-link to="laketana/tanawellness">
+            <div class="gallery-frist-img">
+              <img src="../assets/image/IMG_1346-min.JPG" alt="" />
+            </div>
+          </nuxt-link>
           <div class="gallery-imgs">
-              <nuxt-link to="laketana/tanawellness">
-                <div class="gallery-img">
-              <img src="../assets/image/wellness-min.jpg" alt="" />
-            </div>
-               </nuxt-link>
-          
-               <nuxt-link to="laketana/tanawellness"> 
-               <div class="gallery-img">
-              <img src="../assets/image/Spa-min.jpg" alt="" />
-            </div>
-               </nuxt-link>
-            
+            <nuxt-link to="laketana/tanawellness">
+              <div class="gallery-img">
+                <img src="../assets/image/wellness-min.jpg" alt="" />
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="laketana/tanawellness">
+              <div class="gallery-img">
+                <img src="../assets/image/Spa-min.jpg" alt="" />
+              </div>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -178,46 +262,54 @@ Garden of Eden
             </div>
           </div>
           <div class="exper-card" data-aos="slide-up">
-            <nuxt-link  to="laketana/tanaexperience">   <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
+            <nuxt-link to="laketana/tanaexperience">
+              <div class="exper-single-card">
+                <div class="exper-img">
+                  <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
+                </div>
+                <div class="exper-title">
+                  <h3>Boat Tour</h3>
+                </div>
+                <div class="exper-desc">
+                  <p>
+                    Travel across whater to witness the incradable sites
+                    surrounding Lake Tana...
+                  </p>
+                </div>
+              </div></nuxt-link
+            >
+            <nuxt-link to="laketana/tanaexperience">
+              <div class="exper-single-card">
+                <div class="exper-img">
+                  <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
+                </div>
+                <div class="exper-title">
+                  <h3>Monastry Visit</h3>
+                </div>
+                <div class="exper-desc">
+                  <p>
+                    go on a sightseeing on the lake of Tana as 19 islands out of
+                    the 37 have...
+                  </p>
+                </div>
+              </div></nuxt-link
+            >
+            <nuxt-link to="laketana/tanaexperience">
+              <div class="exper-single-card">
+                <div class="exper-img">
+                  <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
+                </div>
+                <div class="exper-title">
+                  <h3>Nile Falls/Tis Abay</h3>
+                </div>
+                <div class="exper-desc">
+                  <p>
+                    Locally known as Tis-Isat Falla - " Smoke of Fire" the Blue
+                    Nile Falls is the most...
+                  </p>
+                </div>
               </div>
-              <div class="exper-title">
-                <h3>Boat Tour</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-              Travel across whater to witness the incradable sites surrounding Lake Tana...
-                </p>
-              </div>
-            </div></nuxt-link>
-          <nuxt-link  to="laketana/tanaexperience">   <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
-              </div>
-              <div class="exper-title">
-                <h3>Monastry Visit</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-                  go on a sightseeing on the lake of Tana as 19 islands out of the 37 have...
-                </p>
-              </div>
-            </div></nuxt-link>
-          <nuxt-link to="laketana/tanaexperience"> <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
-              </div>
-              <div class="exper-title">
-                <h3>Nile Falls/Tis Abay</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-                Locally known as Tis-Isat Falla - " Smoke of Fire"  the Blue Nile Falls is the most...
-                </p>
-              </div>
-            </div> </nuxt-link>
-           
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -330,7 +422,7 @@ export default {
   .destination-links {
     display: none;
   }
-     .destination-links2 {
+  .destination-links2 {
     .container {
       .wrapper {
         .link-destination {
@@ -361,7 +453,7 @@ export default {
               display: none;
               position: absolute;
               top: 25px;
-              left:0px;
+              left: 0px;
               // @include responsive($md){
               //   left: 15rem;
               // }
@@ -379,7 +471,7 @@ export default {
                 li {
                   margin-left: 0.3rem;
                   margin-top: 0.5rem;
-  
+
                   .a-link {
                     color: $kuriftu-grey;
                     font-size: 0.88rem;
@@ -942,6 +1034,5 @@ export default {
       }
     }
   }
-
 }
 </style>

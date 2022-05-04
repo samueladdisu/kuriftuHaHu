@@ -6,19 +6,21 @@
       <div class="container">
         <div class="welcome-wrapper">
           <div class="welcome-img" data-aos="slide-up">
-            <img src="../assets/image/welcome.jpg" alt="" />
+            <img src="../assets/image/welcome2.jpg" alt="" />
           </div>
           <div class="welcome-desc" data-aos="slide-up">
             <h4>WELCOME TO KURIFTU RESORT & SPA</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
-              tincidunt nisl elementum ultrices luctus habitasse. Ut orci nam
-              lectus at massa enim elementum varius dictumst. Nulla a, sed enim
-              turpis non lacinia fusce. Quis volutpat sit ullamcorper vitae
-              magna vel sit pharetra scelerisque.
+              We are very pleased to welcome you to Kuriftu Resort & Spa. Our
+              intention is to provide each guest with the level of personal
+              service found only in the finest resorts. To achieve this, we
+              endeavor to anticipate your needs as much as possible with a wide
+              variety of services and our team which is ready to attend to your
+              most pressing requests. Your comfort is our most important
+              concern. The Management
             </p>
             <div class="book-buttons">
-              <a class="btn btn-primary" @click="redirect">BOOK NOW</a>
+              <nuxt-link class="btn btn-primary" to="/book">BOOK NOW</nuxt-link>
               <a class="btn btn-outline-brown" href="#">VIEW GALLERY</a>
             </div>
           </div>
@@ -28,14 +30,15 @@
     <section class="destinations">
       <div class="container">
         <h2>DESTINATIONS</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor sit
-          amet, consectetur
-        </p>
+
         <div class="top-2">
           <div class="bishoftu" data-aos="slide-up">
             <div class="bishoftu-img">
-              <img class="bit_small" src="../assets/image/Home.jpg" alt="" />
+              <img
+                class="bit_small"
+                src="../assets/image/Kuriftu_Bishoftu_Exerior.png"
+                alt=""
+              />
             </div>
             <div class="bishoftu-desc">
               <h4>Bishoftu</h4>

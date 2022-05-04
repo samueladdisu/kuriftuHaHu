@@ -1,54 +1,58 @@
 <template>
   <div class="main">
-    <Destinationheader :src="require(`../../assets/image/bishoftu-logo.svg`)" />
+    <Destinationheader
+      :src="require(`../../assets/image/AWASH-Color side.svg`)"
+    />
     <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-              <nuxt-link class="a-link active" to="bishoftuevent"
-                ><p>Bishoftu</p>
+              <a class="a-link active"
+                ><p>Celebration & Events</p>
                 <img
                   class="drop-icon"
                   src="../../assets/image/Icons/next2.svg"
                   alt=""
-              /></nuxt-link>
+              /></a>
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
                   <li>
-                    <nuxt-link class="a-link" to="bishoftuaccommodation">
-                      <p>Accomodation</p>
+                    <nuxt-link
+                      class="a-link"
+                      to="/destinationevent/bishoftuevent"
+                    >
+                      <p>Bishoftu</p>
                     </nuxt-link>
                   </li>
+
                   <li>
-                    <nuxt-link class="a-link" to="bishoftuexperience"
-                      >Experiences</nuxt-link
+                    <nuxt-link class="a-link" to="/destinationevent/waterpark"
+                      >Water park</nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link class="a-link" to="bishoftuwellness"
-                      >Wellness</nuxt-link
+                    <nuxt-link class="a-link" to="/destinationevent/entoto">
+                      <p>Entoto</p>
+                    </nuxt-link>
+                  </li>
+
+                  <li>
+                    <nuxt-link class="a-link" to="/destinationevent/tana"
+                      >Lake Tana</nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link class="a-link" to="bishoftudining   active"
-                      >Dining</nuxt-link
-                    >
-                  </li>
-                  <li>
-                    <nuxt-link class="a-link" to="bishoftuevent"
-                      >Celebration & Events</nuxt-link
-                    >
-                  </li>
-                  <li>
-                    <nuxt-link class="a-link" to="bishoftugallery"
-                      >Gallery</nuxt-link
+                    <nuxt-link class="a-link" to="/destinationevent/awash"
+                      >Awash</nuxt-link
                     >
                   </li>
 
                   <li>
-                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                    <nuxt-link class="a-link" to="/destinationevent/afar"
+                      >Afar</nuxt-link
+                    >
                   </li>
                 </div>
               </ul>
@@ -62,43 +66,44 @@
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-              <nuxt-link class="a-link active" to="/destinationbishoftu"
-                >Bishoftu</nuxt-link
-              >
-              <img src="../../assets/image/Icons/next2.svg" alt="" />
+              <nuxt-link class="a-link active" to="/event"
+                >Clebration & Events</nuxt-link
+              ><img src="../../assets/image/Icons/next2.svg" alt="" />
             </li>
             <li>
-              <nuxt-link class="a-link" to="bishoftuaccommodation">
-                <p>Accomodation</p>
+              <nuxt-link class="a-link" to="/destinationevent/bishoftuevent">
+                <p>Bishoftu</p>
               </nuxt-link>
             </li>
 
             <li>
-              <nuxt-link class="a-link" to="bishoftuexperience"
-                >Experiences</nuxt-link
+              <nuxt-link class="a-link" to="/destinationevent/waterpark"
+                >Water Park</nuxt-link
               >
             </li>
+
             <li>
-              <nuxt-link class="a-link" to="bishoftuwellness"
-                >Wellness
+              <nuxt-link class="a-link" to="/destinationevent/entoto"
+                >Entoto
+              </nuxt-link>
+            </li>
+
+            <li>
+              <nuxt-link class="a-link" to="/destinationevent/tana">
+                <p>Lake Tana</p>
               </nuxt-link>
             </li>
             <li>
-              <nuxt-link class="a-link" to="bishoftudining">Dining </nuxt-link>
-            </li>
-            <li>
-              <nuxt-link class="a-link active" to="bishoftuevent"
-                >Celebration & Events
+              <nuxt-link class="a-link active" to="/destinationevent/awash">
+                <p>Awash</p>
                 <hr class="activeline"
               /></nuxt-link>
             </li>
+
             <li>
-              <nuxt-link class="a-link" to="bishoftugallery"
-                >Gallery
-              </nuxt-link>
-            </li>
-            <li>
-              <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+              <nuxt-link class="a-link" to="/destinationevent/afar"
+                >Afar</nuxt-link
+              >
             </li>
           </ul>
           <hr class="line" />
@@ -119,83 +124,50 @@
             rejuvenated and with memories you’ll cherish for a lifetime.
           </p>
         </div>
-      </div>
-    </section>
 
-    <section class="accomondation">
-      <div class="container">
-        <div class="accomondation-room">
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
+        <div class="image-wrapper">
+          <div class="content single-image" data-aos="zoom-in">
+            <div class="content-overlay"></div>
             <img src="../../assets/image/entoto9.jpg" alt="" />
-            <div class="room-name">
-              <h4>Conferences</h4>
-            </div>
-            <div class="room-desc">
-              <p>
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Conferences</h3>
+              <p class="content-text">
                 Invite your guests to experience the once in a lifetime
                 discoveries and natural surroundings of Kuriftu Bishoftu. Our
                 resort hold the key to endless exploration and provide unique
                 ways to team build and connect.
               </p>
             </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
-            </div>
-          </div>
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/celebration.jpg" alt="" />
-            <div class="room-name">
-              <h4>Retreats</h4>
-            </div>
-            <div class="room-desc">
-              <p>
-                Known for our hospitality in an all inclusive setting, we set
-                the stage for an unforgettable retreat
-              </p>
-            </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
-            </div>
-          </div>
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/bishRoom3.jpg" alt="" />
-            <div class="room-name">
-              <h4>Special Events</h4>
-            </div>
-            <div class="room-desc">
-              <p>
-                Known for our hospitality in an all inclusive setting, we set
-                the stage for an unforgettable retreat
-              </p>
-            </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
-            </div>
           </div>
 
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/ent1.jpg" alt="" />
-            <div class="room-name">
-              <h4>Bridal</h4>
+          <div class="content single-image1 grid-top3" data-aos="zoom-in">
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/celebration.jpg" alt="" />
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Retreats</h3>
+              <p class="content-text">
+                Known for our hospitality in an all inclusive setting, we set
+                the stage for an unforgettable retreat
+              </p>
             </div>
-            <div class="room-desc">
-              <p>
+          </div>
+          <div class="content single-image1 grid-top" data-aos="zoom-in">
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/celeb3.jpg" alt="" />
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Special Events</h3>
+              <p class="content-text">
+                Known for our hospitality in an all inclusive setting, we set
+                the stage for an unforgettable retreat
+              </p>
+            </div>
+          </div>
+          <div class="content single-image grid-top2" data-aos="zoom-in">
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/ent1.jpg" alt="" />
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Bridal</h3>
+              <p class="content-text">
                 Dreaming of a wedding destination that's as pure, wild and
                 gentle as your love? At our resort you and your guests will find
                 the adventure of a lifetime, sourrounded by nature. Suited for
@@ -203,45 +175,54 @@
                 celebration filled with romance.
               </p>
             </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
-            </div>
           </div>
-
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
+          <div class="content single-image grid-top" data-aos="zoom-in">
+            <div class="content-overlay"></div>
             <img src="../../assets/image/ent3.jpg" alt="" />
-            <div class="room-name">
-              <h4>Birthdays</h4>
-            </div>
-            <div class="room-desc">
-              <p>
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Birthdays</h3>
+              <p class="content-text">
                 Birtdays come and go wny not make them memorable by connecting
                 to where we come from, nature.
               </p>
             </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
+          </div>
+          <div class="content single-image1 grid-top3" data-aos="zoom-in">
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/celeb4.jpg" alt="" />
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Special Events</h3>
+              <p class="content-text">
+                Known for our hospitality in an all inclusive setting, we set
+                the stage for an unforgettable retreat
+              </p>
+            </div>
+          </div>
+          <div class="content single-image1 grid-top" data-aos="zoom-in">
+            <div class="content-overlay"></div>
+            <img src="../../assets/image/entoto0.jpg" alt="" />
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Wedding</h3>
+              <p class="content-text">
+                Dreaming of a wedding destination that's as pure, wild and
+                gentle as your love? At our resort you and your guests will find
+                the adventure of a lfetime, sourrounded by nature. Suited for
+                all guests our venue is the perfect setting for an intimate
+                celebration filled with romance.
+              </p>
             </div>
           </div>
 
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
+          <div class="content single-image grid-top2" data-aos="zoom-in">
+            <div class="content-overlay"></div>
             <img src="../../assets/image/celeb1.jpg" alt="" />
-            <div class="room-name">
-              <h4>Celebrations & Events 2022 Catalogue</h4>
-            </div>
-            <div class="room-desc">
-              <p>This is Celebrations & Events 2022 Catalogue</p>
-            </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">
+                Celebrations & Events 2022 Catalogue
+              </h3>
+              <p class="content-text">
+                This is Celebrations & Events 2022 Catalogue
+              </p>
             </div>
           </div>
         </div>

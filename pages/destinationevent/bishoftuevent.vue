@@ -6,49 +6,51 @@
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-              <nuxt-link class="a-link active" to="bishoftuevent"
-                ><p>Bishoftu</p>
+              <a class="a-link active"
+                ><p>Celebration & Events</p>
                 <img
                   class="drop-icon"
                   src="../../assets/image/Icons/next2.svg"
                   alt=""
-              /></nuxt-link>
+              /></a>
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
                   <li>
-                    <nuxt-link class="a-link" to="bishoftuaccommodation">
-                      <p>Accomodation</p>
+                    <nuxt-link
+                      class="a-link"
+                      to="/destinationevent/bishoftuevent"
+                    >
+                      <p>Bishoftu</p>
                     </nuxt-link>
                   </li>
+
                   <li>
-                    <nuxt-link class="a-link" to="bishoftuexperience"
-                      >Experiences</nuxt-link
+                    <nuxt-link class="a-link" to="/destinationevent/waterpark"
+                      >Water park</nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link class="a-link" to="bishoftuwellness"
-                      >Wellness</nuxt-link
+                    <nuxt-link class="a-link" to="/destinationevent/entoto">
+                      <p>Entoto</p>
+                    </nuxt-link>
+                  </li>
+
+                  <li>
+                    <nuxt-link class="a-link" to="/destinationevent/tana"
+                      >Lake Tana</nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link class="a-link" to="bishoftudining   active"
-                      >Dining</nuxt-link
-                    >
-                  </li>
-                  <li>
-                    <nuxt-link class="a-link" to="bishoftuevent"
-                      >Celebration & Events</nuxt-link
-                    >
-                  </li>
-                  <li>
-                    <nuxt-link class="a-link" to="bishoftugallery"
-                      >Gallery</nuxt-link
+                    <nuxt-link class="a-link" to="/destinationevent/awash"
+                      >Awash</nuxt-link
                     >
                   </li>
 
                   <li>
-                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                    <nuxt-link class="a-link" to="/destinationevent/afar"
+                      >Afar</nuxt-link
+                    >
                   </li>
                 </div>
               </ul>
@@ -62,43 +64,47 @@
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-              <nuxt-link class="a-link active" to="/destinationbishoftu"
-                >Bishoftu</nuxt-link
-              >
-              <img src="../../assets/image/Icons/next2.svg" alt="" />
+              <nuxt-link class="a-link active" to="/event"
+                >Clebration & Events</nuxt-link
+              ><img src="../../assets/image/Icons/next2.svg" alt="" />
             </li>
             <li>
-              <nuxt-link class="a-link" to="bishoftuaccommodation">
-                <p>Accomodation</p>
+              <nuxt-link
+                class="a-link link"
+                to="/destinationevent/bishoftuevent"
+              >
+                <p>Bishoftu</p>
+                <hr class="activeline" />
               </nuxt-link>
             </li>
 
             <li>
-              <nuxt-link class="a-link" to="bishoftuexperience"
-                >Experiences</nuxt-link
+              <nuxt-link class="a-link" to="/destinationevent/waterpark"
+                >Water Park</nuxt-link
               >
             </li>
+
             <li>
-              <nuxt-link class="a-link" to="bishoftuwellness"
-                >Wellness
+              <nuxt-link class="a-link" to="/destinationevent/entoto"
+                >Entoto
+              </nuxt-link>
+            </li>
+
+            <li>
+              <nuxt-link class="a-link" to="/destinationevent/tana">
+                <p>Lake Tana</p>
               </nuxt-link>
             </li>
             <li>
-              <nuxt-link class="a-link" to="bishoftudining">Dining </nuxt-link>
+              <nuxt-link class="a-link" to="/destinationevent/awash"
+                >Awash</nuxt-link
+              >
             </li>
+
             <li>
-              <nuxt-link class="a-link active" to="bishoftuevent"
-                >Celebration & Events
-                <hr class="activeline"
-              /></nuxt-link>
-            </li>
-            <li>
-              <nuxt-link class="a-link" to="bishoftugallery"
-                >Gallery
+              <nuxt-link class="a-link" to="/destinationevent/afar"
+                ><p>Afar</p>
               </nuxt-link>
-            </li>
-            <li>
-              <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
             </li>
           </ul>
           <hr class="line" />
@@ -109,7 +115,7 @@
     <section class="top-gallery">
       <div class="container">
         <div class="main-title">
-          <h2>Celebration & Events</h2>
+          <h2>Bishoftu</h2>
           <p>
             listening to tropical and the gentle nature from the privacy of your
             luxurious villa , there is simply no more romantic or exotic setting

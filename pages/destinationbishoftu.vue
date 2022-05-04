@@ -117,7 +117,7 @@
     </section>
     <section class="main-page-desc">
       <div class="container">
-        <div class="wrapper">
+        <!-- <div class="wrapper">
           <div class="main-title">
             <h2>Bishoftu & The 7 Crater Lakes</h2>
             <p>
@@ -136,7 +136,7 @@
               <div class="active"></div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -149,8 +149,13 @@
             </div>
           </div>
           <div class="stay-desc" data-aos="slide-up">
-            <h4>Resort</h4>
+            <h4>Bishoftu</h4>
             <p class="header-title"></p>
+            <p>
+              Bishoftu is home to 7 crater lakes and is a renowed resort town
+              which serves as an amazing getaway from the hustle and bustle of
+              the city life.
+            </p>
             <p>
               The ideal getaway. With achingly perfect panoramas, Kuriftu
               Bishoftu is where luxury reaches its pinnacle and service is
@@ -163,40 +168,47 @@
               Four Conference Halls<br />
               Spa & Wellness Center<br />
             </p>
-            <div class="book-buttons">
-              <nuxt-link to="bishoftu/bishoftuaccommodation" class="view"
-                >View Accomodation
-                <hr class="lower-line" />
-              </nuxt-link>
-            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="gallery">
-      <div class="container">
-        <div class="gallery-wrapper">
-          <nuxt-link to="bishoftu/bishoftugallery">
-            <div class="gallery-frist-img">
-              <img src="../assets/image/dz-cover.jpg" alt="" />
-            </div>
-          </nuxt-link>
 
-          <div class="gallery-imgs">
-            <nuxt-link to="bishoftu/bishoftugallery">
-              <div class="gallery-img">
-                <img src="../assets/image/_DSC5641 (2)-min.jpg" alt="" />
-              </div>
-            </nuxt-link>
-            <nuxt-link to="bishoftu/bishoftugallery">
-              <div class="gallery-img">
-                <img src="../assets/image/_DSC5400 (2)-min.jpg" alt="" />
-              </div>
-            </nuxt-link>
+    <section class="experience">
+      <div class="container">
+        <!-- <h2>Accomodation</h2> -->
+        <div class="exper-wrapper">
+          <div class="ex-title">
+            <h2>Accomodation</h2>
+            <div class="view">
+              <nuxt-link to="bishoftu/bishoftuaccommodation"
+                >View All Accomodation
+                <hr class="lower-line"
+              /></nuxt-link>
+            </div>
           </div>
         </div>
       </div>
+      <Bishoftuslide />
     </section>
+
+    <section class="experience">
+      <div class="container">
+        <!-- <h2>Accomodation</h2> -->
+        <div class="exper-wrapper">
+          <div class="ex-title">
+            <h2>Dining</h2>
+            <div class="view">
+              <nuxt-link to="bishoftu/bishoftudining"
+                >View All Dining
+                <hr class="lower-line"
+              /></nuxt-link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Bishoftuslide />
+    </section>
+
     <section class="spa-wellness">
       <div class="container">
         <h2>Kuriftu Resort & Spa Bishoftu</h2>
@@ -206,7 +218,7 @@
           royal families who used to retreat to relax and indulge in beauty
           rituals.
         </p>
-        <div class="gallery-wrapper">
+        <!-- <div class="gallery-wrapper">
           <nuxt-link to="bishoftu/bishoftuwellness">
             <div class="gallery-frist-img">
               <img src="../assets/image/Spa.jpg" alt="" />
@@ -225,9 +237,29 @@
               </div>
             </nuxt-link>
           </div>
-        </div>
+        </div> -->
+        <BishoftuSpa />
       </div>
     </section>
+
+    <section class="experience">
+      <div class="container">
+        <!-- <h2>Accomodation</h2> -->
+        <div class="exper-wrapper">
+          <div class="ex-title">
+            <h2>Celebration and Events</h2>
+            <div class="view">
+              <nuxt-link to="bishoftu/bishoftudining"
+                >View All Celebration & Events
+                <hr class="lower-line"
+              /></nuxt-link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Bishoftuslide />
+    </section>
+
     <div class="experience">
       <div class="container">
         <div class="exper-wrapper">
@@ -235,7 +267,7 @@
             <h2>Experience</h2>
             <div class="view">
               <nuxt-link to="bishoftu/bishoftuexperience"
-                >View Experience
+                >View All Experience
                 <hr class="lower-line"
               /></nuxt-link>
             </div>
