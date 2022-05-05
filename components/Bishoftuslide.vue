@@ -1,30 +1,23 @@
 <template>
-  <div class="event-wrapper2 swiper">
-    <div class="swiper-wrapper">
-      <div class="event-cards swiper-slide a">
-        <img src="../assets/image/bishRoom1.jpg" alt="" />
-      </div>
-
-      <div class="event-cards swiper-slide b">
-        <img src="../assets/image/bishRoom2.jpg" alt="" />
-      </div>
-
-      <div class="event-cards swiper-slide c">
-        <img src="../assets/image/bishRoom3.jpg" alt="" />
-      </div>
-      <div class="event-cards swiper-slide c">
-        <img src="../assets/image/bishRoom2.jpg" alt="" />
-      </div>
-      <div class="event-cards swiper-slide c">
-        <img src="../assets/image/bishRoom1.jpg" alt="" />
+  <div>
+    <div class="event-wrapper2 swiper">
+      <div class="swiper-wrapper">
+        <div
+          class="event-cards swiper-slide a"
+          v-for="photo in photos"
+          :key="photo"
+        >
+          <img :src="require('../assets/image/' + photo + '')" alt="" />
+        </div>
       </div>
     </div>
-    <!-- <div class="swiper-pagination"></div> -->
   </div>
 </template>
 
 <script>
 export default {
+  props: ["photos"],
+
   mounted() {
     var swiper = new Swiper(".event-wrapper2", {
       // effect: "coverflow",
@@ -32,6 +25,7 @@ export default {
       // centeredSlides: true,
       slidesPerView: "auto",
       // loop: true,
+      lazy: true,
       spaceBetween: 30,
       coverflowEffect: {
         rotate: 0,
@@ -51,12 +45,13 @@ export default {
 
 <style lang="scss" scoped>
 .event-wrapper2 {
-  margin-top: 2rem;
-  padding-left: 3rem;
+  margin-top: -1rem;
+  // transform: translateX(5%);
+  padding-left: 5%;
   .swiper-wrapper {
     .swiper-slide {
-      margin-left: 2rem;
-      margin-right: 2rem;
+      // margin-left: 2rem;
+      // margin-right: 2rem;
 
       max-width: 30rem;
       max-height: 20rem;
@@ -83,6 +78,11 @@ export default {
       color: $kuriftu-grey;
       text-align: center;
     }
+  }
+}
+@include responsive($xxl) {
+  .event-wrapper2 {
+    padding-left: 12%;
   }
 }
 </style>

@@ -115,106 +115,11 @@
             rituals.
           </p>
         </div>
-
-        <!-- <div class="image-wrapper">
-          <div class="single-image" data-aos="zoom-in">
-            <img src="../../assets/image/wellness.jpg" alt="" />
-          </div>
-          <div class="single-image1 grid-top3" data-aos="zoom-in">
-            <img src="../../assets/image/Icons/kuriftuentoto2.jpg" alt="" />
-          </div>
-          <div class="single-image1 grid-top" data-aos="zoom-in">
-            <img src="../../assets/image/_DSC1724-min.jpg" alt="" />
-          </div>
-          <div class="single-image grid-top2" data-aos="zoom-in">
-            <img src="../../assets/image/Icons/kuriftuentoto.jpg" alt="" />
-          </div>
-        </div> -->
       </div>
     </section>
 
-    <section class="accomondation">
-      <div class="container">
-        <div class="accomondation-room">
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/wellness.jpg" alt="" />
-            <div class="room-name">
-              <h4>Wellness 1</h4>
-            </div>
-            <div class="room-desc">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Facilisis tincidunt nisl elementum ultrices luctus habitasse. Ut
-                orci nam lectus at massa enim elementum varius dictumst. Nulla
-                a, sed enim turpis non lacinia fusce.massa enim elementum varius
-                dictumst. Nulla a, sed enim turpis non lacinia fusce.
-              </p>
-            </div>
-          </div>
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/Icons/kuriftuentoto2.jpg" alt="" />
-            <div class="room-name">
-              <h4>Wellness 2</h4>
-            </div>
-            <div class="room-desc">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Facilisis tincidunt nisl elementum ultrices luctus habitasse. Ut
-                orci nam lectus at massa enim elementum varius dictumst. Nulla
-                a, sed enim turpis non lacinia fusce.massa enim elementum varius
-                dictumst. Nulla a, sed enim turpis non lacinia fusce.
-              </p>
-            </div>
-          </div>
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/_DSC1724-min.jpg" alt="" />
-            <div class="room-name">
-              <h4>Wellness 3</h4>
-            </div>
-            <div class="room-desc">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Facilisis tincidunt nisl elementum ultrices luctus habitasse. Ut
-                orci nam lectus at massa enim elementum varius dictumst. Nulla
-                a, sed enim turpis non lacinia fusce.massa enim elementum varius
-                dictumst. Nulla a, sed enim turpis non lacinia fusce.
-              </p>
-            </div>
-          </div>
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/Icons/kuriftuentoto.jpg" alt="" />
-            <div class="room-name">
-              <h4>Wellness 4</h4>
-            </div>
-            <div class="room-desc">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Facilisis tincidunt nisl elementum ultrices luctus habitasse. Ut
-                orci nam lectus at massa enim elementum varius dictumst. Nulla
-                a, sed enim turpis non lacinia fusce.massa enim elementum varius
-                dictumst. Nulla a, sed enim turpis non lacinia fusce.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Dbox :data="wellness" />
+
     <section class="spa-special-offer">
       <div class="container">
         <div class="special-offer-all">
@@ -249,65 +154,43 @@
         </div>
       </div>
     </section>
-    <!-- <section class="spa-menu">
-      <div class="container">
-        <div class="menu-wrapper">
-          <h3>Menu</h3>
-          <div class="menu-card">
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/Icons/kuriftuentoto2.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>SAUNNA</h4>
-              </div>
-            </div>
-
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/_DSC1724-min.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>massage</h4>
-              </div>
-            </div>
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/entoto11.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>Spa day</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
   </div>
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
 export default {
   data() {
     return {
-      checkIn: "",
-      checkOut: "",
-      location: "",
-      data: "",
-      showNav: false,
+      wellness: [
+        {
+          title: "Sauna/Steam & Jacuzzi",
+          desc: `Enjoy our aromatic oils and natural essences used in our sauna and steam to enhance and revitalize your wellbeing`,
+          img: "bishoftu/wellness/spa.webp",
+        },
+        {
+          title: "Hair Salon",
+          desc: ` Whether a girls' getaway, your wedding day, or just because it's Tuesday, look your best with stunning hair dos.`,
+          img: "bishoftu/wellness/hair salon.webp",
+        },
+        {
+          title: "Massage",
+          desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nihil sint assumenda illo! Nulla obcaecati blanditiis cumque,
+          consectetur non in?`,
+          img: "bishoftu/wellness/massage.webp",
+        },
+        {
+          title: "Swimming Pool",
+          desc: `Whether you’re looking for an early-morning workout or just for refreshment after your spa treatment, the pools at Kuriftu Bishoftu Resort and Spa do not disappoint offering an
+          exceptional place for both rest and recreation.`,
+          img: "bishoftu/Swimming_pool2.webp",
+        },
+        {
+          title: "Gift Shop",
+          desc: `You will never fail to find something special for you or your loved ones in our locally sourced gift shops.`,
+          img: "bishoftu/gift_shop.webp",
+        },
+      ],
     };
-  },
-
-  mounted() {
-    AOS.init({
-      duration: 1500,
-      offset: 120,
-      easing: "ease",
-      once: false,
-      anchorPlacement: "top-bottom",
-    });
   },
 };
 </script>
@@ -826,6 +709,90 @@ export default {
                 color: $kuriftu-white;
                 text-align: center;
               }
+            }
+          }
+        }
+      }
+    }
+  }
+  .accomondation {
+    .container {
+      .recommended {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        hr {
+          border-style: solid;
+          color: $kuriftu-grey;
+          opacity: 0.5;
+
+          width: 100%;
+        }
+        p {
+          font-size: 0.7rem;
+          text-transform: uppercase;
+          color: $kuriftu-grey;
+        }
+      }
+      .accomondation-room {
+        margin-top: 3rem;
+        display: grid;
+        @include responsive($md) {
+          grid-template-columns: 1fr 1fr;
+          gap: 2rem;
+        }
+        @include responsive($xl) {
+          gap: 8rem;
+        }
+        .single-accomondation {
+          margin-top: 2.88rem;
+          img {
+            @include responsive($md) {
+              width: 20rem;
+              height: 15rem;
+              object-fit: cover;
+            }
+
+            @include responsive($lg) {
+              width: 100%;
+              height: 20rem;
+            }
+
+            @include responsive($xl) {
+              height: 28rem;
+            }
+          }
+          .room-name {
+            h4 {
+              font-size: 1.5rem;
+              font-weight: 600;
+              margin-top: 1.88rem;
+              color: $kuriftu-black;
+            }
+          }
+          .room-desc {
+            p {
+              @extend .text;
+              margin-top: 0.94rem;
+              color: #808080;
+              font-size: 1.1rem;
+              line-height: 1.5rem;
+              text-align: left;
+              @include responsive($md) {
+                width: 20rem;
+              }
+              @include responsive($lg) {
+                width: 26rem;
+              }
+              @include responsive($xl) {
+                width: 30rem;
+              }
+            }
+          }
+          .book-buttons {
+            margin-top: 1.88rem;
+            @include responsive($lg) {
+              margin-top: 3rem;
             }
           }
         }

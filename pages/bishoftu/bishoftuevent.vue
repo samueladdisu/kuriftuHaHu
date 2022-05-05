@@ -122,160 +122,37 @@
       </div>
     </section>
 
-    <section class="accomondation">
-      <div class="container">
-        <div class="accomondation-room">
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/entoto9.jpg" alt="" />
-            <div class="room-name">
-              <h4>Conferences</h4>
-            </div>
-            <div class="room-desc">
-              <p>
-                Invite your guests to experience the once in a lifetime
-                discoveries and natural surroundings of Kuriftu Bishoftu. Our
-                resort hold the key to endless exploration and provide unique
-                ways to team build and connect.
-              </p>
-            </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
-            </div>
-          </div>
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/celebration.jpg" alt="" />
-            <div class="room-name">
-              <h4>Retreats</h4>
-            </div>
-            <div class="room-desc">
-              <p>
-                Known for our hospitality in an all inclusive setting, we set
-                the stage for an unforgettable retreat
-              </p>
-            </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
-            </div>
-          </div>
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/bishRoom3.jpg" alt="" />
-            <div class="room-name">
-              <h4>Special Events</h4>
-            </div>
-            <div class="room-desc">
-              <p>
-                Known for our hospitality in an all inclusive setting, we set
-                the stage for an unforgettable retreat
-              </p>
-            </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
-            </div>
-          </div>
-
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/ent1.jpg" alt="" />
-            <div class="room-name">
-              <h4>Bridal</h4>
-            </div>
-            <div class="room-desc">
-              <p>
-                Dreaming of a wedding destination that's as pure, wild and
-                gentle as your love? At our resort you and your guests will find
-                the adventure of a lifetime, sourrounded by nature. Suited for
-                all guests our venue is the perfect setting for an intimate
-                celebration filled with romance.
-              </p>
-            </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
-            </div>
-          </div>
-
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/ent3.jpg" alt="" />
-            <div class="room-name">
-              <h4>Birthdays</h4>
-            </div>
-            <div class="room-desc">
-              <p>
-                Birtdays come and go wny not make them memorable by connecting
-                to where we come from, nature.
-              </p>
-            </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
-            </div>
-          </div>
-
-          <div
-            class="single-accomondation"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <img src="../../assets/image/celeb1.jpg" alt="" />
-            <div class="room-name">
-              <h4>Celebrations & Events 2022 Catalogue</h4>
-            </div>
-            <div class="room-desc">
-              <p>This is Celebrations & Events 2022 Catalogue</p>
-            </div>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">BOOK NOW</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Dbox :data="event" />
   </div>
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Event from "../../components/Event.vue";
 export default {
-  components: {
-    Event,
-  },
   data() {
     return {
-      checkIn: "",
-      checkOut: "",
-      location: "",
-      data: "",
-      showNav: false,
+      event: [
+        {
+          title: "Wedding",
+          desc: `Dreaming of a wedding destination that's as pure, wild and gentle as your love? At our resort you and your guests will find the adventure od a lfetime, sourrounded by____________. Suited for _____ guests  our venue is the perfect setting for an intimate celebration filled with romance.`,
+          img: "entoto0.jpg",
+        },
+        {
+          title: "Conferences",
+          desc: `Invite your guests to experience the once in a lifetime discoveries and natural surroundings of Kuriftu Bishoftu. Our resort hold the key to endless exploration and provide unique ways to team build and connect. `,
+          img: "entoto9.jpg",
+        },
+        {
+          title: "Retreats",
+          desc: `Known for our hospitality in an all-inclusive setting, we set the stage for an unforgettable retreat`,
+          img: "celebration.jpg",
+        },
+        {
+          title: "Birthdays",
+          desc: `Celebrate your birthday at our resort in an amazing scenery and our scrumptious cake prepared by our staff with love to offer you a memorable birthday.`,
+          img: "bishoftu/dinning/waterpark.webp",
+        },
+      ],
     };
-  },
-
-  mounted() {
-    AOS.init({
-      duration: 1500,
-      offset: 120,
-      easing: "ease",
-      once: false,
-      anchorPlacement: "top-bottom",
-    });
   },
 };
 </script>
@@ -653,153 +530,6 @@ export default {
           }
           .grid-top3 {
             margin-top: -8rem;
-          }
-        }
-      }
-    }
-  }
-  .spa-special-offer {
-    margin-top: 6.25rem;
-    .container {
-      h2 {
-        color: $kuriftu-black;
-        @extend .title;
-        margin-top: 0.94rem;
-        text-align: left;
-      }
-      .special-offer-all {
-        display: grid;
-        place-items: center;
-        // margin: 0 auto;
-        // width: 20rem;
-        .special-slide {
-          display: flex;
-          align-items: center;
-          justify-items: center;
-          gap: 0.5rem;
-          .back-icon,
-          .next-icon {
-            img {
-              width: 2rem;
-            }
-          }
-        }
-        .gift-desc {
-          margin-top: 1.88rem;
-          margin-left: 1rem;
-          margin: 0 auto;
-          width: 20rem;
-          h3 {
-            @extend .nav;
-            margin-top: 0.94rem;
-            font-size: 0.7rem;
-            letter-spacing: 0.2rem;
-            line-height: 0.5rem;
-            margin-bottom: 0.5rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            color: $kuriftu-grey;
-          }
-          h4 {
-            @extend .title;
-            margin-top: 1.88rem;
-            color: $kuriftu-black;
-          }
-          .header-title {
-            color: $kuriftu-grey;
-          }
-          p {
-            @extend .text;
-            margin-top: 0.94rem;
-            color: $kuriftu-black;
-            font-size: 0.88rem;
-            text-align: left;
-          }
-          .book-buttons {
-            display: flex;
-            justify-content: left;
-
-            margin-top: 1.88rem;
-          }
-        }
-      }
-    }
-  }
-  @include responsive($md) {
-    .spa-special-offer {
-      // width: 100%;
-      .container {
-        .special-offer-all {
-          .special-slide {
-            .slide-card {
-              img {
-                width: 25rem;
-              }
-            }
-          }
-          .gift-desc {
-            width: 25rem;
-            // margin-left: 5rem;
-            // margin-right: 5rem;
-          }
-        }
-      }
-    }
-  }
-  @include responsive($lg) {
-    .spa-special-offer {
-      margin-top: 8.13rem;
-      .container {
-        .special-offer-all {
-          display: flex;
-
-          .special-slide {
-            .slide-card {
-              img {
-                width: 25rem;
-              }
-            }
-
-            .next-icon,
-            .back-icon {
-              img {
-                width: 2rem;
-              }
-            }
-          }
-          .gift-desc {
-            margin-left: 1rem;
-            margin-right: 1rem;
-            margin: 0 auto;
-            width: 25rem;
-            .book-buttons {
-              display: flex;
-              justify-content: left;
-
-              margin-top: 1.88rem;
-            }
-          }
-        }
-      }
-    }
-  }
-  @include responsive($xl) {
-    .spa-special-offer {
-      .container {
-        .special-offer-all {
-          display: flex;
-          align-items: flex-start;
-          .special-slide {
-            .slide-card {
-              img {
-                width: 30rem;
-              }
-            }
-          }
-          .gift-desc {
-            margin-left: 2rem;
-            margin-right: 2rem;
-            width: 30rem;
           }
         }
       }

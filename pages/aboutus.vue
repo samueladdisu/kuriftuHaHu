@@ -151,20 +151,6 @@
                 <p class="count-text">Our line staff are females</p>
               </div>
 
-              <!-- <div class="counter ">
-      <div class="persent-wrapper">
-     <h2
-              class="timer count-title count-number"
-              data-to="78"
-              data-speed="10000"
-            >
-              </h2><h4>%</h4>
-      </div>
-
-       
-            <p class="count-text">Our Corporate Team</p>
-          </div> -->
-
               <div class="counter">
                 <div class="persent-wrapper">
                   <h2

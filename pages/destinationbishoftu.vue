@@ -1,6 +1,9 @@
 <template>
   <div class="main">
     <Destinationheader :src="require(`../assets/image/bishoftu-logo.svg`)" />
+
+    <!-- Destination Navigation -->
+    <!-- Mobile Destination Navigation -->
     <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
@@ -60,6 +63,9 @@
         </div>
       </div>
     </div>
+    <!-- End of Mobile Destination Navigation -->
+
+    <!-- Desktop Destination Navigation -->
     <div class="destination-links">
       <div class="container">
         <div class="wrapper">
@@ -108,223 +114,31 @@
         </div>
       </div>
     </div>
+    <!-- End of Desktop Destination Navigation -->
+    <!-- End of Destination Navigation -->
+
+    <!-- Hero Section  -->
     <section class="display-video">
       <div class="container">
         <div class="video-wrapper">
-          <img src="../assets/image/Home.jpg" alt="" />
+          <img src="../assets/image/Kuriftu_Bishoftu_Exerior.png" alt="" />
         </div>
       </div>
     </section>
-    <section class="main-page-desc">
-      <div class="container">
-        <!-- <div class="wrapper">
-          <div class="main-title">
-            <h2>Bishoftu & The 7 Crater Lakes</h2>
-            <p>
-              Bishoftu is home to 7 crater lakes and is a renowed resort town
-              which serves as an amazing getaway from the hustle and bustle of
-              the city life.
-            </p>
-          </div>
-          <Bishoftuslide />
+    <!-- End of Hero Section  -->
 
-          <div class="tabs">
-            <div class="tabs-container" @click="tabs">
-              <div class="tab a"></div>
-              <div class="tab b"></div>
-              <div class="tab c"></div>
-              <div class="active"></div>
-            </div>
-          </div>
-        </div> -->
-      </div>
-    </section>
-
-    <section class="stay-offer">
-      <div class="container">
-        <div class="stay-offer-all">
-          <div class="stay-slide" data-aos="slide-up">
-            <div class="slide-card">
-              <img src="../assets/image/welcome.jpg" alt="" />
-            </div>
-          </div>
-          <div class="stay-desc" data-aos="slide-up">
-            <h4>Bishoftu</h4>
-            <p class="header-title"></p>
-            <p>
-              Bishoftu is home to 7 crater lakes and is a renowed resort town
-              which serves as an amazing getaway from the hustle and bustle of
-              the city life.
-            </p>
-            <p>
-              The ideal getaway. With achingly perfect panoramas, Kuriftu
-              Bishoftu is where luxury reaches its pinnacle and service is
-              simultaneously warm, genuine and sensational.
-              <br />
-              <b>Information & Amenities </b><br />
-              45-minute drive from Addis Ababa<br />
-              89 rooms (Four-Presidential Suites)<br />
-              Two Restaurants<br />
-              Four Conference Halls<br />
-              Spa & Wellness Center<br />
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="experience">
-      <div class="container">
-        <!-- <h2>Accomodation</h2> -->
-        <div class="exper-wrapper">
-          <div class="ex-title">
-            <h2>Accomodation</h2>
-            <div class="view">
-              <nuxt-link to="bishoftu/bishoftuaccommodation"
-                >View All Accomodation
-                <hr class="lower-line"
-              /></nuxt-link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <Bishoftuslide />
-    </section>
-
-    <section class="experience">
-      <div class="container">
-        <!-- <h2>Accomodation</h2> -->
-        <div class="exper-wrapper">
-          <div class="ex-title">
-            <h2>Dining</h2>
-            <div class="view">
-              <nuxt-link to="bishoftu/bishoftudining"
-                >View All Dining
-                <hr class="lower-line"
-              /></nuxt-link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <Bishoftuslide />
-    </section>
-
+    <!-- Top Section  -->
     <section class="spa-wellness">
-      <div class="container">
-        <h2>Kuriftu Resort & Spa Bishoftu</h2>
-        <p>
-          Our spa is a unique haven of tranquilllity nestled on a restful
-          architecture. it perpetuates the tradtion established by Ethiopian
-          royal families who used to retreat to relax and indulge in beauty
-          rituals.
-        </p>
-        <!-- <div class="gallery-wrapper">
-          <nuxt-link to="bishoftu/bishoftuwellness">
-            <div class="gallery-frist-img">
-              <img src="../assets/image/Spa.jpg" alt="" />
-            </div>
-          </nuxt-link>
-          <div class="gallery-imgs">
-            <nuxt-link to="bishoftu/bishoftuwellness">
-              <div class="gallery-img">
-                <img src="../assets/image/_DSC5400 (2)-min.jpg" alt="" />
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="bishoftu/bishoftuwellness">
-              <div class="gallery-img">
-                <img src="../assets/image/_DSC5351 (2)-min.jpg" alt="" />
-              </div>
-            </nuxt-link>
-          </div>
-        </div> -->
-        <BishoftuSpa />
-      </div>
+      <Dtop :top="top" />
+      <Bishoftuslide :photos="photos" />
     </section>
+    <!-- End of Top Section  -->
 
-    <section class="experience">
-      <div class="container">
-        <!-- <h2>Accomodation</h2> -->
-        <div class="exper-wrapper">
-          <div class="ex-title">
-            <h2>Celebration and Events</h2>
-            <div class="view">
-              <nuxt-link to="bishoftu/bishoftudining"
-                >View All Celebration & Events
-                <hr class="lower-line"
-              /></nuxt-link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <Bishoftuslide />
-    </section>
-
-    <div class="experience">
-      <div class="container">
-        <div class="exper-wrapper">
-          <div class="ex-title">
-            <h2>Experience</h2>
-            <div class="view">
-              <nuxt-link to="bishoftu/bishoftuexperience"
-                >View All Experience
-                <hr class="lower-line"
-              /></nuxt-link>
-            </div>
-          </div>
-          <div class="exper-card" data-aos="slide-up">
-            <nuxt-link to="bishoftu/bishoftuexperience">
-              <div class="exper-single-card">
-                <div class="exper-img">
-                  <img src="../assets/image/waterpark.jpg" alt="" />
-                </div>
-                <div class="exper-title">
-                  <h3>Water Park</h3>
-                </div>
-                <div class="exper-desc">
-                  <p>
-                    our acquatic playgrounds with winding waterslides, suspended
-                    buckets of water, and interactive...
-                  </p>
-                </div>
-              </div></nuxt-link
-            >
-            <nuxt-link to="bishoftu/bishoftuexperience">
-              <div class="exper-single-card">
-                <div class="exper-img">
-                  <img src="../assets/image/exprience.jpg" alt="" />
-                </div>
-                <div class="exper-title">
-                  <h3>Swimming Pool</h3>
-                </div>
-                <div class="exper-desc">
-                  <p>
-                    Whether you’re looking for an early-morning workout or just
-                    for refreshment after
-                  </p>
-                </div>
-              </div></nuxt-link
-            >
-            <nuxt-link to="bishoftu/bishoftuexperience">
-              <div class="exper-single-card">
-                <div class="exper-img">
-                  <img src="../assets/image/dz-cover.jpg" alt="" />
-                </div>
-                <div class="exper-title">
-                  <h3>Kayaking</h3>
-                </div>
-                <div class="exper-desc">
-                  <p>
-                    enjoy your stay with our Sunrise, Mid-day, and Sunset
-                    Kayaking on the lake of bishoftu...
-                  </p>
-                </div>
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-      </div>
-    </div>
+    <DSection :section="acc" />
+    <DSection :section="dinning" />
+    <DSection :section="wellness" />
+    <DSection :section="event" />
+    <DSection :section="exp" />
   </div>
 </template>
 
@@ -332,6 +146,107 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default {
+  data() {
+    return {
+      photos: [
+        "bishoftu/firstSlider/1.webp",
+        "bishoftu/firstSlider/2.webp",
+        "bishoftu/firstSlider/3.webp",
+        "bishoftu/firstSlider/4.webp",
+        "bishoftu/firstSlider/5.webp",
+        "bishoftu/firstSlider/6.webp",
+        "bishoftu/firstSlider/7.webp",
+        "bishoftu/firstSlider/8.webp",
+      ],
+      top: {
+        title: "Bishoftu",
+        desc: ` Bishoftu is home to 7 crater lakes and is a renowed resort town which
+      serves as an amazing getaway from the hustle and bustle of the city life.
+      The ideal getaway. With achingly perfect panoramas, Kuriftu Bishoftu is
+      where luxury reaches its pinnacle and service is simultaneously warm,
+      genuine and sensational. Information & Amenities 45-minute drive from
+      Addis Ababa 89 rooms (Four-Presidential Suites)Two Restaurants Four
+      Conference Halls Spa & Wellness Center`,
+      },
+      acc: {
+        title: "Accomodation",
+        desc: `Find your choice of modern and thoughtful
+      accommodations at Kuriftu Resort & Spa Bishoftu. Each elegantly appointed resort room and spacious suite at Kuriftu offers exceptional luxuries
+      with locally inspired architectural spaces alongside premier resort amenities. Crafted experiences begin and end at Kuriftu.`,
+        url: "bishoftu/bishoftuaccommodation",
+        link: "View All Accomodation",
+        photos: [
+          "bishoftu/deluxe/1.webp",
+          "bishoftu/presidential/pre7.webp",
+          "bishoftu/presidential/pre10.webp",
+          "bishoftu/presidential/pre6.webp",
+          "bishoftu/standard/1.webp",
+          "bishoftu/garden/1.webp",
+        ],
+      },
+      dinning: {
+        title: "Dining",
+        desc: ` Whether you’re celebrating a birthday, honeymoon, anniversary or a longmawaited family vacation, our team is delighted to create
+        a personalized dining experience for you from intimate and
+        romantic, to interactive and adventurous.`,
+        url: "bishoftu/bishoftudining",
+        link: "View All Dining",
+        photos: [
+          "bishoftu/dinning/Lake_Side_Cabana.webp",
+          "bishoftu/dinning/Lake_Side_Main_Restaurant.webp",
+          "bishoftu/dinning/Lequanda.webp",
+          "bishoftu/dinning/waterpark.webp",
+        ],
+      },
+      wellness: {
+        title: "Wellness",
+        desc: `Our spa is a unique haven of tranquilllity nestled on a restful architecture. it perpetuates the tradtion established by Ethiopian royal families who used to retreat to relax and indulge in beauty rituals.`,
+        url: "bishoftu/bishoftuwellness",
+        link: "View All wellness",
+        photos: [
+          "bishoftu/wellness/1.webp",
+          "bishoftu/wellness/2.webp",
+          "bishoftu/wellness/3.webp",
+          "bishoftu/wellness/hair salon.webp",
+          "bishoftu/wellness/massage.webp",
+          "bishoftu/wellness/spa.webp",
+        ],
+      },
+      event: {
+        title: "Celebration and Events",
+        desc: `listening to tropical and the gentle nature from the privacy of
+                your luxurious villa , there is simply no more romantic or
+                exotic setting for your special occasion. Whether you are
+                planning a honeymoon or celebrating a wedding, an anniversary,
+                or a birthday, we can take care of all the details, so you will
+                return home relaxed, rejuvenated and with memories you’ll
+                cherish for a lifetime.`,
+        url: "bishoftu/bishoftuevent",
+        link: "View All Celebration & Events",
+        photos: [
+          "entoto0.jpg",
+          "entoto9.jpg",
+          "celebration.jpg",
+          "bishoftu/firstSlider/6.webp",
+          "bishoftu/firstSlider/7.webp",
+        ],
+      },
+      exp: {
+        title: "Experience",
+        desc: `Kuriftu Resort & Spa Bishoftu offers all inclusive experiences. ranging from the best kayaking experience to a day well spent at the waterpark, you'll never fail to have fun, unwind and relax at our resort.`,
+        url: "bishoftu/bishoftuexperience",
+        link: "View All Experience",
+        photos: [
+          "bishoftu/firstSlider/5.webp",
+          "bishoftu/firstSlider/6.webp",
+          "bishoftu/firstSlider/7.webp",
+          "bishoftu/cinema.webp",
+          "bishoftu/gift_shop.webp",
+          "bishoftu/Swimming_pool.webp",
+        ],
+      },
+    };
+  },
   mounted() {
     AOS.init({
       duration: 1500,
@@ -543,467 +458,29 @@ export default {
   }
   .display-video {
     margin-top: 4rem;
+    .container {
+      .video-wrapper {
+        display: grid;
+        place-items: center;
+      }
+    }
   }
   @include responsive($md) {
     .display-video {
       margin-top: 5rem;
     }
   }
-  .main-page-desc {
-    margin-top: 5rem;
-    .container {
-      .wrapper {
-        .main-title {
-          display: grid;
-          place-items: center;
-          h2 {
-            text-align: center;
-            font-size: 1.5rem;
-          }
-          p {
-            text-align: center;
-            color: $kuriftu-grey;
-            width: 20rem;
-            margin-top: 1rem;
-            font-size: 0.8rem;
-          }
-          @include responsive($md) {
-            h2 {
-              font-size: 2rem;
-            }
-            p {
-              width: 40rem;
-              font-size: 1rem;
-            }
-          }
-        }
-        .tabs {
-          margin: 1.88rem auto 6.25rem;
-          // background: lightblue;
-          display: grid;
-          place-items: center;
-          width: 100%;
-          margin-top: 4rem;
-          .tabs-container {
-            display: flex;
-            position: relative;
-            .active {
-              position: absolute;
-              top: 0;
-              height: 0.25rem;
-              width: 5.94rem;
-              transform: translate(100%, -30%);
-              background: $kuriftu-black;
-            }
-            .tab {
-              height: 0.13rem;
-              width: 5.94rem;
-              background: #c4c4c4;
-            }
-          }
-        }
-      }
-    }
-  }
-  .stay-offer {
-    margin-top: 6.25rem;
-
-    .container {
-      display: grid;
-      place-content: center;
-      h2 {
-        color: $kuriftu-black;
-        @extend .title;
-        margin-top: 0.94rem;
-        text-align: left;
-      }
-      .stay-offer-all {
-        display: flex;
-
-        flex-direction: column;
-        .stay-slide {
-          margin-top: 1.88rem;
-          display: flex;
-          align-items: center;
-          justify-items: center;
-          gap: 0.5rem;
-        }
-        .stay-desc {
-          margin-top: 1.88rem;
-          margin-left: 1rem;
-          margin-right: 1rem;
-          h4 {
-            @extend .title;
-            font-size: 1.5rem;
-            margin-top: 0.94rem;
-            color: $kuriftu-black;
-            text-transform: uppercase;
-            text-align: left;
-          }
-          .header-title {
-            color: $kuriftu-grey;
-          }
-          p {
-            @extend .text;
-            margin-top: 0.94rem;
-            color: $kuriftu-black;
-            font-size: 0.88rem;
-
-            text-align: left;
-          }
-          .book-buttons {
-            display: grid;
-            place-items: left;
-            margin-top: 3rem;
-            .view {
-              color: $kuriftu-grey;
-              font-size: 0.8rem;
-              .lower-line {
-                opacity: 0.7;
-                border-style: solid;
-
-                width: 8rem;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  @include responsive($md) {
-    .stay-offer {
-      .container {
-        .stay-offer-all {
-          .stay-desc {
-            p {
-              width: 30rem;
-            }
-          }
-          .stay-slide {
-            .slide-card {
-              img {
-                width: 25rem;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  @include responsive($lg) {
-    .stay-offer {
-      margin-top: 8.13rem;
-      .container {
-        .stay-offer-all {
-          flex-direction: row;
-          gap: 2rem;
-          .stay-slide {
-            margin-top: 4.37rem;
-            .slide-card {
-              img {
-                width: 50rem;
-              }
-            }
-          }
-          .stay-desc {
-            margin-top: 4.5rem;
-            h4 {
-              margin-top: 0rem;
-            }
-            p {
-              margin-top: 2rem;
-            }
-            .book-buttons {
-              display: flex;
-              justify-content: left;
-
-              margin-top: 6rem;
-            }
-          }
-        }
-      }
-    }
-  }
-  @include responsive($xl) {
-    .stay-offer {
-      .container {
-        .stay-offer-all {
-          .stay-slide {
-            .slide-card {
-              img {
-                width: 30rem;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  .gallery {
-    .container {
-      h2 {
-        color: $kuriftu-black;
-        @extend .title;
-        margin-top: 0.94rem;
-      }
-      .gallery-wrapper {
-        .gallery-frist-img {
-          margin-top: 0.94rem;
-        }
-        .gallery-imgs {
-          .gallery-img {
-            margin-top: 0.94rem;
-          }
-        }
-      }
-    }
-  }
-  @include responsive($md) {
-    .gallery {
-      .container {
-        .gallery-wrapper {
-          display: flex;
-          justify-content: center;
-          align-items: flex-start;
-          gap: 1rem;
-          .gallery-frist-img {
-            margin-top: 1rem;
-            img {
-              width: 50rem;
-              height: 38rem;
-              object-fit: cover;
-            }
-          }
-          .gallery-imgs {
-            .gallery-img {
-              margin-top: 1rem;
-              img {
-                width: 30rem;
-                height: 18rem;
-                object-fit: cover;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  @include responsive($lg) {
-    .gallery {
-      margin-top: 8.13rem;
-      .container {
-        .gallery-wrapper {
-          gap: 2rem;
-
-          margin-top: 4.37rem;
-          .gallery-frist-img {
-            margin-top: 2rem;
-            img {
-              width: 55rem;
-            }
-          }
-          .gallery-imgs {
-            .gallery-img {
-              margin-top: 2rem;
-              img {
-                width: 55rem;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
   .spa-wellness {
     margin-top: 5rem;
-
-    .container {
-      display: grid;
-      place-items: center;
-      h2 {
-        text-align: center;
-        font-size: 1.5rem;
-      }
-      p {
-        text-align: center;
-        color: $kuriftu-grey;
-        width: 20rem;
-        margin-top: 1rem;
-        font-size: 0.8rem;
-      }
-      .gallery-wrapper {
-        margin-top: 2rem;
-        .gallery-frist-img {
-          margin-top: 0.94rem;
-        }
-        .gallery-imgs {
-          .gallery-img {
-            margin-top: 0.94rem;
-          }
-        }
-      }
-    }
   }
   @include responsive($md) {
     .spa-wellness {
-      margin-top: 8rem;
-      .container {
-        h2 {
-          font-size: 2rem;
-        }
-        p {
-          width: 40rem;
-        }
-        .gallery-wrapper {
-          display: flex;
-          justify-content: center;
-          align-items: flex-start;
-          gap: 1rem;
-
-          .gallery-frist-img {
-            margin-top: 1rem;
-            img {
-              width: 50rem;
-              height: 29.68rem;
-              object-fit: cover;
-            }
-          }
-          .gallery-imgs {
-            .gallery-img {
-              margin-top: 1rem;
-              img {
-                width: 30rem;
-                height: 14.3rem;
-                object-fit: cover;
-              }
-            }
-          }
-        }
-      }
+      margin-top: 2rem;
     }
   }
   @include responsive($lg) {
     .spa-wellness {
-      margin-top: 8.13rem;
-      .container {
-        .gallery-wrapper {
-          gap: 2rem;
-
-          margin-top: 4.37rem;
-          .gallery-frist-img {
-            margin-top: 2rem;
-            img {
-              width: 55rem;
-              height: 42rem;
-              object-fit: cover;
-            }
-          }
-          .gallery-imgs {
-            .gallery-img {
-              margin-top: 2rem;
-              img {
-                width: 40rem;
-                height: 20rem;
-                object-fit: cover;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  .experience {
-    margin-top: 5rem;
-    .container {
-      .exper-wrapper {
-        .ex-title {
-          display: flex;
-          justify-content: space-between;
-          align-content: center;
-          h2 {
-            text-align: center;
-            font-size: 1.5rem;
-            @include responsive($md) {
-              font-size: 2rem;
-            }
-          }
-          .view {
-            a {
-              font-size: 0.8rem;
-              color: $kuriftu-grey;
-              .lower-line {
-                opacity: 0.7;
-                border-style: solid;
-
-                @include responsive($md) {
-                  width: 8rem;
-                }
-              }
-            }
-          }
-        }
-        .exper-card {
-          margin-top: 1.88rem;
-          @include responsive($md) {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-          }
-          @include responsive($lg) {
-            grid-template-columns: 1fr 1fr 1fr;
-          }
-          .exper-single-card {
-            margin-top: 2rem;
-            .exper-img {
-              position: relative;
-              img {
-                height: 15rem !important;
-                min-width: 15rem;
-                object-fit: cover;
-                object-position: center center;
-                @include responsive($xl) {
-                  height: 25rem !important;
-                  width: 30rem;
-                }
-              }
-            }
-            .exper-title {
-              background: $kuriftu-green;
-              padding: 0.8rem;
-              width: 14rem;
-              min-width: 11.31rem;
-              position: absolute;
-
-              margin-top: -3.24rem;
-              @include responsive($lg) {
-                margin-top: -3.23rem;
-              }
-              h3 {
-                color: $kuriftu-white;
-                @extend .caps;
-
-                text-align: center;
-              }
-            }
-            .exper-desc {
-              width: 85%;
-              background: #fff;
-              padding: 1rem;
-              @include responsive($md) {
-                width: 90%;
-              }
-              p {
-                @extend .text;
-
-                color: $kuriftu-grey;
-                font-size: 0.8rem;
-                line-height: 1.3rem;
-                text-align: left;
-              }
-            }
-          }
-        }
-      }
+      margin-top: 2rem;
     }
   }
 }
