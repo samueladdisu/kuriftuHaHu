@@ -87,115 +87,39 @@
         </div>
       </div>
     </div>
-    <section class="display-video">
-      <div class="container">
-        <div class="video-wrapper">
-          <img src="../../assets/image/water-cover.jpg" alt="" />
-        </div>
-      </div>
-    </section>
 
-    <section class="general-experience">
-      <div class="container">
-        <div class="all-wrapper">
-          <div class="see-more">
-            <p>Experience</p>
-            <hr class="see-line" />
-          </div>
-          <div class="all-cards">
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img src="../../assets/image/waterpark2.jpg" alt="" />
-              <h3>Boomerang Pool</h3>
-              <p>
-                Whatever thrills you seek, you’ll find all sorts of ways to fill
-                your day and the the boomrang slide is the perfect way to let
-                loose and laugh.
-              </p>
-            </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img
-                class="right-card"
-                src="../../assets/image/kuriftu dec 22-5391-min (1).jpg"
-                alt=""
-              />
-              <h3>Triple Spiral Ride</h3>
-              <p>
-                Riders slide via hovering dips and twists into the oscillating
-                funnels; this trip changes pace enough to maintain riders
-                guessing what is round the following bend.
-              </p>
-              <!-- <img  class="right-card" src="../../assets/image/cycling.jpg" alt="">
-            <h3>Cycling</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem corrupti eos officiis est similique, quas sunt a ipsum explicabo libero aliquam sint inventore, temporibus vel. Delectus maxime magnam vitae. </p> -->
-            </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img
-                src="../../assets/image/kuriftu dec 22-5422-min (1).jpg"
-                alt=""
-              />
-              <h3>Kiddie Water House</h3>
-              <p>
-                Hang on tight! Family fun is what we’re all about and the small
-                is stirring for the little kids.
-              </p>
-            </div>
-            <div class="single-card" data-aos="fade-up">
-              <img
-                class="right-card"
-                src="../../assets/image/water-cover.jpg"
-                alt=""
-              />
-              <h3>Wave Pool</h3>
-              <p>
-                Splash your way through a thriling experience Moving to and fro
-                .Relax in the shallow area or grab a tube and hit the deeper end
-                to ride the tides.
-              </p>
-            </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img
-                src="../../assets/image/kuriftu dec 22-5422-min (1).jpg"
-                alt=""
-              />
-              <h3>Fekat Circus</h3>
-              <p>Join fekat circus for a fascinating experience</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Dbox :data="exp" />
   </div>
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Event from "../../components/Event.vue";
 export default {
-  mounted() {
-    AOS.init({
-      duration: 1500,
-      offset: 120,
-      easing: "ease",
-      once: false,
-      anchorPlacement: "top-bottom",
-    });
+  data() {
+    return {
+      exp: [
+        {
+          title: "Boomerang Pool",
+          desc: `Whatever thrills you seek, you’ll find all sorts of ways to fill your day and the the boomrang slide is the perfect way  to let loose and laugh.`,
+          img: "waterpark/exp/1.webp",
+          link: "",
+        },
+        {
+          title: "Triple Spiral Ride",
+          desc: `Riders slide via hovering dips and twists into the oscillating funnels; this trip changes pace enough to maintain riders guessing what is round the following bend.`,
+          img: "waterpark/exp/2.webp",
+        },
+        {
+          title: "Kiddie Water House ",
+          desc: `Hang on tight! Family fun is what we’re all about and the small is stirring for the little kids.`,
+          img: "waterpark/exp/3.webp",
+        },
+        {
+          title: "Wave Pool ",
+          desc: `Splash your way through a thriling experience Moving to and fro  .Relax in the shallow area or grab a tube and hit the deeper end to ride the tides.`,
+          img: "waterpark/4.webp",
+        },
+      ],
+    };
   },
 };
 </script>
@@ -400,89 +324,6 @@ export default {
 
             margin-top: 0.6rem;
             opacity: 0.7;
-          }
-        }
-      }
-    }
-  }
-  .display-video {
-    margin-top: 4rem;
-  }
-  @include responsive($md) {
-    .display-video {
-      margin-top: 5rem;
-    }
-  }
-  .general-experience {
-    margin-top: 5rem;
-    @include responsive($md) {
-      margin-top: 8rem;
-    }
-    .container {
-      .all-wrapper {
-        .see-more {
-          display: flex;
-          align-items: center;
-          gap: 2rem;
-          margin-top: 3rem;
-          @include responsive($md) {
-            margin-top: 5rem;
-          }
-          hr {
-            border-style: solid;
-            color: $kuriftu-grey;
-            opacity: 0.5;
-
-            width: 100%;
-          }
-          p {
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            color: $kuriftu-grey;
-            width: 6rem;
-          }
-        }
-        .all-cards {
-          @include responsive($md) {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-          }
-          @include responsive($lg) {
-            gap: 5rem;
-          }
-
-          .single-card {
-            margin-top: 3rem;
-
-            .right-card {
-              margin-top: 6rem;
-            }
-            img {
-              width: 20rem;
-              height: 25rem;
-              object-fit: cover;
-              @include responsive($lg) {
-                width: 100%;
-                height: 35rem;
-              }
-            }
-            h3 {
-              @extend .title;
-              font-size: 1rem;
-              margin-top: 0.98rem;
-              text-transform: uppercase;
-              color: $kuriftu-blue;
-            }
-            p {
-              @extend .text;
-              margin-top: 0.98rem;
-              width: 20rem;
-              font-size: 0.95rem;
-              @include responsive($lg) {
-                width: 100%;
-              }
-            }
           }
         }
       }

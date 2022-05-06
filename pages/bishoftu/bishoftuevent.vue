@@ -107,19 +107,7 @@
     </div>
 
     <section class="top-gallery">
-      <div class="container">
-        <div class="main-title">
-          <h2>Celebration & Events</h2>
-          <p>
-            listening to tropical and the gentle nature from the privacy of your
-            luxurious villa , there is simply no more romantic or exotic setting
-            for your special occasion. Whether you are planning a honeymoon or
-            celebrating a wedding, an anniversary, or a birthday, we can take
-            care of all the details, so you will return home relaxed,
-            rejuvenated and with memories you’ll cherish for a lifetime.
-          </p>
-        </div>
-      </div>
+      <TabHeader :head="header" />
     </section>
 
     <Dbox :data="event" />
@@ -130,6 +118,15 @@
 export default {
   data() {
     return {
+      header: {
+        title: "Celebration & Events",
+        desc: `listening to tropical and the gentle nature from the privacy of your
+            luxurious villa , there is simply no more romantic or exotic setting
+            for your special occasion. Whether you are planning a honeymoon or
+            celebrating a wedding, an anniversary, or a birthday, we can take
+            care of all the details, so you will return home relaxed,
+            rejuvenated and with memories you’ll cherish for a lifetime.`,
+      },
       event: [
         {
           title: "Wedding",
@@ -363,177 +360,9 @@ export default {
     }
   }
   .top-gallery {
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: grid;
     place-items: center;
-    @include responsive($lg) {
-      margin-top: 8rem;
-    }
-    .container {
-      .main-title {
-        display: grid;
-        place-items: center;
-        h2 {
-          text-align: center;
-          font-size: 1.5rem;
-          font-weight: 600;
-        }
-        p {
-          text-align: center;
-          color: $kuriftu-grey;
-          width: 20rem;
-          margin-top: 1rem;
-          font-size: 0.8rem;
-        }
-        @include responsive($md) {
-          h2 {
-            font-size: 2rem;
-          }
-          p {
-            width: 40rem;
-            font-size: 1rem;
-          }
-        }
-      }
-      .image-wrapper {
-        display: grid;
-        place-items: center;
-        @include responsive($md) {
-          grid-template-columns: 1fr 1fr;
-          gap: 2rem;
-        }
-        @include responsive($xl) {
-          margin-top: 3rem;
-          gap: 3rem;
-        }
-
-        .content {
-          position: relative;
-          width: 100%;
-
-          overflow: hidden;
-        }
-
-        .content .content-overlay {
-          background: rgba(0, 0, 0, 0.7);
-          position: absolute;
-          height: 100%;
-          width: 100%;
-          left: 0;
-          top: 0;
-          bottom: 0;
-          right: 0;
-          opacity: 0;
-          -webkit-transition: all 0.4s ease-in-out 0s;
-          -moz-transition: all 0.4s ease-in-out 0s;
-          transition: all 0.4s ease-in-out 0s;
-        }
-
-        .content:hover .content-overlay {
-          opacity: 1;
-        }
-
-        .content-details {
-          position: absolute;
-          text-align: center;
-          padding-left: 1em;
-          padding-right: 1em;
-          width: 100%;
-          top: 50%;
-          left: 50%;
-          opacity: 0;
-          -webkit-transform: translate(-50%, -50%);
-          -moz-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-          -webkit-transition: all 0.3s ease-in-out 0s;
-          -moz-transition: all 0.3s ease-in-out 0s;
-          transition: all 0.3s ease-in-out 0s;
-        }
-
-        .content:hover .content-details {
-          top: 50%;
-          left: 50%;
-          opacity: 1;
-        }
-
-        .content-details h3 {
-          @extend .title;
-          color: #fff;
-          font-size: 1.5rem;
-          font-weight: 500;
-          letter-spacing: 0.15em;
-          margin-bottom: 0.5em;
-          text-transform: uppercase;
-        }
-
-        .content-details p {
-          @extend .text;
-          color: #fff;
-          font-size: 1rem;
-        }
-
-        .fadeIn-bottom {
-          top: 80%;
-        }
-        .single-image {
-          margin-top: 2rem;
-          img {
-            width: 20rem;
-            height: 30rem;
-            object-fit: cover;
-            @include responsive($lg) {
-              width: 30rem;
-              height: 40rem;
-            }
-            @include responsive($xl) {
-              width: 55rem;
-              height: 40rem;
-            }
-          }
-        }
-        .single-image1 {
-          margin-top: 2rem;
-          img {
-            width: 20rem;
-            height: 20rem;
-            object-fit: cover;
-            @include responsive($lg) {
-              width: 30rem;
-              height: 30rem;
-            }
-            @include responsive($xl) {
-              width: 55rem;
-              height: 30rem;
-            }
-          }
-        }
-        @include responsive($md) {
-          .grid-top {
-            margin-top: 1rem;
-          }
-          .grid-top2 {
-            margin-top: -9rem;
-          }
-          .grid-top1 {
-            margin-top: -1rem;
-          }
-          .grid-top3 {
-            margin-top: -8rem;
-          }
-        }
-        @include responsive($xl) {
-          .grid-top {
-            margin-top: 1rem;
-          }
-          .grid-top2 {
-            margin-top: -9rem;
-          }
-          .grid-top3 {
-            margin-top: -8rem;
-          }
-        }
-      }
-    }
   }
 }
 </style>

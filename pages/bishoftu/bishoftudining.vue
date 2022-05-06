@@ -106,18 +106,9 @@
         </div>
       </div>
     </div>
-    <section class="entoto-general">
-      <div class="container">
-        <div class="main-title">
-          <h2>Dining</h2>
-          <p>
-            Whether you’re celebrating a birthday, honeymoon, anniversary or a
-            longmawaited family vacation, our team is delighted to create a
-            personalized dining experience for you from intimate and romantic,
-            to interactive and adventurous.
-          </p>
-        </div>
-      </div>
+
+    <section class="top-gallery">
+      <TabHeader :head="header" />
     </section>
     <Dbox :data="dinning" />
   </div>
@@ -127,6 +118,13 @@
 export default {
   data() {
     return {
+      header: {
+        title: "Dining",
+        desc: ` Whether you’re celebrating a birthday, honeymoon, anniversary or a
+            longmawaited family vacation, our team is delighted to create a
+            personalized dining experience for you from intimate and romantic,
+            to interactive and adventurous.`,
+      },
       dinning: [
         {
           title: "Cabana Restaurant",
@@ -362,63 +360,10 @@ export default {
       }
     }
   }
-  .entoto-general {
-    margin-top: 5rem;
-    @include responsive($lg) {
-      margin-top: 8rem;
-    }
-    .container {
-      .main-title {
-        display: grid;
-        place-items: center;
-        h2 {
-          text-align: center;
-          font-size: 1.5rem;
-          font-weight: 600;
-        }
-        p {
-          text-align: center;
-          color: $kuriftu-grey;
-          width: 20rem;
-          margin-top: 1rem;
-          font-size: 0.8rem;
-        }
-        @include responsive($md) {
-          h2 {
-            font-size: 2rem;
-          }
-          p {
-            width: 40rem;
-            font-size: 1rem;
-          }
-        }
-      }
-      .tabs {
-        margin: 1.88rem auto 6.25rem;
-        // background: lightblue;
-        display: grid;
-        place-items: center;
-        width: 100%;
-        margin-top: 4rem;
-        .tabs-container {
-          display: flex;
-          position: relative;
-          .active {
-            position: absolute;
-            top: 0;
-            height: 0.25rem;
-            width: 5.94rem;
-            transform: translate(100%, -30%);
-            background: $kuriftu-black;
-          }
-          .tab {
-            height: 0.13rem;
-            width: 5.94rem;
-            background: #c4c4c4;
-          }
-        }
-      }
-    }
+  .top-gallery {
+    margin-top: 3rem;
+    display: grid;
+    place-items: center;
   }
 }
 </style>

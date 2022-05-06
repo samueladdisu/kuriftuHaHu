@@ -1,7 +1,7 @@
 <template>
   <div class="main">
-   <Destinationheader :src="require(`../assets/image/AWASH-Color side.svg`)" />
-         <div class="destination-links2">
+    <Destinationheader :src="require(`../assets/image/AWASH-Color side.svg`)" />
+    <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
@@ -16,14 +16,42 @@
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
-          <li><nuxt-link  class="a-link " to="awash/awashaccommodation">Accomodation</nuxt-link></li>
-           
-            <li><nuxt-link  class="a-link " to="awash/awashexperience">Experiences</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="awash/awashwellness">Wellness</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="awash/awashdining">Dining</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="awash/awashevent">Celebration & Events</nuxt-link></li>
-             <li><nuxt-link class="a-link " to="awash/awashgallery">Gallery</nuxt-link></li>
-            <li> <nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
+                  <li>
+                    <nuxt-link class="a-link" to="awash/awashaccommodation"
+                      >Accomodation</nuxt-link
+                    >
+                  </li>
+
+                  <li>
+                    <nuxt-link class="a-link" to="awash/awashexperience"
+                      >Experiences</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="awash/awashwellness"
+                      >Wellness</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="awash/awashdining"
+                      >Dining</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="awash/awashevent"
+                      >Celebration & Events</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="awash/awashgallery"
+                      >Gallery</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="/giftcard"
+                      >Gift Card</nuxt-link
+                    >
+                  </li>
                 </div>
               </ul>
             </li>
@@ -36,17 +64,44 @@
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-              <nuxt-link class="a-link active" to="/destinationentoto">Awash</nuxt-link
+              <nuxt-link class="a-link active" to="/destinationentoto"
+                >Awash</nuxt-link
               ><img src="../assets/image/Icons/next2.svg" alt="" />
             </li>
-            <li><nuxt-link  class="a-link " to="awash/awashaccommodation">Accomodation</nuxt-link></li>
-           
-            <li><nuxt-link  class="a-link " to="awash/awashexperience">Experiences</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="awash/awashwellness">Wellness</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="awash/awashdining">Dining</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="awash/awashevent">Celebration & Events</nuxt-link></li>
-             <li><nuxt-link class="a-link " to="awash/awashgallery">Gallery</nuxt-link></li>
-            <li> <nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
+            <li>
+              <nuxt-link class="a-link" to="awash/awashaccommodation"
+                >Accomodation</nuxt-link
+              >
+            </li>
+
+            <li>
+              <nuxt-link class="a-link" to="awash/awashexperience"
+                >Experiences</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="awash/awashwellness"
+                >Wellness</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="awash/awashdining"
+                >Dining</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="awash/awashevent"
+                >Celebration & Events</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="awash/awashgallery"
+                >Gallery</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="/giftcard">Gift Card</nuxt-link>
+            </li>
           </ul>
           <hr class="line" />
         </div>
@@ -59,185 +114,122 @@
         </div>
       </div>
     </section>
-    <section class="main-page-desc">
-      <div class="container">
-        <div class="wrapper">
-          <div class="main-title">
-            <h2>Awash National Park</h2>
-            <p>
-              Located on the Southern tip of Awash National Park, our one of a kind 10 room boutique resort suspended over a waterfall, places guests at an elevation that is unique to our property. With views of crocodiles on the river bank, refreshing mist from the edge of the falls paired with unmatched scenery, we offer the ultimate experience to our visitors. There is nothing more refreshing than getting out of the city, feeling the breeze, and hearing the sound of the waterfall
-            </p>
-          </div>
-          <Awashslide />
 
-          <div class="tabs">
-            <div class="tabs-container" @click="tabs">
-              <div class="tab a"></div>
-              <div class="tab b"></div>
-              <div class="tab c"></div>
-              <div class="active"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="stay-offer">
-      <div class="container">
-        <div class="stay-offer-all">
-          <div class="stay-slide" data-aos="slide-up">
-            <div class="slide-card">
-              <img src="../assets/image/awash-room.jpg" alt="" />
-            </div>
-          </div>
-          <div class="stay-desc" data-aos="slide-up">
-            <h4>Resort</h4>
-            <!-- <p class="header-title">
-              Treat your loved ones to Ethiopia’s greatest family destination
-            </p> -->
-            <p>
-            
-Rejuvenate yourself in a welcoming and luxurious 
-setting, pampering your body with a choice of relaxing 
-massages and body treatments.
-
-            </p>
-            <div class="book-buttons">            
-              <nuxt-link to="awash/awashgallery" class="view"
-                >View Accomodation
-                <hr class="lower-line" />
-            </nuxt-link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="gallery">
-      <div class="container">
-        <div class="gallery-wrapper">
-           <nuxt-link to="awash/awashgallery">
-          <div class="gallery-frist-img">
-            <img src="../assets/image/awash-gallery3.jpg" alt="" />
-          </div>
-           </nuxt-link>
-           
-          <div class="gallery-imgs">
-             <nuxt-link to="awash/awashgallery">
-            <div class="gallery-img">
-              <img src="../assets/image/awash-gallery2.jpg" alt="" />
-            </div>
-           </nuxt-link>
-            <nuxt-link to="awash/awashgallery">
-            <div class="gallery-img">
-              <img src="../assets/image/awash-slide3.jpg" alt="" />
-            </div>
-           </nuxt-link>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="spa-wellness">
-      <div class="container">
-        <h2>Kuriftu Resort & Spa Awash</h2>
-        <p>
-      Our Spa offers unique massage rooms located on the banks of the Awash River ,Dipping Pool , Yoga and other services.
-        </p>
-        <div class="gallery-wrapper">
-            <nuxt-link to="awash/awashwellness">
-          <div class="gallery-frist-img">
-            <img src="../assets/image/awash-slide.jpg" alt="" />
-          </div>
-             </nuxt-link>
-          <div class="gallery-imgs">
-              <nuxt-link to="awash/awashwellness">
-                <div class="gallery-img">
-              <img src="../assets/image/wellness-min.jpg" alt="" />
-            </div>
-               </nuxt-link>
-          
-               <nuxt-link to="awash/awashwellness"> 
-               <div class="gallery-img">
-              <img src="../assets/image/awash-slide2.jpg" alt="" />
-            </div>
-               </nuxt-link>
-            
-          </div>
-        </div>
-      </div>
+      <Dtop :top="top" />
+      <Bishoftuslide :photos="photos" />
     </section>
-    <div class="experience">
-      <div class="container">
-        <div class="exper-wrapper">
-          <div class="ex-title">
-            <h2>Experience</h2>
-            <div class="view">
-              <nuxt-link to="awash/awashexperience"
-                >View Experience
-                <hr class="lower-line"
-              /></nuxt-link>
-            </div>
-          </div>
-          <div class="exper-card" data-aos="slide-up">
-            <nuxt-link  to="awash/awashexperience">   <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/crocodial.jpg" alt="" />
-              </div>
-              <div class="exper-title">
-                <h3>Crocodile Viewing</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-                  Kuriftu Awash is the perfect destination for people who want to pair their...
-                </p>
-              </div>
-            </div></nuxt-link>
-          <nuxt-link  to="awash/awashexperience">   <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/awash-room4.jpg" alt="" />
-              </div>
-              <div class="exper-title">
-                <h3>Birdwatching</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur adipiscing elit
-                </p>
-              </div>
-            </div></nuxt-link>
-          <nuxt-link to="awash/awashexperience"> <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/awashfalls.jpg" alt="" />
-              </div>
-              <div class="exper-title">
-                <h3>Safari Tours</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-                  If you are a nature lover and wish to experience some of the culture and history...
-                </p>
-              </div>
-            </div> </nuxt-link>
-           
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- End of Top Section  -->
+
+    <DSection :section="acc" />
+    <DSection :section="dinning" />
+    <DSection :section="wellness" />
+    <DSection :section="event" />
+    <DSection :section="exp" />
   </div>
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Event from "../components/Event.vue";
 export default {
-  mounted() {
-    AOS.init({
-      duration: 1500,
-      offset: 120,
-      easing: "ease",
-      once: false,
-      anchorPlacement: "top-bottom",
-    });
+  data() {
+    return {
+      photos: [
+        "awash/firstSlider/1.webp",
+        "awash/firstSlider/2.webp",
+        "awash/firstSlider/3.webp",
+        "awash/firstSlider/4.webp",
+        "awash/firstSlider/5.webp",
+        "awash/firstSlider/6.webp",
+        "awash/firstSlider/7.webp",
+        "awash/firstSlider/8.webp",
+        "awash/firstSlider/9.webp",
+      ],
+      top: {
+        title: "Awash Falls",
+        desc: `Located on the Southern tip of Awash National Park, our one of a kind 10 room boutique resort suspended over a waterfall, places guests at an elevation that is unique to our property. With views of crocodiles on the river bank, refreshing mist from the edge of the falls paired with unmatched scenery, we offer the ultimate experience to our visitors. There is nothing more refreshing than getting out of the city, feeling the breeze, and hearing the sound of the waterfall`,
+      },
+      acc: {
+        title: "Accomodation",
+        desc: ` Rooms showcase the lush and beautiful mountain backdrop that surrounds you.`,
+        url: "awash/awashaccommodation",
+        link: "View All Accomodation",
+        photos: [
+          "awash/accommodation/1.webp",
+          "awash/accommodation/2.webp",
+          "awash/accommodation/3.webp",
+          "awash/accommodation/4.webp",
+          "awash/accommodation/5.webp",
+          "awash/accommodation/6.webp",
+          "awash/accommodation/7.webp",
+          "awash/accommodation/8.webp",
+          "awash/accommodation/9.webp",
+          "awash/accommodation/10.webp",
+        ],
+      },
+      dinning: {
+        title: "Dining",
+        desc: `Designed to highlight our unparalleled view of the park, our Restaurant & Bar is decorated with natural light flooding the space with colorful accents, stone structures and brick elements, creating an organic vibrance for our guests to absorb. From a wide selection of international wines to signature cocktails and a set menu made-up of locally sourced ingredients, our dining experience fully encompasses our guests’ needs. `,
+        url: "awash/awashdining",
+        link: "View All Dining",
+        photos: [
+          "tana/dining/1.webp",
+          "tana/dining/2.webp",
+          "tana/dining/3.webp",
+          "tana/dining/4.webp",
+        ],
+      },
+      wellness: {
+        title: "Wellness",
+        desc: `Our spa is a unique haven of tranquilllity nestled on a restful architecture. it perpetuates the tradtion established by Ethiopian royal families who used to retreat to relax and indulge in beauty rituals.`,
+        url: "laketana/tanawellness",
+        link: "View All wellness",
+        photos: [
+          "entoto/well/1.webp",
+          "entoto/well/2.webp",
+          "entoto/well/3.webp",
+          "entoto/well/4.webp",
+          "entoto/well/5.webp",
+          "entoto/well/6.webp",
+          "entoto/well/7.webp",
+          "entoto/well/8.webp",
+          "entoto/well/9.webp",
+          "entoto/well/10.webp",
+          "entoto/well/11.webp",
+        ],
+      },
+      event: {
+        title: "Celebration and Events",
+        desc: `listening to tropical and the gentle nature from the privacy of
+                your luxurious villa , there is simply no more romantic or
+                exotic setting for your special occasion. Whether you are
+                planning a honeymoon or celebrating a wedding, an anniversary,
+                or a birthday, we can take care of all the details, so you will
+                return home relaxed, rejuvenated and with memories you’ll
+                cherish for a lifetime.`,
+        url: "laketana/tanaevent",
+        link: "View All Celebration & Events",
+        photos: [
+          "tana/events/1.webp",
+          "tana/events/2.webp",
+          "tana/events/3.webp",
+        ],
+      },
+      exp: {
+        title: "Experience",
+        desc: `This Adventure Park is the first of its kind in Ehiopia and has even been selected as one of the top destinations in the world by Conde Nast Traveler. Our park is absolitely beyond cpmpare and is a must for national park enthusiasts. You can come accros a variety of landscapes which offer some incredible hiking experiances.`,
+        url: "laketana/tanaexperience",
+        link: "View All Experience",
+        photos: [
+          "awash/exp/1.webp",
+          "awash/exp/2.webp",
+          "awash/exp/3.webp",
+          "awash/exp/4.webp",
+          "awash/exp/5.webp",
+          "awash/exp/6.webp",
+          "awash/exp/7.webp",
+        ],
+      },
+    };
   },
 };
 </script>
@@ -330,7 +322,7 @@ export default {
   .destination-links {
     display: none;
   }
-     .destination-links2 {
+  .destination-links2 {
     .container {
       .wrapper {
         .link-destination {
@@ -361,7 +353,7 @@ export default {
               display: none;
               position: absolute;
               top: 25px;
-              left:0px;
+              left: 0px;
               // @include responsive($md){
               //   left: 15rem;
               // }
@@ -379,7 +371,7 @@ export default {
                 li {
                   margin-left: 0.3rem;
                   margin-top: 0.5rem;
-  
+
                   .a-link {
                     color: $kuriftu-grey;
                     font-size: 0.88rem;
@@ -904,7 +896,7 @@ export default {
               }
             }
             .exper-title {
-              background: $kuriftu-brown;
+              background: $kuriftu-blue;
               padding: 0.8rem;
               width: 14rem;
               min-width: 11.31rem;
@@ -942,6 +934,5 @@ export default {
       }
     }
   }
-
 }
 </style>

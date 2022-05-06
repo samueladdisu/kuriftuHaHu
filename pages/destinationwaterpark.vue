@@ -1,7 +1,7 @@
 <template>
   <div class="main">
-   <Destinationheader :src="require(`../assets/image/Icons/waterpark.svg`)" />
-        <div class="destination-links2">
+    <Destinationheader :src="require(`../assets/image/Icons/waterpark.svg`)" />
+    <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
@@ -16,14 +16,32 @@
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
-                     
-            <li><nuxt-link  class="a-link " to="waterpark/waterparkexperience">Experiences</nuxt-link></li>
-        
-            <li><nuxt-link  class="a-link " to="waterpark/waterparkdining">Dining</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="waterpark/waterparkevent">Celebration & Events</nuxt-link></li>
-             <li><nuxt-link class="a-link " to="waterpark/waterparkgallery">Gallery</nuxt-link></li>
-            <li> <nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
-         
+                  <li>
+                    <nuxt-link class="a-link" to="waterpark/waterparkexperience"
+                      >Experiences</nuxt-link
+                    >
+                  </li>
+
+                  <li>
+                    <nuxt-link class="a-link" to="waterpark/waterparkdining"
+                      >Dining</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="waterpark/waterparkevent"
+                      >Celebration & Events</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="waterpark/waterparkgallery"
+                      >Gallery</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="/giftcard"
+                      >Gift Card</nuxt-link
+                    >
+                  </li>
                 </div>
               </ul>
             </li>
@@ -36,17 +54,35 @@
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-              <nuxt-link class="a-link active" to="/destinationwaterpark">Water Park</nuxt-link
+              <nuxt-link class="a-link active" to="/destinationwaterpark"
+                >Water Park</nuxt-link
               ><img src="../assets/image/Icons/next2.svg" alt="" />
             </li>
-           
-           
-            <li><nuxt-link  class="a-link " to="waterpark/waterparkexperience">Experiences</nuxt-link></li>
-        
-            <li><nuxt-link  class="a-link " to="waterpark/waterparkdining">Dining</nuxt-link></li>
-            <li><nuxt-link  class="a-link " to="waterpark/waterparkevent">Celebration & Events</nuxt-link></li>
-             <li><nuxt-link class="a-link " to="waterpark/waterparkgallery">Gallery</nuxt-link></li>
-            <li> <nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
+
+            <li>
+              <nuxt-link class="a-link" to="waterpark/waterparkexperience"
+                >Experiences</nuxt-link
+              >
+            </li>
+
+            <li>
+              <nuxt-link class="a-link" to="waterpark/waterparkdining"
+                >Dining</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="waterpark/waterparkevent"
+                >Celebration & Events</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="waterpark/waterparkgallery"
+                >Gallery</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="/giftcard">Gift Card</nuxt-link>
+            </li>
           </ul>
           <hr class="line" />
         </div>
@@ -55,170 +91,82 @@
     <section class="display-video">
       <div class="container">
         <div class="video-wrapper">
-          <img src="../assets/image/water-cover.jpg"  alt="" />
-        </div>
-      </div>
-    </section>
-    <section class="main-page-desc">
-      <div class="container">
-        <div class="wrapper">
-          <div class="main-title">
-            <h2>Water Park</h2>
-            <p>
-              This Adventure Park is the first of its kind in Ethiopia and has
-              even been selected as one of the top destinations in the world by
-              Conde Nast Traveler. Our park is absolutely beyond comparable and
-              is a must for national park enthusiasts. You can come accros a
-              variety of landscapes which offer some incredible hiking
-              experiances.
-            </p>
-          </div>
-          <Waterparkslide />
-
-          <div class="tabs">
-            <div class="tabs-container" @click="tabs">
-              <div class="tab a"></div>
-              <div class="tab b"></div>
-              <div class="tab c"></div>
-              <div class="active"></div>
-            </div>
-          </div>
+          <img src="../assets/image/water-cover.jpg" alt="" />
         </div>
       </div>
     </section>
 
-    <section class="spa-special-offer">
-      <div class="container">
-        <div class="special-offer-all">
-          <div class="special-slide" data-aos="slide-up">
-            <!-- <div class="back-icon">
-              <img src="../../assets/image/Icons/spaback.svg" alt="" />
-            </div> -->
-            <div class="slide-card">
-              <img src="../assets/image/DJI_0384 (3)-min.jpg" alt="" />
-            </div>
-            <!-- <div class="next-icon">
-              <img src="../../assets/image/Icons/spanext.svg" alt="" />
-            </div> -->
-          </div>
-          <div class="gift-desc" data-aos="slide-up">
-            <h3>special offer</h3>
-            <h4>Gift Vouchers</h4>
-            <p class="header-title">
-              Treat your loved ones to Ethiopia’s greatest family destination
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
-              tincidunt nisl elementum ultrices luctus habitasse. Ut orci nam
-              lectus at massa enim elementum varius dictumst. Nulla a, sed enim
-              turpis non lacinia fusce. Quis volutpat sit ullamcorper vitae
-              magna vel sit pharetra scelerisque.
-            </p>
-            <div class="book-buttons">
-              <a class="btn btn-outline-black" href="#">GET OFFERS</a>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section class="spa-wellness">
+      <Dtop :top="top" />
+      <Bishoftuslide :photos="photos" />
     </section>
-    <section class="gallery">
-      <div class="container">
-        <div class="gallery-wrapper">
-           <nuxt-link to="waterpark/waterparkgallery">
-          <div class="gallery-frist-img">
-            <img src="../assets/image/_DSC5728 (2)-min.jpg" alt="" />
-          </div>
-           </nuxt-link>
-           
-          <div class="gallery-imgs">
-             <nuxt-link to="waterpark/waterparkgallery">
-            <div class="gallery-img">
-              <img src="../assets/image/_DSC5784 (2)-min.jpg" alt="" />
-            </div>
-           </nuxt-link>
-            <nuxt-link to="waterpark/waterparkgallery">
-            <div class="gallery-img">
-              <img src="../assets/image/waterpark2.jpg" alt="" />
-            </div>
-           </nuxt-link>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- End of Top Section  -->
 
-    <div class="experience">
-      <div class="container">
-        <div class="exper-wrapper">
-          <div class="ex-title">
-            <h2>Experience</h2>
-            <div class="view">
-              <nuxt-link to="waterpark/waterparkexperience"
-                >View Experience
-                <hr class="lower-line"
-              /></nuxt-link>
-            </div>
-          </div>
-          <div class="exper-card" data-aos="slide-up">
-            <nuxt-link  to="waterpark/waterparkexperience">   <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/waterpark2.jpg" alt="" />
-              </div>
-              <div class="exper-title">
-                <h3>Boomerang Pool</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-                Whatever thrills you seek, you’ll find all sorts of ways to fill...
-                </p>
-              </div>
-            </div></nuxt-link>
-          <nuxt-link  to="waterpark/waterparkexperience">   <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/waterpark.jpg" alt="" />
-              </div>
-              <div class="exper-title">
-                <h3>Triple Spiral Ride</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-                 Hang on tight! Family fun is what we’re all about and the small...
-                </p>
-              </div>
-            </div></nuxt-link>
-          <nuxt-link to="waterpark/waterparkexperience"> <div class="exper-single-card">
-              <div class="exper-img">
-                <img src="../assets/image/waterpark2.jpg" alt="" />
-              </div>
-              <div class="exper-title">
-                <h3>Fekat Circus</h3>
-              </div>
-              <div class="exper-desc">
-                <p>
-                 Join fekat circus for a fascinating experience...
-                </p>
-              </div>
-            </div> </nuxt-link>
-           
-          </div>
-        </div>
-      </div>
-    </div>
+    <DSection :section="dinning" />
+    <DSection :section="event" />
+    <DSection :section="exp" />
   </div>
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Event from "../components/Event.vue";
 export default {
-  mounted() {
-    AOS.init({
-      duration: 1500,
-      offset: 120,
-      easing: "ease",
-      once: false,
-      anchorPlacement: "top-bottom",
-    });
+  data() {
+    return {
+      photos: [
+        "waterpark/fristSlider/1.webp",
+        "waterpark/fristSlider/2.webp",
+        "waterpark/fristSlider/3.webp",
+        "waterpark/fristSlider/4.webp",
+        "waterpark/fristSlider/5.webp",
+        "waterpark/fristSlider/6.webp",
+        "waterpark/fristSlider/7.webp",
+      ],
+      top: {
+        title: "Water Park",
+        desc: `whether you are looking to spend an afternoon of fun with family or friends, searching the perfect weekend getaway, planning a birthday or group event, or even surprising a loved one by booking them a ticket to the park, Kuriftu Water Park is your ultimate choice for a premier entertainment destination and guaranteed fun, made in Africa!`,
+      },
+      dinning: {
+        title: "Dining",
+        desc: ` Whether you’re celebrating a birthday, honeymoon, anniversary or a longmawaited family vacation, our team is delighted to create
+        a personalized dining experience for you from intimate and
+        romantic, to interactive and adventurous.`,
+        url: "waterpark/waterparkdining",
+        link: "View All Dining",
+        photos: [
+          "waterpark/dining/1.webp",
+          "waterpark/dining/2.webp",
+          "waterpark/dining/3.webp",
+        ],
+      },
+      event: {
+        title: "Celebration and Events",
+        desc: `From black suites to grand ballrooms, we have the ideal venue for any event.`,
+        url: "waterpark/waterparkevent",
+        link: "View All Celebration & Events",
+        photos: [
+          "waterpark/event/1.webp",
+          "waterpark/event/2.webp",
+          "waterpark/event/3.webp",
+          "waterpark/event/4.webp",
+          "waterpark/event/5.webp",
+          "waterpark/event/6.webp",
+          "waterpark/event/7.webp",
+          "waterpark/event/8.webp",
+          "waterpark/event/9.webp",
+        ],
+      },
+      exp: {
+        title: "Experience",
+        desc: `This Adventure Park is the first of its kind in Ehiopia and has even been selected as one of the top destinations in the world by Conde Nast Traveler. Our park is absolitely beyond cpmpare and is a must for national park enthusiasts. You can come accros a variety of landscapes which offer some incredible hiking experiances.`,
+        url: "waterpark/waterparkexperience",
+        link: "View All Experience",
+        photos: [
+          "waterpark/exp/1.webp",
+          "waterpark/exp/2.webp",
+          "waterpark/exp/3.webp",
+        ],
+      },
+    };
   },
 };
 </script>
@@ -311,7 +259,7 @@ export default {
   .destination-links {
     display: none;
   }
-    .destination-links2 {
+  .destination-links2 {
     .container {
       .wrapper {
         .link-destination {
@@ -342,7 +290,7 @@ export default {
               display: none;
               position: absolute;
               top: 25px;
-              left:0px;
+              left: 0px;
               // @include responsive($md){
               //   left: 15rem;
               // }
@@ -360,7 +308,7 @@ export default {
                 li {
                   margin-left: 0.3rem;
                   margin-top: 0.5rem;
-  
+
                   .a-link {
                     color: $kuriftu-grey;
                     font-size: 0.88rem;
@@ -522,52 +470,40 @@ export default {
       }
     }
   }
-  .spa-special-offer {
+  .stay-offer {
     margin-top: 6.25rem;
+
     .container {
+      display: grid;
+      place-content: center;
       h2 {
         color: $kuriftu-black;
         @extend .title;
         margin-top: 0.94rem;
         text-align: left;
       }
-      .special-offer-all {
-        display: grid;
-        place-items: center;
-        // margin: 0 auto;
-        // width: 20rem;
-        .special-slide {
+      .stay-offer-all {
+        display: flex;
+
+        flex-direction: column;
+        .stay-slide {
+          margin-top: 1.88rem;
           display: flex;
           align-items: center;
           justify-items: center;
           gap: 0.5rem;
-          .back-icon,
-          .next-icon {
-            img {
-              width: 2rem;
-            }
-          }
         }
-        .gift-desc {
+        .stay-desc {
           margin-top: 1.88rem;
           margin-left: 1rem;
-          margin: 0 auto;
-          width: 20rem;
-          h3 {
-            @extend .nav;
-            margin-top: 0.94rem;
-            font-size: 0.7rem;
-            letter-spacing: 0.2rem;
-            line-height: 0.5rem;
-            margin-bottom: 0.5rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            color: $kuriftu-grey;
-          }
+          margin-right: 1rem;
           h4 {
             @extend .title;
-            margin-top: 1.88rem;
+            font-size: 1.5rem;
+            margin-top: 0.94rem;
             color: $kuriftu-black;
+            text-transform: uppercase;
+            text-align: left;
           }
           .header-title {
             color: $kuriftu-grey;
@@ -577,70 +513,76 @@ export default {
             margin-top: 0.94rem;
             color: $kuriftu-black;
             font-size: 0.88rem;
+
             text-align: left;
           }
           .book-buttons {
-            display: flex;
-            justify-content: left;
+            display: grid;
+            place-items: left;
+            margin-top: 3rem;
+            .view {
+              color: $kuriftu-grey;
+              font-size: 0.8rem;
+              .lower-line {
+                opacity: 0.7;
+                border-style: solid;
 
-            margin-top: 1.88rem;
+                width: 8rem;
+              }
+            }
           }
         }
       }
     }
   }
   @include responsive($md) {
-    .spa-special-offer {
-      // width: 100%;
+    .stay-offer {
       .container {
-        .special-offer-all {
-          .special-slide {
+        .stay-offer-all {
+          .stay-desc {
+            p {
+              width: 30rem;
+            }
+          }
+          .stay-slide {
             .slide-card {
               img {
                 width: 25rem;
               }
             }
-          }
-          .gift-desc {
-            width: 25rem;
-            // margin-left: 5rem;
-            // margin-right: 5rem;
           }
         }
       }
     }
   }
   @include responsive($lg) {
-    .spa-special-offer {
+    .stay-offer {
       margin-top: 8.13rem;
       .container {
-        .special-offer-all {
-          display: flex;
-
-          .special-slide {
+        .stay-offer-all {
+          flex-direction: row;
+          gap: 2rem;
+          .stay-slide {
+            margin-top: 4.37rem;
             .slide-card {
               img {
-                width: 25rem;
-              }
-            }
-
-            .next-icon,
-            .back-icon {
-              img {
-                width: 2rem;
+                width: 50rem;
               }
             }
           }
-          .gift-desc {
-            margin-left: 1rem;
-            margin-right: 1rem;
-            margin: 0 auto;
-            width: 25rem;
+          .stay-desc {
+            margin-top: 4.5rem;
+            h4 {
+              margin-top: 0rem;
+            }
+            p {
+              margin-top: 2rem;
+            }
             .book-buttons {
               display: flex;
               justify-content: left;
 
-              margin-top: 1.88rem;
+              margin-top: 6rem;
             }
           }
         }
@@ -648,22 +590,15 @@ export default {
     }
   }
   @include responsive($xl) {
-    .spa-special-offer {
+    .stay-offer {
       .container {
-        .special-offer-all {
-          display: flex;
-          align-items: flex-start;
-          .special-slide {
+        .stay-offer-all {
+          .stay-slide {
             .slide-card {
               img {
                 width: 30rem;
               }
             }
-          }
-          .gift-desc {
-            margin-left: 2rem;
-            margin-right: 2rem;
-            width: 30rem;
           }
         }
       }
@@ -898,7 +833,7 @@ export default {
               }
             }
             .exper-title {
-              background: $kuriftu-yellow;
+              background: $kuriftu-blue;
               padding: 0.8rem;
               width: 14rem;
               min-width: 11.31rem;
@@ -909,7 +844,7 @@ export default {
                 margin-top: -3.23rem;
               }
               h3 {
-                color: $kuriftu-grey;
+                color: $kuriftu-white;
                 @extend .caps;
 
                 text-align: center;
@@ -936,6 +871,5 @@ export default {
       }
     }
   }
-
 }
 </style>

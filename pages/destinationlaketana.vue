@@ -48,7 +48,9 @@
                     >
                   </li>
                   <li>
-                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                    <nuxt-link class="a-link" to="/giftcard"
+                      >Gift Card</nuxt-link
+                    >
                   </li>
                 </div>
               </ul>
@@ -97,7 +99,9 @@
                 >Gallery</nuxt-link
               >
             </li>
-            <li><nuxt-link class="a-link" to="/book">Reserve</nuxt-link></li>
+            <li>
+              <nuxt-link class="a-link" to="/giftcard">Gift Card</nuxt-link>
+            </li>
           </ul>
           <hr class="line" />
         </div>
@@ -142,194 +146,113 @@
         </div>
       </div>
     </section>
-    <section class="main-page-desc">
-      <div class="container">
-        <div class="wrapper">
-          <div class="main-title">
-            <h2>Lake Tana</h2>
-            <p>
-              Your Ethiopian adventure is not complete until you make way to
-              Lake Tana, the source of the legendary Blue Nile. Located in Bahir
-              Dar, immerse yourself in the history of Ethiopia with landscapes
-              of native architecture and cool shoreside weather all year round.
-            </p>
-          </div>
-          <Tanaslide />
 
-          <div class="tabs">
-            <div class="tabs-container" @click="tabs">
-              <div class="tab a"></div>
-              <div class="tab b"></div>
-              <div class="tab c"></div>
-              <div class="active"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="stay-offer">
-      <div class="container">
-        <div class="stay-offer-all">
-          <div class="stay-slide" data-aos="slide-up">
-            <div class="slide-card">
-              <img src="../assets/image/IMG_1346-min.JPG" alt="" />
-            </div>
-          </div>
-          <div class="stay-desc" data-aos="slide-up">
-            <h4>Resort</h4>
-            <!-- <p class="header-title">
-              Treat your loved ones to Ethiopia’s greatest family destination
-            </p> -->
-            <p>
-              Our all inclusive resort offers full scale amenities including
-              private verandas, spa, and a lakeside restaurant, making your stay
-              a true step into the Garden of Eden
-            </p>
-            <div class="book-buttons">
-              <nuxt-link to="laketana/tanagallery" class="view"
-                >View Accomodation
-                <hr class="lower-line" />
-              </nuxt-link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="gallery">
-      <div class="container">
-        <div class="gallery-wrapper">
-          <nuxt-link to="laketana/tanagallery">
-            <div class="gallery-frist-img">
-              <img src="../assets/image/Bahir Dar-41-min.jpg" alt="" />
-            </div>
-          </nuxt-link>
-
-          <div class="gallery-imgs">
-            <nuxt-link to="laketana/tanagallery">
-              <div class="gallery-img">
-                <img src="../assets/image/Bahir Dar-20-min.jpg" alt="" />
-              </div>
-            </nuxt-link>
-            <nuxt-link to="laketana/tanagallery">
-              <div class="gallery-img">
-                <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="spa-wellness">
-      <div class="container">
-        <h2>Kuriftu Resort & Spa Lake Tana</h2>
-        <p>
-          The Spa offers a vast array of choices to soothe the spirit,
-          rejuvenate the body and enrich the mind.
-        </p>
-        <div class="gallery-wrapper">
-          <nuxt-link to="laketana/tanawellness">
-            <div class="gallery-frist-img">
-              <img src="../assets/image/IMG_1346-min.JPG" alt="" />
-            </div>
-          </nuxt-link>
-          <div class="gallery-imgs">
-            <nuxt-link to="laketana/tanawellness">
-              <div class="gallery-img">
-                <img src="../assets/image/wellness-min.jpg" alt="" />
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="laketana/tanawellness">
-              <div class="gallery-img">
-                <img src="../assets/image/Spa-min.jpg" alt="" />
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-      </div>
+      <Dtop :top="top" />
+      <Bishoftuslide :photos="photos" />
     </section>
-    <div class="experience">
-      <div class="container">
-        <div class="exper-wrapper">
-          <div class="ex-title">
-            <h2>Experience</h2>
-            <div class="view">
-              <nuxt-link to="laketana/tanaexperience"
-                >View Experience
-                <hr class="lower-line"
-              /></nuxt-link>
-            </div>
-          </div>
-          <div class="exper-card" data-aos="slide-up">
-            <nuxt-link to="laketana/tanaexperience">
-              <div class="exper-single-card">
-                <div class="exper-img">
-                  <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
-                </div>
-                <div class="exper-title">
-                  <h3>Boat Tour</h3>
-                </div>
-                <div class="exper-desc">
-                  <p>
-                    Travel across whater to witness the incradable sites
-                    surrounding Lake Tana...
-                  </p>
-                </div>
-              </div></nuxt-link
-            >
-            <nuxt-link to="laketana/tanaexperience">
-              <div class="exper-single-card">
-                <div class="exper-img">
-                  <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
-                </div>
-                <div class="exper-title">
-                  <h3>Monastry Visit</h3>
-                </div>
-                <div class="exper-desc">
-                  <p>
-                    go on a sightseeing on the lake of Tana as 19 islands out of
-                    the 37 have...
-                  </p>
-                </div>
-              </div></nuxt-link
-            >
-            <nuxt-link to="laketana/tanaexperience">
-              <div class="exper-single-card">
-                <div class="exper-img">
-                  <img src="../assets/image/Bahir Dar-32-min.jpg" alt="" />
-                </div>
-                <div class="exper-title">
-                  <h3>Nile Falls/Tis Abay</h3>
-                </div>
-                <div class="exper-desc">
-                  <p>
-                    Locally known as Tis-Isat Falla - " Smoke of Fire" the Blue
-                    Nile Falls is the most...
-                  </p>
-                </div>
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- End of Top Section  -->
+
+    <DSection :section="acc" />
+    <DSection :section="dinning" />
+    <DSection :section="wellness" />
+    <DSection :section="event" />
+    <DSection :section="exp" />
   </div>
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Event from "../components/Event.vue";
 export default {
-  mounted() {
-    AOS.init({
-      duration: 1500,
-      offset: 120,
-      easing: "ease",
-      once: false,
-      anchorPlacement: "top-bottom",
-    });
+  data() {
+    return {
+      photos: [
+        "tana/firstSlider/1.webp",
+        "tana/firstSlider/2.webp",
+        "tana/firstSlider/3.webp",
+        "tana/firstSlider/4.webp",
+        "tana/firstSlider/5.webp",
+        "tana/firstSlider/6.webp",
+      ],
+      top: {
+        title: "Lake Tana",
+        desc: `Your Ethiopian adventure is not complete until you make way to
+              Lake Tana, the source of the legendary Blue Nile. Located in Bahir
+              Dar, immerse yourself in the history of Ethiopia with landscapes
+              of native architecture and cool shoreside weather all year round.`,
+      },
+      acc: {
+        title: "Accomodation",
+        desc: `Find your choice of modern and thoughtful
+      accommodations at Kuriftu Resort & Spa Bishoftu. Each elegantly appointed resort room and spacious suite at Kuriftu offers exceptional luxuries
+      with locally inspired architectural spaces alongside premier resort amenities. Crafted experiences begin and end at Kuriftu.`,
+        url: "laketana/tanaaccommodation",
+        link: "View All Accomodation",
+        photos: [
+          "tana/acc/1.webp",
+          "tana/acc/2.webp",
+          "tana/acc/3.webp",
+          "tana/acc/4.webp",
+          "tana/acc/5.webp",
+        ],
+      },
+      dinning: {
+        title: "Dining",
+        desc: ` Whether you’re celebrating a birthday, honeymoon, anniversary or a longmawaited family vacation, our team is delighted to create
+        a personalized dining experience for you from intimate and
+        romantic, to interactive and adventurous.`,
+        url: "laketana/tanadining",
+        link: "View All Dining",
+        photos: [
+          "tana/dining/1.webp",
+          "tana/dining/2.webp",
+          "tana/dining/3.webp",
+          "tana/dining/4.webp",
+        ],
+      },
+      wellness: {
+        title: "Wellness",
+        desc: `Our spa is a unique haven of tranquilllity nestled on a restful architecture. it perpetuates the tradtion established by Ethiopian royal families who used to retreat to relax and indulge in beauty rituals.`,
+        url: "laketana/tanawellness",
+        link: "View All wellness",
+        photos: [
+          "entoto/well/1.webp",
+          "entoto/well/2.webp",
+          "entoto/well/3.webp",
+          "entoto/well/4.webp",
+          "entoto/well/5.webp",
+          "entoto/well/6.webp",
+          "entoto/well/7.webp",
+          "entoto/well/8.webp",
+          "entoto/well/9.webp",
+          "entoto/well/10.webp",
+          "entoto/well/11.webp",
+        ],
+      },
+      event: {
+        title: "Celebration and Events",
+        desc: `listening to tropical and the gentle nature from the privacy of
+                your luxurious villa , there is simply no more romantic or
+                exotic setting for your special occasion. Whether you are
+                planning a honeymoon or celebrating a wedding, an anniversary,
+                or a birthday, we can take care of all the details, so you will
+                return home relaxed, rejuvenated and with memories you’ll
+                cherish for a lifetime.`,
+        url: "laketana/tanaevent",
+        link: "View All Celebration & Events",
+        photos: [
+          "tana/events/1.webp",
+          "tana/events/2.webp",
+          "tana/events/3.webp",
+        ],
+      },
+      exp: {
+        title: "Experience",
+        desc: `This Adventure Park is the first of its kind in Ehiopia and has even been selected as one of the top destinations in the world by Conde Nast Traveler. Our park is absolitely beyond cpmpare and is a must for national park enthusiasts. You can come accros a variety of landscapes which offer some incredible hiking experiances.`,
+        url: "laketana/tanaexperience",
+        link: "View All Experience",
+        photos: ["tana/exp/1.webp", "tana/exp/2.webp"],
+      },
+    };
   },
 };
 </script>

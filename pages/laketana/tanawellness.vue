@@ -46,7 +46,7 @@
                   </li>
 
                   <li>
-                     <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
                   </li>
                 </div>
               </ul>
@@ -94,7 +94,7 @@
               <nuxt-link class="a-link" to="tanagallery">Gallery</nuxt-link>
             </li>
             <li>
-               <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+              <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
             </li>
           </ul>
           <hr class="line" />
@@ -103,33 +103,11 @@
     </div>
 
     <section class="top-gallery">
-      <div class="container">
-        <div class="main-title">
-          <h2>Wellness</h2>
-          <p>
-            Our spa is a unique haven of tranquilllity nestled on a restful
-            architecture. it perpetuates the tradtion established by Ethiopian
-            royal families who used to retreat to relax and indulge in beauty
-            rituals.
-          </p>
-        </div>
-
-        <div class="image-wrapper">
-          <div class="single-image" data-aos="zoom-in">
-            <img src="../../assets/image/wellness.jpg" alt="" />
-          </div>
-          <div class="single-image1 grid-top3" data-aos="zoom-in">
-            <img src="../../assets/image/Icons/kuriftuentoto2.jpg" alt="" />
-          </div>
-          <div class="single-image1 grid-top" data-aos="zoom-in">
-            <img src="../../assets/image/_DSC1724-min.jpg" alt="" />
-          </div>
-          <div class="single-image grid-top2" data-aos="zoom-in">
-            <img src="../../assets/image/Icons/kuriftuentoto.jpg" alt="" />
-          </div>
-        </div>
-      </div>
+      <TabHeader :head="header" />
     </section>
+
+    <Dbox :data="wellness" />
+
     <section class="spa-special-offer">
       <div class="container">
         <div class="special-offer-all">
@@ -164,69 +142,45 @@
         </div>
       </div>
     </section>
-    <section class="spa-menu">
-      <div class="container">
-        <div class="menu-wrapper">
-          <h3>Menu</h3>
-          <div class="menu-card">
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/Icons/kuriftuentoto2.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>SAUNNA</h4>
-              </div>
-            </div>
-
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/_DSC1724-min.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>massage</h4>
-              </div>
-            </div>
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/entoto11.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>Spa day</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Event from "../../components/Event.vue";
 export default {
-  components: {
-    Event,
-  },
   data() {
     return {
-      checkIn: "",
-      checkOut: "",
-      location: "",
-      data: "",
-      showNav: false,
+      header: {
+        title: "Wellness",
+        desc: `Our spa is a unique haven of tranquilllity nestled on a restful
+            architecture. it perpetuates the tradtion established by Ethiopian
+            royal families who used to retreat to relax and indulge in beauty
+            rituals.`,
+      },
+      wellness: [
+        {
+          title: "Sauna/Steam & Jacuzzi",
+          desc: `Enjoy our aromatic oils and natural essences used in our sauna and steam to enhance and revitalize your wellbeing`,
+          img: "entoto/well/10.webp",
+        },
+        {
+          title: "Yoga",
+          desc: `Every detail at our spa resort is meticulously tailored to create the ultimate destination for wellness and tranquility, starting with the basics like yoga.`,
+          img: "entoto/exp/2.webp",
+        },
+        {
+          title: "Massage",
+          desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nihil sint assumenda illo! Nulla obcaecati blanditiis cumque,
+          consectetur non in?`,
+          img: "entoto/well/9.webp",
+        },
+        {
+          title: "Bath Tub",
+          desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nihil sint assumenda illo! Nulla obcaecati blanditiis cumque,
+          consectetur non in?`,
+          img: "entoto/well/11.webp",
+        },
+      ],
     };
-  },
-
-  mounted() {
-    AOS.init({
-      duration: 1500,
-      offset: 120,
-      easing: "ease",
-      once: false,
-      anchorPlacement: "top-bottom",
-    });
   },
 };
 </script>
@@ -436,109 +390,6 @@ export default {
       }
     }
   }
-  .top-gallery {
-    margin-top: 5rem;
-    display: grid;
-    place-items: center;
-    @include responsive($lg) {
-      margin-top: 8rem;
-    }
-    .container {
-      .main-title {
-        display: grid;
-        place-items: center;
-        h2 {
-          text-align: center;
-          font-size: 1.5rem;
-          font-weight: 600;
-        }
-        p {
-          text-align: center;
-          color: $kuriftu-grey;
-          width: 20rem;
-          margin-top: 1rem;
-          font-size: 0.8rem;
-        }
-        @include responsive($md) {
-          h2 {
-            font-size: 2rem;
-          }
-          p {
-            width: 40rem;
-            font-size: 1rem;
-          }
-        }
-      }
-      .image-wrapper {
-        display: grid;
-        place-items: center;
-        @include responsive($md) {
-          grid-template-columns: 1fr 1fr;
-          gap: 2rem;
-        }
-        @include responsive($xl) {
-          gap: 3rem;
-        }
-        .single-image {
-          margin-top: 2rem;
-          img {
-            width: 20rem;
-            height: 30rem;
-            object-fit: cover;
-            @include responsive($lg) {
-              width: 30rem;
-              height: 40rem;
-            }
-            @include responsive($xl) {
-              width: 55rem;
-              height: 40rem;
-            }
-          }
-        }
-        .single-image1 {
-          margin-top: 2rem;
-          img {
-            width: 20rem;
-            height: 20rem;
-            object-fit: cover;
-            @include responsive($lg) {
-              width: 30rem;
-              height: 30rem;
-            }
-            @include responsive($xl) {
-              width: 55rem;
-              height: 30rem;
-            }
-          }
-        }
-        @include responsive($md) {
-          .grid-top {
-            margin-top: 1rem;
-          }
-          .grid-top2 {
-            margin-top: -9rem;
-          }
-          .grid-top1 {
-            margin-top: -1rem;
-          }
-          .grid-top3 {
-            margin-top: -8rem;
-          }
-        }
-        @include responsive($xl) {
-          .grid-top {
-            margin-top: 1rem;
-          }
-          .grid-top2 {
-            margin-top: -9rem;
-          }
-          .grid-top3 {
-            margin-top: -8rem;
-          }
-        }
-      }
-    }
-  }
   .spa-special-offer {
     margin-top: 6.25rem;
     .container {
@@ -686,70 +537,10 @@ export default {
       }
     }
   }
-  .spa-menu {
-    margin-top: 5rem;
-    @include responsive($md) {
-      margin-top: 8rem;
-    }
-    .container {
-      .menu-wrapper {
-        h3 {
-          @extend .title;
-          font-size: 1.5rem;
-          text-transform: uppercase;
-        }
-        .menu-card {
-          display: grid;
-          @include responsive($md) {
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-          }
-          @include responsive($lg) {
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 3rem;
-          }
-          .menu-single {
-            position: relative;
-            margin-top: 2rem;
-
-            .menu-img {
-              position: relative;
-              img {
-                width: 100%;
-                height: 18rem;
-                object-fit: cover;
-              }
-              &::after {
-                content: " ";
-                position: absolute;
-                top: 0;
-                right: 0;
-                width: 100%;
-                height: 100%;
-                z-index: 998;
-                background: rgba(25, 30, 25, 0.6);
-              }
-            }
-            .menu-title {
-              position: absolute;
-              top: 0;
-              right: 0;
-              left: 0;
-              bottom: 0;
-              z-index: 999;
-              display: grid;
-              place-items: center;
-              h4 {
-                font-size: 1.5rem;
-                text-transform: uppercase;
-                color: $kuriftu-white;
-                text-align: center;
-              }
-            }
-          }
-        }
-      }
-    }
+  .top-gallery {
+    margin-top: 3rem;
+    display: grid;
+    place-items: center;
   }
 }
 </style>

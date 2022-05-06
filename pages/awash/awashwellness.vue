@@ -1,12 +1,15 @@
 <template>
   <div class="main">
-   <Destinationheader :src="require(`../../assets/image/AWASH-Color side.svg`)"/>
-   <div class="destination-links2">
+    <Destinationheader
+      :src="require(`../../assets/image/AWASH-Color side.svg`)"
+    />
+    <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-               <nuxt-link  class="a-link active" to="awashwellness"><p>Awash</p>
+              <nuxt-link class="a-link active" to="awashwellness"
+                ><p>Awash</p>
                 <img
                   class="drop-icon"
                   src="../../assets/image/Icons/next2.svg"
@@ -15,19 +18,45 @@
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
-           
-            <li><nuxt-link  class="a-link " to="awashaccommodation"> <p>Accomodation</p> </nuxt-link > </li>
-            <li><nuxt-link  class="a-link "  to="awashexperience">Experiences</nuxt-link ></li>
-            <li><nuxt-link  class="a-link active"  to="awashwellness">Wellness</nuxt-link ></li>
-            <li><nuxt-link  class="a-link "  to="awashdining">Dining</nuxt-link ></li>
-            <li>
-              <nuxt-link  class="a-link " to="awashevent">Celebration & Events</nuxt-link >
-              </li>
-            <li><nuxt-link  class="a-link "   to="awashgallery ">Gallery</nuxt-link ></li>
+                  <li>
+                    <nuxt-link class="a-link" to="awashaccommodation">
+                      <p>Accomodation</p>
+                    </nuxt-link>
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="awashexperience"
+                      >Experiences</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link active" to="awashwellness"
+                      >Wellness</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="awashdining"
+                      >Dining</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="awashevent"
+                      >Celebration & Events</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="awashgallery "
+                      >Gallery</nuxt-link
+                    >
+                  </li>
 
-            <li>
-              <nuxt-link  class="a-link " to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link >
-              </li> </div>
+                  <li>
+                    <nuxt-link
+                      class="a-link"
+                      to="https://versavvymedia.com/reservation_system/reserve.php"
+                      >Reserve</nuxt-link
+                    >
+                  </li>
+                </div>
               </ul>
             </li>
           </ul>
@@ -39,25 +68,46 @@
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-                 <nuxt-link  class="a-link active" to="/destinationawash">Awash</nuxt-link 
+              <nuxt-link class="a-link active" to="/destinationawash"
+                >Awash</nuxt-link
               >
               <img src="../../assets/image/Icons/next2.svg" alt="" />
             </li>
             <li>
-              <nuxt-link  class="a-link " to="awashaccommodation"> <p>Accomodation</p> </nuxt-link > 
+              <nuxt-link class="a-link" to="awashaccommodation">
+                <p>Accomodation</p>
+              </nuxt-link>
             </li>
-         
-            <li><nuxt-link  class="a-link "  to="awashexperience">Experiences</nuxt-link ></li>
-            <li><nuxt-link  class="a-link  active"  to="awashwellness">Wellness <hr class="activeline"
-              /></nuxt-link></li>
-                <li><nuxt-link  class="a-link "  to="awashdining">Dining</nuxt-link ></li>
+
             <li>
-              <nuxt-link  class="a-link " to="awashevent">Celebration & Events</nuxt-link >
-              </li>
-                  <li><nuxt-link  class="a-link "   to="awashgallery">Gallery</nuxt-link ></li>
+              <nuxt-link class="a-link" to="awashexperience"
+                >Experiences</nuxt-link
+              >
+            </li>
             <li>
-              <nuxt-link  class="a-link " to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link >
-              </li>
+              <nuxt-link class="a-link active" to="awashwellness"
+                >Wellness
+                <hr class="activeline"
+              /></nuxt-link>
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="awashdining">Dining</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="awashevent"
+                >Celebration & Events</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="awashgallery">Gallery</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link
+                class="a-link"
+                to="https://versavvymedia.com/reservation_system/reserve.php"
+                >Reserve</nuxt-link
+              >
+            </li>
           </ul>
           <hr class="line" />
         </div>
@@ -65,33 +115,11 @@
     </div>
 
     <section class="top-gallery">
-      <div class="container">
-        <div class="main-title">
-          <h2>Wellness</h2>
-          <p>
-            Our spa is a unique haven of tranquilllity nestled on a restful
-            architecture. it perpetuates the tradtion established by Ethiopian
-            royal families who used to retreat to relax and indulge in beauty
-            rituals.
-          </p>
-        </div>
-
-        <div class="image-wrapper">
-          <div class="single-image" data-aos="zoom-in">
-            <img src="../../assets/image/wellness.jpg" alt="" />
-          </div>
-          <div class="single-image1 grid-top3" data-aos="zoom-in">
-            <img src="../../assets/image/Icons/kuriftuentoto2.jpg" alt="" />
-          </div>
-          <div class="single-image1 grid-top" data-aos="zoom-in">
-            <img src="../../assets/image/_DSC1724-min.jpg" alt="" />
-          </div>
-          <div class="single-image grid-top2" data-aos="zoom-in">
-            <img src="../../assets/image/Icons/kuriftuentoto.jpg" alt="" />
-          </div>
-        </div>
-      </div>
+      <TabHeader :head="header" />
     </section>
+
+    <Dbox :data="wellness" />
+
     <section class="spa-special-offer">
       <div class="container">
         <div class="special-offer-all">
@@ -126,69 +154,38 @@
         </div>
       </div>
     </section>
-    <section class="spa-menu">
-      <div class="container">
-        <div class="menu-wrapper">
-          <h3>Menu</h3>
-          <div class="menu-card">
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/Icons/kuriftuentoto2.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>SAUNNA</h4>
-              </div>
-            </div>
-
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/_DSC1724-min.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>massage</h4>
-              </div>
-            </div>
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/entoto11.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>Spa day</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Event from "../../components/Event.vue";
 export default {
-  components: {
-    Event,
-  },
   data() {
     return {
-      checkIn: "",
-      checkOut: "",
-      location: "",
-      data: "",
-      showNav: false,
+      header: {
+        title: "Wellness",
+        desc: `Our spa is a unique haven of tranquilllity nestled on a restful
+            architecture. it perpetuates the tradtion established by Ethiopian
+            royal families who used to retreat to relax and indulge in beauty
+            rituals.`,
+      },
+      wellness: [
+        {
+          title: "Massage By The Falls",
+          desc: `Our Spa offers unique massage rooms located on the banks of the Awash River where guests will have the opportunity to relax to the sound of the waterfall while receiving a well deserved massage.`,
+          img: "entoto/well/10.webp",
+        },
+        {
+          title: "Dipping Pool",
+          desc: `We are excited to present our first Dipping Pool experience paired with our Bar & Grill on an elevated platform overlooking the landscape. The perfect destination for a romantic getaway with pictures - perfect views from sunrise to sunset.`,
+          img: "awash/exp/2.webp",
+        },
+        {
+          title: "Yoga ",
+          desc: `Revive your senses and rejuvenate your body. Our Spa experiences are designed to invigorate, relax, restore and replenish body, mind and spirit.`,
+          img: "entoto/well/9.webp",
+        },
+      ],
     };
-  },
-
-  mounted() {
-    AOS.init({
-      duration: 1500,
-      offset: 120,
-      easing: "ease",
-      once: false,
-      anchorPlacement: "top-bottom",
-    });
   },
 };
 </script>
@@ -281,7 +278,7 @@ export default {
   .destination-links {
     display: none;
   }
-      .destination-links2 {
+  .destination-links2 {
     .container {
       .wrapper {
         .link-destination {
@@ -312,7 +309,7 @@ export default {
               display: none;
               position: absolute;
               top: 25px;
-              left:0px;
+              left: 0px;
               // @include responsive($md){
               //   left: 15rem;
               // }
@@ -330,7 +327,7 @@ export default {
                 li {
                   margin-left: 0.3rem;
                   margin-top: 0.5rem;
-  
+
                   .a-link {
                     color: $kuriftu-grey;
                     font-size: 0.88rem;
@@ -393,109 +390,6 @@ export default {
 
             margin-top: 0.6rem;
             opacity: 0.7;
-          }
-        }
-      }
-    }
-  }
-  .top-gallery {
-    margin-top: 5rem;
-    display: grid;
-    place-items: center;
-    @include responsive($lg) {
-      margin-top: 8rem;
-    }
-    .container {
-      .main-title {
-        display: grid;
-        place-items: center;
-        h2 {
-          text-align: center;
-          font-size: 1.5rem;
-          font-weight: 600;
-        }
-        p {
-          text-align: center;
-          color: $kuriftu-grey;
-          width: 20rem;
-          margin-top: 1rem;
-          font-size: 0.8rem;
-        }
-        @include responsive($md) {
-          h2 {
-            font-size: 2rem;
-          }
-          p {
-            width: 40rem;
-            font-size: 1rem;
-          }
-        }
-      }
-      .image-wrapper {
-        display: grid;
-        place-items: center;
-        @include responsive($md) {
-          grid-template-columns: 1fr 1fr;
-          gap: 2rem;
-        }
-        @include responsive($xl) {
-          gap: 3rem;
-        }
-        .single-image {
-          margin-top: 2rem;
-          img {
-            width: 20rem;
-            height: 30rem;
-            object-fit: cover;
-            @include responsive($lg) {
-              width: 30rem;
-              height: 40rem;
-            }
-            @include responsive($xl) {
-              width: 55rem;
-              height: 40rem;
-            }
-          }
-        }
-        .single-image1 {
-          margin-top: 2rem;
-          img {
-            width: 20rem;
-            height: 20rem;
-            object-fit: cover;
-            @include responsive($lg) {
-              width: 30rem;
-              height: 30rem;
-            }
-            @include responsive($xl) {
-              width: 55rem;
-              height: 30rem;
-            }
-          }
-        }
-        @include responsive($md) {
-          .grid-top {
-            margin-top: 1rem;
-          }
-          .grid-top2 {
-            margin-top: -9rem;
-          }
-          .grid-top1 {
-            margin-top: -1rem;
-          }
-          .grid-top3 {
-            margin-top: -8rem;
-          }
-        }
-        @include responsive($xl) {
-          .grid-top {
-            margin-top: 1rem;
-          }
-          .grid-top2 {
-            margin-top: -9rem;
-          }
-          .grid-top3 {
-            margin-top: -8rem;
           }
         }
       }
@@ -648,70 +542,10 @@ export default {
       }
     }
   }
-  .spa-menu {
-    margin-top: 5rem;
-    @include responsive($md) {
-      margin-top: 8rem;
-    }
-    .container {
-      .menu-wrapper {
-        h3 {
-          @extend .title;
-          font-size: 1.5rem;
-          text-transform: uppercase;
-        }
-        .menu-card {
-          display: grid;
-          @include responsive($md) {
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-          }
-          @include responsive($lg) {
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 3rem;
-          }
-          .menu-single {
-            position: relative;
-            margin-top: 2rem;
-
-            .menu-img {
-              position: relative;
-              img {
-               width:100%;
-                height: 18rem;
-                object-fit: cover;
-              }
-              &::after {
-                content: " ";
-                position: absolute;
-                top: 0;
-                right: 0;
-                width: 100%;
-                height: 100%;
-                z-index: 998;
-                background: rgba(25, 30, 25, 0.6);
-              }
-            }
-            .menu-title {
-              position: absolute;
-              top: 0;
-              right: 0;
-              left: 0;
-              bottom: 0;
-               z-index: 999;
-              display: grid;
-              place-items: center;
-              h4 {
-                font-size: 1.5rem;
-                text-transform: uppercase;
-                color: $kuriftu-white;
-                text-align: center;
-              }
-            }
-          }
-        }
-      }
-    }
+  .top-gallery {
+    margin-top: 3rem;
+    display: grid;
+    place-items: center;
   }
 }
 </style>

@@ -1,12 +1,13 @@
 <template>
   <div class="main">
-   <Destinationheader :src="require(`../../assets/image/afar-logo.svg`)"/>
-      <div class="destination-links2">
+    <Destinationheader :src="require(`../../assets/image/afar-logo.svg`)" />
+    <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-               <nuxt-link  class="a-link active" to="afarwellness"><p>Afar</p>
+              <nuxt-link class="a-link active" to="afaraccommodation"
+                ><p>Afar</p>
                 <img
                   class="drop-icon"
                   src="../../assets/image/Icons/next2.svg"
@@ -15,19 +16,43 @@
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
-           
-            <li><nuxt-link  class="a-link " to="afaraccommodation"> <p>Accomodation</p> </nuxt-link > </li>
-            <li><nuxt-link  class="a-link "  to="afarexperience">Experiences</nuxt-link ></li>
-            <li><nuxt-link  class="a-link active"  to="afarwellness">Wellness</nuxt-link ></li>
-            <li><nuxt-link  class="a-link "  to="afardining">Dining</nuxt-link ></li>
-            <li>
-              <nuxt-link  class="a-link " to="afarevent">Celebration & Events</nuxt-link >
-              </li>
-            <li><nuxt-link  class="a-link "   to="afargallery ">Gallery</nuxt-link ></li>
+                  <li>
+                    <nuxt-link class="a-link active" to="afaraccommodation">
+                      <p>Accomodation</p>
+                    </nuxt-link>
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="afarexperience"
+                      >Experiences</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="afarwellness"
+                      >Wellness</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="afardining">Dining</nuxt-link>
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="afarevent"
+                      >Celebration & Events</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="afargallery"
+                      >Gallery</nuxt-link
+                    >
+                  </li>
 
-            <li>
-              <nuxt-link  class="a-link " to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link >
-              </li> </div>
+                  <li>
+                    <nuxt-link
+                      class="a-link"
+                      to="https://versavvymedia.com/reservation_system/reserve.php"
+                      >Reserve</nuxt-link
+                    >
+                  </li>
+                </div>
               </ul>
             </li>
           </ul>
@@ -39,24 +64,44 @@
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-                 <nuxt-link  class="a-link active" to="/destinationentoto">Entoto</nuxt-link 
+              <nuxt-link class="a-link active" to="/destinationafar"
+                >Afar</nuxt-link
+              ><img src="../../assets/image/Icons/next2.svg" alt="" />
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="afaraccommodation"
+                ><p>Accomodation</p></nuxt-link
               >
-              <img src="../../assets/image/Icons/next2.svg" alt="" />
             </li>
             <li>
-              <nuxt-link  class="a-link " to="entotoaccommodation"> <p>Accomodation</p> </nuxt-link > 
+              <nuxt-link class="a-link" to="afarexperience"
+                >Experiences</nuxt-link
+              >
             </li>
-             <li><nuxt-link  class="a-link "   to="entotogallery">Gallery</nuxt-link ></li>
-            <li><nuxt-link  class="a-link "  to="entotoexperience">Experiences</nuxt-link ></li>
-            <li><nuxt-link  class="a-link  active"  to="entotowellness">Wellness <hr class="activeline"
-              /></nuxt-link></li>
-                <li><nuxt-link  class="a-link "  to="entotodining">Dining</nuxt-link ></li>
             <li>
-              <nuxt-link  class="a-link " to="entotoevent">Celebration & Events</nuxt-link >
-              </li>
+              <nuxt-link class="a-link active" to="afarwellness"
+                >Wellness</nuxt-link
+              >
+            </li>
             <li>
-              <nuxt-link  class="a-link " to="https://versavvymedia.com/reservation_system/reserve.php">Reserve</nuxt-link >
-              </li>
+              <nuxt-link class="a-link" to="afardining">Dining</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="afarevent"
+                >Celebration & Events</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="a-link" to="afargallery">Gallery</nuxt-link>
+            </li>
+
+            <li>
+              <nuxt-link
+                class="a-link"
+                to="https://versavvymedia.com/reservation_system/reserve.php"
+                >Reserve</nuxt-link
+              >
+            </li>
           </ul>
           <hr class="line" />
         </div>
@@ -64,33 +109,11 @@
     </div>
 
     <section class="top-gallery">
-      <div class="container">
-        <div class="main-title">
-          <h2>Wellness</h2>
-          <p>
-            Our spa is a unique haven of tranquilllity nestled on a restful
-            architecture. it perpetuates the tradtion established by Ethiopian
-            royal families who used to retreat to relax and indulge in beauty
-            rituals.
-          </p>
-        </div>
-
-        <div class="image-wrapper">
-          <div class="single-image" data-aos="zoom-in">
-            <img src="../../assets/image/wellness.jpg" alt="" />
-          </div>
-          <div class="single-image1 grid-top3" data-aos="zoom-in">
-            <img src="../../assets/image/Icons/kuriftuentoto2.jpg" alt="" />
-          </div>
-          <div class="single-image1 grid-top" data-aos="zoom-in">
-            <img src="../../assets/image/_DSC1724-min.jpg" alt="" />
-          </div>
-          <div class="single-image grid-top2" data-aos="zoom-in">
-            <img src="../../assets/image/Icons/kuriftuentoto.jpg" alt="" />
-          </div>
-        </div>
-      </div>
+      <TabHeader :head="header" />
     </section>
+
+    <Dbox :data="wellness" />
+
     <section class="spa-special-offer">
       <div class="container">
         <div class="special-offer-all">
@@ -125,69 +148,45 @@
         </div>
       </div>
     </section>
-    <section class="spa-menu">
-      <div class="container">
-        <div class="menu-wrapper">
-          <h3>Menu</h3>
-          <div class="menu-card">
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/Icons/kuriftuentoto2.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>SAUNNA</h4>
-              </div>
-            </div>
-
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/_DSC1724-min.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>massage</h4>
-              </div>
-            </div>
-            <div class="menu-single">
-              <div class="menu-img">
-                <img src="../../assets/image/entoto11.jpg" alt="" />
-              </div>
-              <div class="menu-title">
-                <h4>Spa day</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Event from "../../components/Event.vue";
 export default {
-  components: {
-    Event,
-  },
   data() {
     return {
-      checkIn: "",
-      checkOut: "",
-      location: "",
-      data: "",
-      showNav: false,
+      header: {
+        title: "Wellness",
+        desc: `Our spa is a unique haven of tranquilllity nestled on a restful
+          architecture. it perpetuates the tradtion established by Ethiopian
+          royal families who used to retreat to relax and indulge in beauty
+          rituals.`,
+      },
+      wellness: [
+        {
+          title: "Sauna/Steam & Jacuzzi",
+          desc: `Enjoy our aromatic oils and natural essences used in our sauna and steam to enhance and revitalize your wellbeing`,
+          img: "bishoftu/wellness/spa.webp",
+        },
+        {
+          title: "Hair Salon",
+          desc: ` Whether a girls' getaway, your wedding day, or just because it's Tuesday, look your best with stunning hair dos.`,
+          img: "bishoftu/wellness/hair salon.webp",
+        },
+        {
+          title: "Massage",
+          desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nihil sint assumenda illo! Nulla obcaecati blanditiis cumque,
+          consectetur non in?`,
+          img: "bishoftu/wellness/massage.webp",
+        },
+        {
+          title: "Swimming Pool",
+          desc: `Whether you’re looking for an early-morning workout or just for refreshment after your spa treatment, the pools at Kuriftu Bishoftu Resort and Spa do not disappoint offering an
+          exceptional place for both rest and recreation.`,
+          img: "bishoftu/Swimming_pool2.webp",
+        },
+      ],
     };
-  },
-
-  mounted() {
-    AOS.init({
-      duration: 1500,
-      offset: 120,
-      easing: "ease",
-      once: false,
-      anchorPlacement: "top-bottom",
-    });
   },
 };
 </script>
@@ -280,7 +279,7 @@ export default {
   .destination-links {
     display: none;
   }
-     .destination-links2 {
+  .destination-links2 {
     .container {
       .wrapper {
         .link-destination {
@@ -311,7 +310,7 @@ export default {
               display: none;
               position: absolute;
               top: 25px;
-              left:0px;
+              left: 0px;
               // @include responsive($md){
               //   left: 15rem;
               // }
@@ -329,7 +328,7 @@ export default {
                 li {
                   margin-left: 0.3rem;
                   margin-top: 0.5rem;
-  
+
                   .a-link {
                     color: $kuriftu-grey;
                     font-size: 0.88rem;
@@ -397,108 +396,11 @@ export default {
       }
     }
   }
+
   .top-gallery {
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: grid;
     place-items: center;
-    @include responsive($lg) {
-      margin-top: 8rem;
-    }
-    .container {
-      .main-title {
-        display: grid;
-        place-items: center;
-        h2 {
-          text-align: center;
-          font-size: 1.5rem;
-          font-weight: 600;
-        }
-        p {
-          text-align: center;
-          color: $kuriftu-grey;
-          width: 20rem;
-          margin-top: 1rem;
-          font-size: 0.8rem;
-        }
-        @include responsive($md) {
-          h2 {
-            font-size: 2rem;
-          }
-          p {
-            width: 40rem;
-            font-size: 1rem;
-          }
-        }
-      }
-      .image-wrapper {
-        display: grid;
-        place-items: center;
-        @include responsive($md) {
-          grid-template-columns: 1fr 1fr;
-          gap: 2rem;
-        }
-        @include responsive($xl) {
-          gap: 3rem;
-        }
-        .single-image {
-          margin-top: 2rem;
-          img {
-            width: 20rem;
-            height: 30rem;
-            object-fit: cover;
-            @include responsive($lg) {
-              width: 30rem;
-              height: 40rem;
-            }
-            @include responsive($xl) {
-              width: 55rem;
-              height: 40rem;
-            }
-          }
-        }
-        .single-image1 {
-          margin-top: 2rem;
-          img {
-            width: 20rem;
-            height: 20rem;
-            object-fit: cover;
-            @include responsive($lg) {
-              width: 30rem;
-              height: 30rem;
-            }
-            @include responsive($xl) {
-              width: 55rem;
-              height: 30rem;
-            }
-          }
-        }
-        @include responsive($md) {
-          .grid-top {
-            margin-top: 1rem;
-          }
-          .grid-top2 {
-            margin-top: -9rem;
-          }
-          .grid-top1 {
-            margin-top: -1rem;
-          }
-          .grid-top3 {
-            margin-top: -8rem;
-          }
-        }
-        @include responsive($xl) {
-          .grid-top {
-            margin-top: 1rem;
-          }
-          .grid-top2 {
-            margin-top: -9rem;
-          }
-          .grid-top3 {
-            margin-top: -8rem;
-          }
-        }
-      }
-    }
   }
   .spa-special-offer {
     margin-top: 6.25rem;
@@ -676,7 +578,7 @@ export default {
             .menu-img {
               position: relative;
               img {
-               width:100%;
+                width: 100%;
                 height: 18rem;
                 object-fit: cover;
               }
@@ -697,7 +599,7 @@ export default {
               right: 0;
               left: 0;
               bottom: 0;
-               z-index: 999;
+              z-index: 999;
               display: grid;
               place-items: center;
               h4 {

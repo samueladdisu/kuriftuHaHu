@@ -53,7 +53,8 @@
                     >
                   </li>
                   <li>
-                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                    <nuxt-link class="a-link" to="/giftcard"
+                      >Gift Card</nuxt-link
                     >
                   </li>
                 </div>
@@ -107,7 +108,7 @@
               >
             </li>
             <li>
-              <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+              <nuxt-link class="a-link" to="/giftcard">Gift Card</nuxt-link>
             </li>
           </ul>
           <hr class="line" />

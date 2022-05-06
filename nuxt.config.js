@@ -18,7 +18,8 @@ export default {
 
     ],
     script: [
-      { src: 'https://unpkg.com/swiper/swiper-bundle.min.js', defer: true }
+      { src: 'https://unpkg.com/swiper/swiper-bundle.min.js', defer: true },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js', defer: true }
     ]
   },
 
@@ -32,7 +33,6 @@ export default {
   plugins: [
     { src: '~/plugins/draggable.js', mode: 'client' },
     { src: '~/plugins/gsap.js', mode: 'client' },
-    { src: '~/plugins/jqueryP.js', mode: 'client' },
     { src: '~/plugins/scroll.js', mode: 'client' },
     { src: '~/plugins/scrollPlugin.js', mode: 'client' },
     // { src: '~/plugins/swiper.js', mode: 'client' }

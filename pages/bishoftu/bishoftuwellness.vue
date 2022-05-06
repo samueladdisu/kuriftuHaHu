@@ -105,17 +105,7 @@
     </div>
 
     <section class="top-gallery">
-      <div class="container">
-        <div class="main-title">
-          <h2>Wellness</h2>
-          <p>
-            Our spa is a unique haven of tranquilllity nestled on a restful
-            architecture. it perpetuates the tradtion established by Ethiopian
-            royal families who used to retreat to relax and indulge in beauty
-            rituals.
-          </p>
-        </div>
-      </div>
+      <TabHeader :head="header" />
     </section>
 
     <Dbox :data="wellness" />
@@ -161,6 +151,13 @@
 export default {
   data() {
     return {
+      header: {
+        title: "Wellness",
+        desc: `Our spa is a unique haven of tranquilllity nestled on a restful
+          architecture. it perpetuates the tradtion established by Ethiopian
+          royal families who used to retreat to relax and indulge in beauty
+          rituals.`,
+      },
       wellness: [
         {
           title: "Sauna/Steam & Jacuzzi",
@@ -183,11 +180,6 @@ export default {
           desc: `Whether you’re looking for an early-morning workout or just for refreshment after your spa treatment, the pools at Kuriftu Bishoftu Resort and Spa do not disappoint offering an
           exceptional place for both rest and recreation.`,
           img: "bishoftu/Swimming_pool2.webp",
-        },
-        {
-          title: "Gift Shop",
-          desc: `You will never fail to find something special for you or your loved ones in our locally sourced gift shops.`,
-          img: "bishoftu/gift_shop.webp",
         },
       ],
     };
@@ -400,108 +392,11 @@ export default {
       }
     }
   }
+
   .top-gallery {
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: grid;
     place-items: center;
-    @include responsive($lg) {
-      margin-top: 8rem;
-    }
-    .container {
-      .main-title {
-        display: grid;
-        place-items: center;
-        h2 {
-          text-align: center;
-          font-size: 1.5rem;
-          font-weight: 600;
-        }
-        p {
-          text-align: center;
-          color: $kuriftu-grey;
-          width: 20rem;
-          margin-top: 1rem;
-          font-size: 0.8rem;
-        }
-        @include responsive($md) {
-          h2 {
-            font-size: 2rem;
-          }
-          p {
-            width: 40rem;
-            font-size: 1rem;
-          }
-        }
-      }
-      .image-wrapper {
-        display: grid;
-        place-items: center;
-        @include responsive($md) {
-          grid-template-columns: 1fr 1fr;
-          gap: 2rem;
-        }
-        @include responsive($xl) {
-          gap: 3rem;
-        }
-        .single-image {
-          margin-top: 2rem;
-          img {
-            width: 20rem;
-            height: 30rem;
-            object-fit: cover;
-            @include responsive($lg) {
-              width: 30rem;
-              height: 40rem;
-            }
-            @include responsive($xl) {
-              width: 55rem;
-              height: 40rem;
-            }
-          }
-        }
-        .single-image1 {
-          margin-top: 2rem;
-          img {
-            width: 20rem;
-            height: 20rem;
-            object-fit: cover;
-            @include responsive($lg) {
-              width: 30rem;
-              height: 30rem;
-            }
-            @include responsive($xl) {
-              width: 55rem;
-              height: 30rem;
-            }
-          }
-        }
-        @include responsive($md) {
-          .grid-top {
-            margin-top: 1rem;
-          }
-          .grid-top2 {
-            margin-top: -9rem;
-          }
-          .grid-top1 {
-            margin-top: -1rem;
-          }
-          .grid-top3 {
-            margin-top: -8rem;
-          }
-        }
-        @include responsive($xl) {
-          .grid-top {
-            margin-top: 1rem;
-          }
-          .grid-top2 {
-            margin-top: -9rem;
-          }
-          .grid-top3 {
-            margin-top: -8rem;
-          }
-        }
-      }
-    }
   }
   .spa-special-offer {
     margin-top: 6.25rem;
@@ -709,90 +604,6 @@ export default {
                 color: $kuriftu-white;
                 text-align: center;
               }
-            }
-          }
-        }
-      }
-    }
-  }
-  .accomondation {
-    .container {
-      .recommended {
-        display: flex;
-        align-items: center;
-        gap: 2rem;
-        hr {
-          border-style: solid;
-          color: $kuriftu-grey;
-          opacity: 0.5;
-
-          width: 100%;
-        }
-        p {
-          font-size: 0.7rem;
-          text-transform: uppercase;
-          color: $kuriftu-grey;
-        }
-      }
-      .accomondation-room {
-        margin-top: 3rem;
-        display: grid;
-        @include responsive($md) {
-          grid-template-columns: 1fr 1fr;
-          gap: 2rem;
-        }
-        @include responsive($xl) {
-          gap: 8rem;
-        }
-        .single-accomondation {
-          margin-top: 2.88rem;
-          img {
-            @include responsive($md) {
-              width: 20rem;
-              height: 15rem;
-              object-fit: cover;
-            }
-
-            @include responsive($lg) {
-              width: 100%;
-              height: 20rem;
-            }
-
-            @include responsive($xl) {
-              height: 28rem;
-            }
-          }
-          .room-name {
-            h4 {
-              font-size: 1.5rem;
-              font-weight: 600;
-              margin-top: 1.88rem;
-              color: $kuriftu-black;
-            }
-          }
-          .room-desc {
-            p {
-              @extend .text;
-              margin-top: 0.94rem;
-              color: #808080;
-              font-size: 1.1rem;
-              line-height: 1.5rem;
-              text-align: left;
-              @include responsive($md) {
-                width: 20rem;
-              }
-              @include responsive($lg) {
-                width: 26rem;
-              }
-              @include responsive($xl) {
-                width: 30rem;
-              }
-            }
-          }
-          .book-buttons {
-            margin-top: 1.88rem;
-            @include responsive($lg) {
-              margin-top: 3rem;
             }
           }
         }

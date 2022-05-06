@@ -36,12 +36,12 @@
               <!-- <a href="https://versavvymedia.com/reservation_system/reserve.php"
                 >Reservation</a
               > -->
-              <nuxt-link to="/book">Reservation </nuxt-link>
+              <nuxt-link to="/giftcard">Gift Card </nuxt-link>
             </li>
 
             <li class="bottom-nav">
-              <nuxt-link to="/ourstory" class="bottom-link">
-                Our Story
+              <nuxt-link to="/aboutus" class="bottom-link">
+                About Us
               </nuxt-link>
             </li>
             <li>

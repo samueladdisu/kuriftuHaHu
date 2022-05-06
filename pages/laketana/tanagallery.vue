@@ -46,7 +46,7 @@
                   </li>
 
                   <li>
-                     <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
                   </li>
                 </div>
               </ul>
@@ -105,29 +105,29 @@
       <div class="container">
         <div class="image-wrapper">
           <div class="single-image" data-aos="zoom-in">
-            <img src="../../assets/image/entoto5.JPG" alt="" />
+            <img src="../../assets/image/tana/firstSlider/1.webp" alt="" />
           </div>
           <div class="single-image1 grid-top3" data-aos="zoom-in">
-            <img src="../../assets/image/entoto.jpg" alt="" />
+            <img src="../../assets/image/tana/firstSlider/2.webp" alt="" />
           </div>
           <div class="single-image1 grid-top" data-aos="zoom-in">
-            <img src="../../assets/image/wellness-min.jpg" alt="" />
+            <img src="../../assets/image/tana/firstSlider/3.webp" alt="" />
           </div>
           <div class="single-image grid-top2" data-aos="zoom-in">
-            <img src="../../assets/image/entoto1.jpg" alt="" />
+            <img src="../../assets/image/tana/firstSlider/4.webp" alt="" />
           </div>
           <div class="single-image grid-top" data-aos="zoom-in">
-            <img src="../../assets/image/_DSC1715-min.jpg" alt="" />
+            <img src="../../assets/image/tana/firstSlider/5.webp" alt="" />
           </div>
           <div class="single-image1 grid-top3" data-aos="zoom-in">
-            <img src="../../assets/image/SAM09856-min.jpg" alt="" />
+            <img src="../../assets/image/tana/firstSlider/6.webp" alt="" />
           </div>
           <div class="single-image1 grid-top" data-aos="zoom-in">
-            <img src="../../assets/image/_DSC1724-min.jpg" alt="" />
+            <img src="../../assets/image/tana/dining/1.webp" alt="" />
           </div>
 
           <div class="single-image grid-top2" data-aos="zoom-in">
-            <img src="../../assets/image/cycling.jpg" alt="" />
+            <img src="../../assets/image/tana/dining/2.webp" alt="" />
           </div>
         </div>
         <div class="see-more">

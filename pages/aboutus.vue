@@ -5,12 +5,15 @@
     <section class="display-video">
       <div class="container">
         <div class="video-wrapper">
-          <img src="../assets/image/What Makes us unique.jpg" alt="" />
+          <img src="../assets/image/IMG-20210910-WA0004.jpg" alt="" />
+          <div class="title-about">
+            <h2>About Us</h2>
+          </div>
         </div>
       </div>
     </section>
 
-    <div class="page-title">
+    <!-- <div class="page-title">
       <div class="container">
         <h2>About Us</h2>
         <p>
@@ -18,7 +21,7 @@
           excepturi placeat delectus cupiditate, necessitatibus libero ut.
         </p>
       </div>
-    </div>
+    </div> -->
     <!-- <section class="main-page-desc">
       <div class="container">
         <div class="wrapper">
@@ -56,7 +59,7 @@
             </div>
           </div>
           <div class="stay-desc">
-            <h4>WRITE A MESSAGE FROM TADIWOS G. BELETE</h4>
+            <h4>A MESSAGE FROM TADIWOS G. BELETE</h4>
 
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
@@ -73,11 +76,11 @@
 
     <section class="who-we-are">
       <div class="container">
-        <h2>WHO WE ARE</h2>
+        <!-- <h2>WHO WE ARE</h2> -->
         <div class="who-we-are-all">
           <div class="stay-slide">
             <div class="slide-card">
-              <img src="../assets/image/whoweare.PNG" alt="" />
+              <!-- <img src="../assets/image/whoweare.PNG" alt="" /> -->
               <div class="logo-over">
                 <!-- <img src="../assets/image/LOGO 2.svg" alt="" /> -->
               </div>
@@ -97,45 +100,53 @@
             </p>
           </div>
         </div>
-        <div class="unique">
-          <h4>WHAT MAKES US UNIQUE?</h4>
-          <p></p>
-          <p>
-            <b> We </b> are a company solely owned and operated by Africans.
-          </p>
-          <p>
-            <b> We </b> provide permanent employment opportunities to 2000+
+             <div class="corporate">
+          <h3 class="corporate-txt">WHAT MAKES US UNIQUE?</h3>
+          <div class="wrapper">
+            <div class="corporate-text">
+             
+
+              <p class="corporate-txt3">
+               <b> We </b> are a company solely owned and operated by Africans.
+              </p>
+              <p class="corporate-txt3">
+               <b> We </b> provide permanent employment opportunities to 2000+
             people thus far.
-          </p>
-          <p>
-            <b> We </b> support local businesses by purchasing from the
+              </p>
+              <p class="corporate-txt3">
+                 <b> We </b> support local businesses by purchasing from the
             communities that neighbor our resorts.
-          </p>
-          <p>
-            <b> We </b>are a Strategic Partner of Ethiopian Airlines and
+              </p>
+
+              <p class="corporate-txt3">
+                      <b> We </b>are a Strategic Partner of Ethiopian Airlines and
             Ethiopias Tourism Organization
-          </p>
-          <p>
-            <b> We </b>produce all furniture in-house as well as other
+              </p>
+              <p class="corporate-txt3">
+                      <b> We </b>produce all furniture in-house as well as other
             culturally artisanal design elements of our resorts (Thatched Roof,
             Woodwork, Leather Braiding, Stonework etc.).
-          </p>
-          <p>
-            <b> We </b>design all of our resorts in-house and construct them
+              </p>
+                  <p class="corporate-txt3">
+                      <b> We </b>design all of our resorts in-house and construct them
             with our own construction team.
-          </p>
-          <p>
-            <b> Our </b> CEO is an active member of the Ethiopian Board of
+              </p>
+                  <p class="corporate-txt3">
+                  <b> Our </b> CEO is an active member of the Ethiopian Board of
             Tourism.<br />
-          </p>
-          <p><b> Our </b>78% is corporate team.</p>
-
-          <!-- 71% of our line staff are females as well as 78% of our corporate team<br>
-62% of all line staff emerge from our construction team<br>
-80% of our hiring is done within the local community of each resort<br>
-100% of our staff join our company with zero work experience, including management<br> -->
+              </p>
+                  <p class="corporate-txt3">
+                  <b>     Our </b>78% is corporate team.
+              </p>
+         
+            </div>
+            <div class="style-image">
+              <img src="../assets/image/What Makes us unique.jpg" alt="" />
+            </div>
+          </div>
         </div>
-        <div data-aos="slide-up">
+        
+        <div>
           <div class="wrapper">
             <div class="all-wrapper">
               <div class="counter">
@@ -150,6 +161,20 @@
 
                 <p class="count-text">Our line staff are females</p>
               </div>
+
+              <!-- <div class="counter ">
+      <div class="persent-wrapper">
+     <h2
+              class="timer count-title count-number"
+              data-to="78"
+              data-speed="10000"
+            >
+              </h2><h4>%</h4>
+      </div>
+
+       
+            <p class="count-text">Our Corporate Team</p>
+          </div> -->
 
               <div class="counter">
                 <div class="persent-wrapper">
@@ -197,76 +222,162 @@
             </div>
           </div>
         </div>
-        <div class="corporate" data-aos="slide-up">
-          <h3 class="corporate-txt">Corporate Social Responsibility</h3>
-          <div class="wrapper">
-            <div class="corporate-text">
-              <h4 class="corporate-txt2">
-                Kuriftu Resorts focuses its efforts on social responsibility by
-                delivering lasting benefits to communities around Ethiopia:
-              </h4>
-
-              <p class="corporate-txt3">
-                Kuriftu Resorts donated 1.5 million ETB in an effort to aid in
-                the struggle against COVID-19
-              </p>
-              <p class="corporate-txt3">
-                Kuriftu Resorts donated 200 Water-park entrance tickets to kids
-                from Sele Enat Mahiber (SEM), an organization dedicated to
-                improving life in vulnerable communities around Ethiopia.
-              </p>
-              <p class="corporate-txt3">
-                In an effort to minimize car accidents and maximize car safety
-                measures, Kuriftu Resorts setup 60 traffic billboards across the
-                Oromia and Amhara regions
-              </p>
-
-              <p class="corporate-txt3">
-                Kuriftu Resorts has always prioritized environmental advocacy,
-                the resort has donated 2.5 million ETB for the Addis Ababa
-                beautification project in continued support
-              </p>
-              <p class="corporate-txt3">
-                Tesfa Addis Parents Childhood Cancer Organization(TAPCCO)
-                established in 2012 works to help children with cancer while
-                supporting families. Kuriftu Resort and Spa has given TAPCCO
-                kids free entrance to the Kuriftu Water-park and Kuriftu Resort
-                on different occasions to provide fun, relaxing experiences
-              </p>
-            </div>
-            <div class="style-image">
-              <img src="../assets/image/What Makes us unique.jpg" alt="" />
+   <div class="who-we-are-all">
+          <div class="stay-slide">
+            <div class="slide-card">
+              <!-- <img src="../assets/image/whoweare.PNG" alt="" /> -->
+              <div class="logo-over">
+                <!-- <img src="../assets/image/LOGO 2.svg" alt="" /> -->
+              </div>
             </div>
           </div>
+          <div class="stay-desc">
+            <h4>    Corporate Social Responsibility</h4>
+
+            <p>
+<b>        
+Kuriftu Resorts focuses its efforts on social responsibility by delivering lasting benefits to communities around Ethiopia:</b>
+<br>
+Kuriftu Resorts donated 1.5 million ETB in an effort to aid in the struggle against COVID-19<br>
+Kuriftu Resorts donated 200 Water-park entrance tickets to kids from Sele Enat Mahiber (SEM), an organization dedicated
+to improving life in vulnerable communities around Ethiopia<br>
+In an effort to minimize car accidents and maximize car safety measures, Kuriftu Resorts setup 60 traffic billboards across
+the Oromia and Amhara regions<br>
+Kuriftu Resorts has always prioritized environmental advocacy, the resort has donated 2.5 million ETB for the Addis
+Ababa beautification project in continued support<br>
+Tesfa Addis Parents Childhood Cancer Organization(TAPCCO) established in 2012 works to help children with cancer while supporting families. Kuriftu Resort and Spa has given TAPCCO kids free entrance to the Kuriftu Water-park and Kuriftu Resort on different occasions to provide fun, relaxing experiences<br>
+            </p>
+          </div>
         </div>
+       
       </div>
     </section>
     <section class="our-team">
       <div class="container">
         <h2>Meet The Team</h2>
 
+        <div class="single-team-member" data-aos="zoom-out">
+          <img class="team-image" src="../assets/image/Tadiwos.png" alt="" />
+          <div class="name-title">Tadiwos Getachew Belete</div>
+          <div class="memeber-title">Founder /CEO</div>
+          <!-- <div class="memeber-year-exp">20 years</div> -->
+        </div>
         <div class="our-team-wrapper">
-          <div class="single-team-member">
-            <img class="team-image" src="../assets/image/Tadiwos.png" alt="" />
-            <div class="name-title">Tadiwos Getachew Belete</div>
-            <div class="memeber-title">Founder /CEO</div>
-            <!-- <div class="memeber-year-exp">20 years</div> -->
-          </div>
-          <div class="single-team-member">
-            <img class="team-image" src="../assets/image/yonaiel.png" alt="" />
-            <div class="name-title">Yonaiel Tadiwos Belete</div>
-            <div class="memeber-title">Operations Director</div>
+          <div class="single-team-member" data-aos="zoom-out">
+            <img class="team-image" src="../assets/image/Roman.png" alt="" />
+            <div class="name-title top1">Roman T.Gomeju</div>
+            <div class="memeber-title">
+              New Business Development Managing Director
+            </div>
             <!-- <div class="memeber-year-exp">15 Years</div> -->
           </div>
-          <div class="single-team-member">
+          <div class="single-team-member" data-aos="zoom-out">
             <img
               class="team-image"
               src="../assets/image/Tesegreda.png"
               alt=""
             />
             <div class="name-title">Tsegereda Abebe</div>
-            <div class="memeber-title">Operations Managing Director</div>
-            <div class="memeber-year-exp">15 Years</div>
+            <div class="memeber-title">
+              Operations <br />
+              Managing Director
+            </div>
+            <!-- <div class="memeber-year-exp">15 Years</div> -->
+          </div>
+          <div class="single-team-member" data-aos="zoom-out">
+            <img class="team-image" src="../assets/image/yonaiel.png" alt="" />
+            <div class="name-title top">Yonaiel T.Belete</div>
+            <div class="memeber-title">
+              Operations <br />
+              Director
+            </div>
+            <!-- <div class="memeber-year-exp">15 Years</div> -->
+          </div>
+          <div class="single-team-member" data-aos="zoom-out">
+            <img class="team-image" src="../assets/image/Eskender.png" alt="" />
+            <div class="name-title">Eskinder Getachew</div>
+            <div class="memeber-title">
+              S. Regional <br />
+              Operations Director
+            </div>
+            <!-- <div class="memeber-year-exp">20 years</div> -->
+          </div>
+
+          <div class="single-team-member" data-aos="zoom-out">
+            <img class="team-image" src="../assets/image/Tomas.png" alt="" />
+            <div class="name-title">Thomas Mekonnen</div>
+            <div class="memeber-title">
+              N. Regional<br />
+              Operations Director
+            </div>
+            <!-- <div class="memeber-year-exp">15 Years</div> -->
+          </div>
+          <div class="single-team-member" data-aos="zoom-out">
+            <img class="team-image" src="../assets/image/Mahlet.png" alt="" />
+            <div class="name-title">Mahlet Tadiwos</div>
+            <div class="memeber-title">
+              New Business Development <br />
+              Deputy Director
+            </div>
+            <!-- <div class="memeber-year-exp">15 Years</div> -->
+          </div>
+          <div class="single-team-member" data-aos="zoom-out">
+            <img
+              class="team-image"
+              src="../assets/image/yegetafiker.png"
+              alt=""
+            />
+            <div class="name-title">Yegetafeker Taye</div>
+            <div class="memeber-title">
+              Project<br />
+              Director
+            </div>
+            <!-- <div class="memeber-year-exp">15 Years</div> -->
+          </div>
+          <div class="single-team-member" data-aos="zoom-out">
+            <img class="team-image" src="../assets/image/Aschalew.png" alt="" />
+            <div class="name-title top1">Aschalew Getachew</div>
+            <div class="memeber-title">
+              Project Admin. & Procurement<br />
+              Director
+            </div>
+            <!-- <div class="memeber-year-exp">15 Years</div> -->
+          </div>
+          <div class="single-team-member" data-aos="zoom-out">
+            <img class="team-image" src="../assets/image/Eyob.png" alt="" />
+            <div class="name-title">Eyob Shibru</div>
+            <div class="memeber-title">
+              Finance<br />
+              Director
+            </div>
+            <!-- <div class="memeber-year-exp">15 Years</div> -->
+          </div>
+          <div class="single-team-member" data-aos="zoom-out">
+            <img class="team-image" src="../assets/image/Medal.png" alt="" />
+            <div class="name-title">Medal Asrat</div>
+            <div class="memeber-title">
+              Project Finance<br />
+              Director
+            </div>
+            <!-- <div class="memeber-year-exp">15 Years</div> -->
+          </div>
+          <div class="single-team-member" data-aos="zoom-out">
+            <img class="team-image" src="../assets/image/Michael.png" alt="" />
+            <div class="name-title">Michael Tesfaye</div>
+            <div class="memeber-title">
+              Marketing<br />
+              Director
+            </div>
+            <!-- <div class="memeber-year-exp">15 Years</div> -->
+          </div>
+          <div class="single-team-member" data-aos="zoom-out">
+            <img class="team-image" src="../assets/image/Mulugeta.png" alt="" />
+            <div class="name-title">Mulugeta Demissie</div>
+            <div class="memeber-title">
+              Director of <br />
+              Talent Development
+            </div>
+            <!-- <div class="memeber-year-exp">15 Years</div> -->
           </div>
         </div>
       </div>
@@ -289,12 +400,11 @@
             <h4>COMPANY PROFILE</h4>
             <p class="header-title"></p>
             <p>
-              DOWNLOADABLE BUTTON WITH UPDATED COMPANY PROFILE, ADD LINKS TO ALL
-              PRESS RELEASE ARTICLES
+           
             </p>
             <div class="book-buttons">
               <a class="btn btn-outline-black" href="#"
-                ><i class="fa fa-download"></i>DOWNLOAD COMPANY PROFILE</a
+                ><i class="fa fa-download"></i>DOWNLOADABLE COMPANY PROFILE</a
               >
             </div>
           </div>
@@ -314,82 +424,114 @@
             alt=""
           />
           <img src="../assets/image/Icons/ethiopian-airlines-logo.png" alt="" />
-          <img src="../assets/image/Icons/coca-cola-logo.svg" alt="" />
-          <img src="../assets/image/Icons/ETO-Logo-1024x684.png" alt="" />
           <img
+            class="small-image1"
+            src="../assets/image/Icons/african_union-emblem1.png"
+            alt=""
+          />
+          <img
+            class="small-image1"
+            src="../assets/image/Icons/coca-cola-logo.svg"
+            alt=""
+          />
+          <img
+            class="small-image1"
+            src="../assets/image/Icons/ETO-Logo-1024x684.png"
+            alt=""
+          />
+          <img
+            class="small-image"
             src="../assets/image/Icons/dashen_bank-removebg-preview.png"
             alt=""
           />
+
+          <img src="../assets/image/kana.png" alt="" />
+          <img src="../assets/image/logo-netherlands-embassy.png" alt="" />
+          <img
+            class="small-image"
+            src="../assets/image/Icons/UN-removebg-preview.png"
+            alt=""
+          />
+          <img src="../assets/image/unilever.png" alt="" />
+          <img src="../assets/image/The_World_Bank_logo.svg.png" alt="" />
+          <img
+            class="small-image"
+            src="../assets/image/Seal_of_an_Embassy_of_the_United_States_of_America.svg.png"
+            alt=""
+          />
+
+          <img
+            class="small-image"
+            src="../assets/image/1269px-Japan_International_Cooperation_Agency_logo.svg.png"
+            alt=""
+          />
+          <img
+            src="../assets/image/Icons/embassy-of-sweden-logo-cropped-1024x614-removebg-preview.png"
+            alt=""
+          />
+          <img src="../assets/image/cbe.png" alt="" />
         </div>
 
         <!-- <p>BGI, Coca Cola, Ethiopian Airlines, Dashen Bank, Ethiopian Tourism Organization</p> -->
       </div>
     </section>
-    <section class="clients">
+
+    <section class="testimonials">
       <div class="container">
-        <h2>Corporate Clients</h2>
-
-        <div class="catagory-wrapper">
-          <div class="catagory">
-            <h4>AU</h4>
-
-            <div class="image-wrapper">
-              <img
-                src="../assets/image/Icons/african_union-emblem1.png"
-                alt=""
-              />
-              <img
-                src="../assets/image/Icons/african_union-emblem1.png"
-                alt=""
-              />
+        <h2>Testimonials</h2>
+        <!-- <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis perspiciatis impedit commodi iure 
+        </p> -->
+        <div class="testimony-wrapper">
+          <div class="testimony-card">
+            <!-- <div class="test-img">
+              <img src="../assets/image/image.png" alt="" />
+            </div> -->
+            <div class="test-stars">
+              <img src="../assets/image/Icons/start.svg" alt="" />
             </div>
+            <p>
+              I've been working at Boston Day Spa for the past 20 years and I'm
+              forever grateful to be working for a company that truly values
+              their employees as individuals and will do everything thry can to
+              heip each person reach their individual goals. Joining Boston
+              Partners PLC
+            </p>
+            <h3>STAFF DRIVEN</h3>
           </div>
-          <div class="catagory">
-            <h4>UN</h4>
-
-            <div class="image-wrapper">
-              <img src="../assets/image/Icons/UN-removebg-preview.png" alt="" />
-              <img src="../assets/image/Icons/UN-removebg-preview.png" alt="" />
+          <div class="testimony-card">
+            <!-- <div class="test-img">
+              <img src="../assets/image/image.png" alt="" />
+            </div> -->
+            <div class="test-stars">
+              <img src="../assets/image/Icons/start.svg" alt="" />
             </div>
+            <p>
+              I've been working at Boston Day Spa for the past 20 years and I'm
+              forever grateful to be working for a company that truly values
+              their employees as individuals and will do everything thry can to
+              heip each person reach their individual goals. Joining Boston
+              Partners PLC
+            </p>
+            <h3>CORPORATE CLIENT DRIVEN</h3>
           </div>
-          <!-- <div class="catagory">
-            <h4>NGO</h4>
-
-            <div class="image-wrapper">
+          <div class="testimony-card">
+            <!-- <div class="test-img">
               <img src="../assets/image/image.png" alt="" />
-                <img src="../assets/image/image.png" alt="" />
-               
+            </div> -->
+            <div class="test-stars">
+              <img src="../assets/image/Icons/start.svg" alt="" />
             </div>
-          </div>
-           <div class="catagory">
-            <h4>BANK</h4>
-
-            <div class="image-wrapper">
-              <img src="../assets/image/image.png" alt="" />
-                <img src="../assets/image/image.png" alt="" />
-               
-            </div>
-          </div>
-            <div class="catagory">
-            <h4>GOVERNMENTAL</h4>
-
-            <div class="image-wrapper">
-              <img src="../assets/image/image.png" alt="" />
-                <img src="../assets/image/image.png" alt="" />
-               
-            </div>
-          </div> -->
-          <div class="catagory">
-            <h4>SCHOOLS</h4>
-
-            <div class="image-wrapper">
-              <img src="../assets/image/image.png" alt="" />
-              <img src="../assets/image/image.png" alt="" />
-            </div>
+            <p>
+              I've been working at Boston Day Spa for the past 20 years and I'm
+              forever grateful to be working for a company that truly values
+              their employees as individuals and will do everything thry can to
+              heip each person reach their individual goals. Joining Boston
+              Partners PLC
+            </p>
+            <h3>CUSTOMER DRIVEN</h3>
           </div>
         </div>
-
-        <!-- <p>BGI, Coca Cola, Ethiopian Airlines, Dashen Bank, Ethiopian Tourism Organization</p> -->
       </div>
     </section>
   </div>
@@ -398,112 +540,7 @@
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-(function ($) {
-  $.fn.countTo = function (options) {
-    options = options || {};
-
-    return $(this).each(function () {
-      // set options for current element
-      var settings = $.extend(
-        {},
-        $.fn.countTo.defaults,
-        {
-          from: $(this).data("from"),
-          to: $(this).data("to"),
-          speed: $(this).data("speed"),
-          refreshInterval: $(this).data("refresh-interval"),
-          decimals: $(this).data("decimals"),
-        },
-        options
-      );
-
-      // how many times to update the value, and how much to increment the value on each update
-      var loops = Math.ceil(settings.speed / settings.refreshInterval),
-        increment = (settings.to - settings.from) / loops;
-
-      // references & variables that will change with each update
-      var self = this,
-        $self = $(this),
-        loopCount = 0,
-        value = settings.from,
-        data = $self.data("countTo") || {};
-
-      $self.data("countTo", data);
-
-      // if an existing interval can be found, clear it first
-      if (data.interval) {
-        clearInterval(data.interval);
-      }
-      data.interval = setInterval(updateTimer, settings.refreshInterval);
-
-      // initialize the element with the starting value
-      render(value);
-
-      function updateTimer() {
-        value += increment;
-        loopCount++;
-
-        render(value);
-
-        if (typeof settings.onUpdate == "function") {
-          settings.onUpdate.call(self, value);
-        }
-
-        if (loopCount >= loops) {
-          // remove the interval
-          $self.removeData("countTo");
-          clearInterval(data.interval);
-          value = settings.to;
-
-          if (typeof settings.onComplete == "function") {
-            settings.onComplete.call(self, value);
-          }
-        }
-      }
-
-      function render(value) {
-        var formattedValue = settings.formatter.call(self, value, settings);
-        $self.html(formattedValue);
-      }
-    });
-  };
-
-  $.fn.countTo.defaults = {
-    from: 0, // the number the element should start at
-    to: 0, // the number the element should end at
-    speed: 1000, // how long it should take to count between the target numbers
-    refreshInterval: 100, // how often the element should be updated
-    decimals: 0, // the number of decimal places to show
-    formatter: formatter, // handler for formatting the value before rendering
-    onUpdate: null, // callback method for every time the element is updated
-    onComplete: null, // callback method for when the element finishes updating
-  };
-
-  function formatter(value, settings) {
-    return value.toFixed(settings.decimals);
-  }
-})(jQuery);
-
-jQuery(function ($) {
-  // custom formatting example
-  $(".count-number").data("countToOptions", {
-    formatter: function (value, options) {
-      return value
-        .toFixed(options.decimals)
-        .replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
-    },
-  });
-
-  // start all the timers
-  $(".timer").each(count);
-
-  function count(options) {
-    var $this = $(this);
-    options = $.extend({}, options || {}, $this.data("countToOptions") || {});
-    $this.countTo(options);
-  }
-});
+import Event from "../components/Event.vue";
 export default {
   mounted() {
     AOS.init({
@@ -512,6 +549,116 @@ export default {
       easing: "ease",
       once: false,
       anchorPlacement: "top-bottom",
+    });
+
+    (function ($) {
+      $.fn.countTo = function (options) {
+        options = options || {};
+
+        return $(this).each(function () {
+          // set options for current element
+          var settings = $.extend(
+            {},
+            $.fn.countTo.defaults,
+            {
+              from: $(this).data("from"),
+              to: $(this).data("to"),
+              speed: $(this).data("speed"),
+              refreshInterval: $(this).data("refresh-interval"),
+              decimals: $(this).data("decimals"),
+            },
+            options
+          );
+
+          // how many times to update the value, and how much to increment the value on each update
+          var loops = Math.ceil(settings.speed / settings.refreshInterval),
+            increment = (settings.to - settings.from) / loops;
+
+          // references & variables that will change with each update
+          var self = this,
+            $self = $(this),
+            loopCount = 0,
+            value = settings.from,
+            data = $self.data("countTo") || {};
+
+          $self.data("countTo", data);
+
+          // if an existing interval can be found, clear it first
+          if (data.interval) {
+            clearInterval(data.interval);
+          }
+          data.interval = setInterval(updateTimer, settings.refreshInterval);
+
+          // initialize the element with the starting value
+          render(value);
+
+          function updateTimer() {
+            value += increment;
+            loopCount++;
+
+            render(value);
+
+            if (typeof settings.onUpdate == "function") {
+              settings.onUpdate.call(self, value);
+            }
+
+            if (loopCount >= loops) {
+              // remove the interval
+              $self.removeData("countTo");
+              clearInterval(data.interval);
+              value = settings.to;
+
+              if (typeof settings.onComplete == "function") {
+                settings.onComplete.call(self, value);
+              }
+            }
+          }
+
+          function render(value) {
+            var formattedValue = settings.formatter.call(self, value, settings);
+            $self.html(formattedValue);
+          }
+        });
+      };
+
+      $.fn.countTo.defaults = {
+        from: 0, // the number the element should start at
+        to: 0, // the number the element should end at
+        speed: 1000, // how long it should take to count between the target numbers
+        refreshInterval: 100, // how often the element should be updated
+        decimals: 0, // the number of decimal places to show
+        formatter: formatter, // handler for formatting the value before rendering
+        onUpdate: null, // callback method for every time the element is updated
+        onComplete: null, // callback method for when the element finishes updating
+      };
+
+      function formatter(value, settings) {
+        return value.toFixed(settings.decimals);
+      }
+    })(jQuery);
+
+    jQuery(function ($) {
+      // custom formatting example
+      $(".count-number").data("countToOptions", {
+        formatter: function (value, options) {
+          return value
+            .toFixed(options.decimals)
+            .replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
+        },
+      });
+
+      // start all the timers
+      $(".timer").each(count);
+
+      function count(options) {
+        var $this = $(this);
+        options = $.extend(
+          {},
+          options || {},
+          $this.data("countToOptions") || {}
+        );
+        $this.countTo(options);
+      }
     });
   },
 };
@@ -753,9 +900,49 @@ export default {
     }
   }
   .display-video {
+    margin-top: 1rem;
+
+    .container {
+      .video-wrapper {
+        position: relative;
+        .title-about {
+          h2 {
+            position: absolute;
+            top: 6.5rem;
+
+            left: 8rem;
+color:$kuriftu-black;
+// color:black;
+            @extend .title;
+            font-size: 2rem;
+            text-transform: uppercase;
+            @include responsive($md) {
+              font-size: 3.5rem;
+              top: 14rem;
+
+              left: 18rem;
+            }
+            @include responsive($lg) {
+         
+              top: 19rem;
+
+              left: 25rem;
+            }
+            @include responsive($xl) {
+              font-size: 7rem;
+              top: 25rem;
+              left: 31rem;
+            }
+          }
+        }
+      }
+    }
   }
   @include responsive($md) {
     .display-video {
+      img {
+        object-fit: cover;
+      }
     }
   }
   .page-title {
@@ -789,6 +976,9 @@ export default {
   }
   .main-page-desc {
     margin-top: 5rem;
+    @include responsive($lg){
+      margin-top: 8rem;
+    }
     .container {
       .wrapper {
         .main-title {
@@ -842,8 +1032,7 @@ export default {
     }
   }
   .ceo {
-    margin-top: 6.25rem;
-
+    margin-top: 2rem;
     .container {
       display: grid;
       place-content: center;
@@ -856,13 +1045,14 @@ export default {
       }
       .ceo-all {
         display: flex;
-        align-content: center;
+        align-items: center;
+
         flex-direction: column;
         .stay-slide {
           margin-top: 1.88rem;
           display: flex;
           align-items: center;
-          justify-items: center;
+
           gap: 0.5rem;
           .slide-card {
             img {
@@ -922,20 +1112,12 @@ export default {
               width: 30rem;
             }
           }
-          .stay-slide {
-            .slide-card {
-              img {
-                width: 100%;
-              }
-            }
-          }
         }
       }
     }
   }
   @include responsive($lg) {
     .ceo {
-      margin-top: 8.13rem;
       .container {
         .ceo-all {
           flex-direction: row;
@@ -944,7 +1126,8 @@ export default {
             margin-top: 4.37rem;
             .slide-card {
               img {
-                width: 50rem;
+                //   width: 100%;
+                // height: 35rem;
               }
             }
           }
@@ -974,7 +1157,7 @@ export default {
           .stay-slide {
             .slide-card {
               img {
-                width: 30rem;
+                // height: 40rem;
               }
             }
           }
@@ -983,12 +1166,13 @@ export default {
     }
   }
   .who-we-are {
-    margin-top: 6.25rem;
     width: 100%;
+    @include responsive($xl) {
+    }
     .container {
       display: grid;
-      place-content: center;
       align-items: center;
+
       h2 {
         color: $kuriftu-brown;
         @extend .title;
@@ -996,17 +1180,14 @@ export default {
         text-align: left;
       }
       .who-we-are-all {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
         @include responsive($lg) {
-          margin-top: 4rem;
+          margin-top: 2rem;
         }
         .stay-slide {
           margin-top: 1.88rem;
           display: flex;
           align-items: center;
-          justify-items: center;
+
           gap: 0.5rem;
           .slide-card {
             position: relative;
@@ -1030,6 +1211,8 @@ export default {
           margin-top: 1.88rem;
           margin-left: 1rem;
           margin-right: 1rem;
+          display: grid;
+          place-items: center;
           h4 {
             @extend .title;
             font-size: 1.5rem;
@@ -1047,7 +1230,7 @@ export default {
             color: $kuriftu-black;
             font-size: 1rem;
 
-            text-align: left;
+            text-align: center;
           }
           .book-buttons {
             display: grid;
@@ -1067,6 +1250,9 @@ export default {
         }
       }
       .unique {
+        display: grid;
+        place-content: center;
+
         margin-top: 4rem;
         h4 {
           @extend .title;
@@ -1080,11 +1266,12 @@ export default {
         @include responsive($lg) {
           display: grid;
           gap: 0.5rem;
+          place-content: left;
           grid-template-columns: 1fr 1fr;
         }
         p {
           @extend .text;
-          margin-top: 0.94rem;
+
           color: $kuriftu-black;
           font-size: 1rem;
           max-width: 30rem;
@@ -1096,20 +1283,26 @@ export default {
       }
     }
   }
-  @include responsive($md) {
+  @include responsive($lg) {
     .who-we-are {
       .container {
         .who-we-are-all {
           .stay-desc {
             p {
-              width: 30rem;
+              width: 60rem;
             }
           }
-          .stay-slide {
-            .slide-card {
-              img {
-                width: 100%;
-              }
+        }
+      }
+    }
+  }
+    @include responsive($lg) {
+    .who-we-are {
+      .container {
+        .who-we-are-all {
+          .stay-desc {
+            p {
+              width:80rem;
             }
           }
         }
@@ -1126,23 +1319,13 @@ export default {
             margin-top: 4.37rem;
             .slide-card {
               img {
-                width: 50rem;
+                width: 100%;
               }
             }
           }
           .stay-desc {
-            margin-top: 4.5rem;
             h4 {
               margin-top: 0rem;
-            }
-            p {
-              margin-top: 2rem;
-            }
-            .book-buttons {
-              display: flex;
-              justify-content: left;
-
-              margin-top: 6rem;
             }
           }
         }
@@ -1152,29 +1335,20 @@ export default {
   @include responsive($xl) {
     .who-we-are {
       display: grid;
-      place-content: center;
-      .container {
-        .who-we-are-all {
-          .stay-slide {
-            .slide-card {
-              img {
-                width: 37rem;
-              }
-            }
-          }
-        }
-      }
     }
   }
 
   .wrapper {
     margin-top: 3rem;
     position: relative;
-
+    @include responsive($md) {
+      margin-top: 2rem;
+    }
     .all-wrapper {
       display: grid;
       place-items: center;
       align-items: flex-start;
+            margin-top: 6rem;
       gap: 1rem;
       grid-template-columns: 1fr;
       @include responsive($md) {
@@ -1230,11 +1404,12 @@ export default {
   .corporate {
     margin-top: 4rem;
     display: grid;
+
     .corporate-txt {
       @extend .title;
       font-size: 1.5rem;
       margin-top: 0.94rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       color: $kuriftu-black;
       text-transform: uppercase;
       text-align: left;
@@ -1242,7 +1417,7 @@ export default {
     .wrapper {
       @include responsive($lg) {
         display: flex;
-        gap: 2rem;
+        gap: 3rem;
         align-items: flex-start;
       }
 
@@ -1261,29 +1436,77 @@ export default {
           text-align: left;
         }
       }
+      .style-image {
+        img {
+          object-fit: cover;
+          margin-top: 2rem;
+          @include responsive($md) {
+            width:100%;
+            height: 36rem;
+          }
+          @include responsive($lg) {
+            margin-top: 0rem;
+                  width: 75rem;
+            height: 36rem;
+          }
+          @include responsive($xl) {
+          width: 95rem;
+            height: 30rem;
+          }
+        
+        }
+      }
     }
   }
   .our-team {
-    margin-top: 5rem;
+    margin-top: 3rem;
 
     .container {
       display: grid;
       place-items: center;
       h2 {
-        @extend .text;
-        text-transform: uppercase;
+        @extend .title;
         color: $kuriftu-black;
         text-align: center;
         font-size: 1.5rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
       }
+      .single-team-member {
+        display: grid;
+        place-items: center;
 
+        margin-bottom: 2rem;
+
+        .team-image {
+          border-radius: 20rem;
+          margin-top: 1rem;
+          width: 15rem;
+        }
+        .name-title,
+        .memeber-title,
+        .memeber-year-exp,
+        .member-email {
+          text-align: center;
+          margin-top: 0.94rem;
+          color: $kuriftu-grey;
+          font-weight: 600;
+        }
+        .name-title {
+          text-transform: uppercase;
+          text-align: center;
+          color: $kuriftu-brown;
+          margin-top: 2rem;
+          font-size: 1.3rem;
+        }
+      }
       .our-team-wrapper {
         margin-top: 2rem;
 
         @include responsive($md) {
           display: grid;
           grid-template-columns: 1fr 1fr;
-          gap: 5rem;
+          gap: 4rem;
         }
         @include responsive($lg) {
           grid-template-columns: 1fr 1fr 1fr;
@@ -1294,26 +1517,33 @@ export default {
         .single-team-member {
           display: grid;
           place-items: center;
+
           margin-bottom: 2rem;
 
           .team-image {
             border-radius: 20rem;
-            margin-top: 1rem;
 
             width: 15rem;
           }
+
           .name-title,
           .memeber-title,
           .memeber-year-exp,
           .member-email {
             text-align: center;
-            margin-top: 1rem;
+
+            color: $kuriftu-grey;
+            font-weight: 600;
           }
+
           .name-title {
+            display: grid;
+            place-items: center;
+
             text-transform: uppercase;
             text-align: center;
             color: $kuriftu-brown;
-            margin-top: 2rem;
+
             font-size: 1.3rem;
           }
         }
@@ -1352,7 +1582,7 @@ export default {
     }
   }
   .company-profile {
-    margin-top: 6.25rem;
+    margin-top: 4.25rem;
     .container {
       h2 {
         color: $kuriftu-black;
@@ -1425,6 +1655,7 @@ export default {
       .container {
         .company-profile-all {
           display: flex;
+          justify-content: center;
           align-items: center;
           gap: 1rem;
           .company-profile-slide {
@@ -1510,7 +1741,7 @@ export default {
   .partners {
     margin-top: 5rem;
     @include responsive($lg) {
-      margin-top: 8rem;
+      margin-top: 10rem;
     }
     .container {
       display: grid;
@@ -1520,19 +1751,44 @@ export default {
         color: $kuriftu-black;
         text-align: center;
         font-size: 1.5rem;
+        text-transform: uppercase;
       }
       p {
         text-align: center;
         color: $kuriftu-grey;
-        width: 20rem;
+
         margin-top: 1rem;
         font-size: 0.8rem;
       }
       .image-wrapper {
+        display: grid;
+        place-items: center;
+        align-items: center;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        .small-image {
+          width: 8rem;
+          object-fit: cover;
+        }
+        .small-image1 {
+          width: 10rem;
+          object-fit: cover;
+        }
         img {
           width: 13rem;
           margin-top: 2rem;
           object-fit: cover;
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+          -moz-filter: grayscale(100%);
+          &:hover {
+            filter: grayscale(0%);
+            -webkit-filter: grayscale(0%);
+            -moz-filter: grayscale(0%);
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+          }
         }
         @include responsive($md) {
           display: grid;
@@ -1547,14 +1803,14 @@ export default {
         }
         @include responsive($xl) {
           grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-          gap: 3rem;
         }
       }
     }
   }
-  .clients {
-    margin-top: 5rem;
-    @include responsive($lg) {
+
+  .testimonials {
+    margin-top: 6.25rem;
+    @include responsive($md) {
       margin-top: 8rem;
     }
     .container {
@@ -1562,38 +1818,69 @@ export default {
         @extend .title;
         color: $kuriftu-black;
         text-align: center;
+        text-transform: uppercase;
         font-size: 1.5rem;
       }
+      p {
+        text-align: center;
+        color: $kuriftu-grey;
 
-      .catagory-wrapper {
+        margin-top: 1rem;
+        font-size: 0.8rem;
+      }
+      .testimony-wrapper {
+        display: grid;
+        place-items: center;
         margin-top: 4rem;
-        .catagory {
-          margin-top: 3rem;
-          h4 {
-            @extend .title;
-            font-size: 1.5rem;
+        @include responsive($md) {
+          display: flex;
+          justify-content: center;
+          gap: 2rem;
+        }
+        .testimony-card {
+          background: #fff;
+          padding: 1rem;
+          margin-bottom: 2rem;
+          border-radius: 0.5rem;
+          @include responsive($md) {
+            width: 25rem;
           }
-          .image-wrapper {
+          @include responsive($lg) {
+            width: auto;
+          }
+          .test-img {
+            margin-top: -3rem;
+            margin-left: -1.5rem;
+            border-radius: 13rem;
             img {
+              width: 4rem;
+            }
+          }
+          .test-stars {
+            img {
+              margin-left: 1rem;
               width: 10rem;
-              margin-top: 2rem;
-              object-fit: cover;
             }
-            @include responsive($md) {
-              display: grid;
-              grid-template-columns: 1fr 1fr;
-              align-items: center;
-              place-items: center;
-              gap: 1rem;
-            }
-            @include responsive($lg) {
-              grid-template-columns: 1fr 1fr 1fr 1fr;
-              gap: 2rem;
-            }
-            @include responsive($xl) {
-              grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-              gap: 3rem;
-            }
+          }
+          p {
+            margin-left: 1rem;
+            color: $kuriftu-black;
+            @extend .title;
+            font-family: "Neue Helvetica Light Italic";
+            font-size: 0.88rem;
+            margin-top: 0.98rem;
+            line-height: 1.3rem;
+            text-align: left;
+          }
+          h3 {
+            margin-left: 1rem;
+            color: $kuriftu-red;
+            @extend .h3;
+            font-family: "Neue Helvetica Extended Bold";
+            font-size: 0.8rem;
+            margin-top: 0.98rem;
+            line-height: 1.3rem;
+            text-align: left;
           }
         }
       }

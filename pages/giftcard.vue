@@ -1,57 +1,59 @@
 <template>
   <div class="main">
-    <Destinationheader :src="require(`../../assets/image/afar-logo.svg`)" />
+    <Destinationheader :src="require(`../assets/image/LOGO 2.svg`)" />
+
+    <!-- Destination Navigation -->
+    <!-- Mobile Destination Navigation -->
     <div class="destination-links2">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-              <nuxt-link class="a-link active" to="afardining"
-                ><p>Afar</p>
+              <nuxt-link class="a-link active" to="/destinationbishoftu"
+                ><p>Gift Card</p>
                 <img
                   class="drop-icon"
-                  src="../../assets/image/Icons/next2.svg"
+                  src="../assets/image/Icons/next2.svg"
                   alt=""
               /></nuxt-link>
 
               <ul class="dropdown-content">
                 <div class="drop-down-list">
                   <li>
-                    <nuxt-link class="a-link" to="afaraccommodation">
-                      <p>Accomodation</p></nuxt-link
-                    >
-                  </li>
-                  <li>
-                    <nuxt-link class="a-link" to="afarexperience"
-                      >Experiences</nuxt-link
-                    >
-                  </li>
-                  <li>
-                    <nuxt-link class="a-link" to="afarwellness"
-                      >Wellness</nuxt-link
-                    >
-                  </li>
-                  <li>
-                    <nuxt-link class="a-link" to="afardining active"
-                      >Dining</nuxt-link
-                    >
-                  </li>
-                  <li>
-                    <nuxt-link class="a-link" to="afarevent"
-                      >Celebration & Events</nuxt-link
-                    >
-                  </li>
-                  <li>
-                    <nuxt-link class="a-link" to="afargallery"
-                      >Gallery</nuxt-link
+                    <nuxt-link
+                      class="a-link"
+                      to="bishoftu/bishoftuaccommodation"
+                      >Accomodation</nuxt-link
                     >
                   </li>
 
                   <li>
-                    <nuxt-link
-                      class="a-link"
-                      to="https://versavvymedia.com/reservation_system/reserve.php"
-                      >Reserve</nuxt-link
+                    <nuxt-link class="a-link" to="bishoftu/bishoftuexperience"
+                      >Experiences</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="bishoftu/bishoftuwellness"
+                      >Wellness</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="bishoftu/bishoftudining"
+                      >Dining</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="bishoftu/bishoftuevent"
+                      >Celebration & Events</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="bishoftu/bishoftugallery"
+                      >Gallery</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
                     >
                   </li>
                 </div>
@@ -61,101 +63,184 @@
         </div>
       </div>
     </div>
+    <!-- End of Mobile Destination Navigation -->
+
+    <!-- Desktop Destination Navigation -->
     <div class="destination-links">
       <div class="container">
         <div class="wrapper">
           <ul class="link-destination">
             <li>
-              <nuxt-link class="a-link active" to="/destinationafar"
-                >Afar</nuxt-link
-              >
-              <img src="../../assets/image/Icons/next2.svg" alt="" />
+              <nuxt-link class="a-link active" to="/destinationbishoftu"
+                >Bishoftu</nuxt-link
+              ><img src="../assets/image/Icons/next2.svg" alt="" />
             </li>
             <li>
-              <nuxt-link class="a-link" to="afaraccommodation">
-                <p>Accomodation</p>
-              </nuxt-link>
+              <nuxt-link class="a-link" to="bishoftu/bishoftuaccommodation"
+                >Accomodation</nuxt-link
+              >
             </li>
 
             <li>
-              <nuxt-link class="a-link" to="afarexperience"
+              <nuxt-link class="a-link" to="bishoftu/bishoftuexperience"
                 >Experiences</nuxt-link
               >
             </li>
             <li>
-              <nuxt-link class="a-link" to="afarwellness">Wellness </nuxt-link>
+              <nuxt-link class="a-link" to="bishoftu/bishoftuwellness"
+                >Wellness</nuxt-link
+              >
             </li>
             <li>
-              <nuxt-link class="a-link active" to="afardining"
-                >Dining
-                <hr class="activeline"
-              /></nuxt-link>
+              <nuxt-link class="a-link" to="bishoftu/bishoftudining"
+                >Dining</nuxt-link
+              >
             </li>
-
             <li>
-              <nuxt-link class="a-link" to="afarevent"
+              <nuxt-link class="a-link" to="bishoftu/bishoftuevent"
                 >Celebration & Events</nuxt-link
               >
             </li>
             <li>
-              <nuxt-link class="a-link" to="afargallery">Gallery</nuxt-link>
+              <nuxt-link class="a-link" to="bishoftu/bishoftugallery"
+                >Gallery</nuxt-link
+              >
             </li>
             <li>
-              <nuxt-link
-                class="a-link"
-                to="https://versavvymedia.com/reservation_system/reserve.php"
-                >Reserve</nuxt-link
-              >
+              <nuxt-link class="a-link" to="/giftcard">Gift Card</nuxt-link>
             </li>
           </ul>
           <hr class="line" />
         </div>
       </div>
     </div>
-    <section class="top-gallery">
-      <TabHeader :head="header" />
-    </section>
-    <Dbox :data="dinning" />
+    <!-- End of Desktop Destination Navigation -->
+    <!-- End of Destination Navigation -->
+
+    <!-- Hero Section  -->
+
+    <!-- End of Hero Section  -->
+
+    <!-- Top Section  -->
+    <section class="spa-wellness"></section>
+    <!-- End of Top Section  -->
+
+    <Giftcardsection :section="water" />
+    <Giftcardsection :section="entoto" />
+    <Giftcardsection :section="bishoftu" />
+    <Giftcardsection :section="awash" />
+    <Giftcardsection :section="laketana" />
+    <Giftcardsection :section="boston" />
   </div>
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Giftcardsection from "../components/Giftcardsection.vue";
 export default {
+  components: { Giftcardsection },
   data() {
     return {
-      header: {
-        title: "Dining",
-        desc: ` Whether you’re celebrating a birthday, honeymoon, anniversary or a
-            longmawaited family vacation, our team is delighted to create a
-            personalized dining experience for you from intimate and romantic,
-            to interactive and adventurous.`,
+      water: {
+        title: "Water Park",
+
+        url: "/destinationwaterpark",
+        link: "View All",
+        photos: [
+          "gift1.svg",
+          "gift2.svg",
+          "gift3.svg",
+          "gift4.svg",
+          "gift5.svg",
+          "gift1.svg",
+        ],
       },
-      dinning: [
-        {
-          title: "Cabana Restaurant",
-          desc: `enjoy your meal by the lakeside laying on the kabanas with a beautiful scenery of the lake and aquatic birds.`,
-          img: "bishoftu/dinning/Lake_Side_Cabana.webp",
-        },
-        {
-          title: "Lake View Main Restaurant",
-          desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Facilisis tincidunt nisl elementum ultrices luctus habitasse.`,
-          img: "bishoftu/dinning/Lake_Side_Main_Restaurant.webp",
-        },
-        {
-          title: "Lequanda",
-          desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Facilisis tincidunt nisl elementum ultrices luctus habitasse.`,
-          img: "bishoftu/dinning/Lequanda.webp",
-        },
-        {
-          title: "Water park Restaurant",
-          desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Facilisis tincidunt nisl elementum ultrices luctus habitasse.`,
-          img: "bishoftu/dinning/waterpark.webp",
-        },
-      ],
+      entoto: {
+        title: "Entoto",
+
+        url: "/destinationentoto",
+        link: "View All ",
+        photos: [
+          "gift4.svg",
+          "gift5.svg",
+          "gift2.svg",
+          "gift3.svg",
+          "gift1.svg",
+
+          "gift1.svg",
+        ],
+      },
+      bishoftu: {
+        title: "Bishoftu",
+
+        url: "/destinationbishoftu",
+        link: "View All",
+        photos: [
+          "gift5.svg",
+          "gift1.svg",
+          "gift2.svg",
+          "gift3.svg",
+          "gift4.svg",
+
+          "gift1.svg",
+        ],
+      },
+      awash: {
+        title: "Awash",
+
+        url: "/destinationawash",
+        link: "View All",
+        photos: [
+          "gift2.svg",
+
+          "gift3.svg",
+          "gift4.svg",
+          "gift1.svg",
+          "gift5.svg",
+          "gift1.svg",
+        ],
+      },
+      laketana: {
+        title: "Lake Tana",
+
+        url: "/destinationlaketana",
+        link: "View All",
+        photos: [
+          "gift3.svg",
+
+          "gift4.svg",
+          "gift1.svg",
+          "gift5.svg",
+          "gift1.svg",
+          "gift2.svg",
+        ],
+      },
+      boston: {
+        title: "Boston Day Spa",
+
+        url: "/destinationboston",
+        link: "View All",
+        photos: [
+          "gift4.svg",
+          "gift1.svg",
+          "gift2.svg",
+          "gift3.svg",
+
+          "gift5.svg",
+          "gift1.svg",
+        ],
+      },
     };
+  },
+  mounted() {
+    AOS.init({
+      duration: 1500,
+      offset: 120,
+      easing: "ease",
+      once: false,
+      anchorPlacement: "top-bottom",
+    });
   },
 };
 </script>
@@ -341,14 +426,7 @@ export default {
               }
               .active {
                 color: $kuriftu-black;
-                font-weight: 600;
               }
-            }
-            .activeline {
-              margin-top: 0.6rem;
-              margin-bottom: -1.1rem;
-              color: $kuriftu-black;
-              opacity: 1;
             }
           }
           .line {
@@ -357,7 +435,6 @@ export default {
             @include responsive($xl) {
               width: 60rem;
             }
-
             margin-top: 0.6rem;
             opacity: 0.7;
           }
@@ -365,11 +442,32 @@ export default {
       }
     }
   }
-  .top-gallery {
-    margin-top: 3rem;
-    display: grid;
-    place-items: center;
+  .display-video {
+    margin-top: 4rem;
+    .container {
+      .video-wrapper {
+        display: grid;
+        place-items: center;
+      }
+    }
+  }
+  @include responsive($md) {
+    .display-video {
+      margin-top: 5rem;
+    }
+  }
+  .spa-wellness {
+    margin-top: 5rem;
+  }
+  @include responsive($md) {
+    .spa-wellness {
+      margin-top: 2rem;
+    }
+  }
+  @include responsive($lg) {
+    .spa-wellness {
+      margin-top: 2rem;
+    }
   }
 }
 </style>
-

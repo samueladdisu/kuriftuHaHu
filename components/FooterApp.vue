@@ -113,7 +113,7 @@ export default {};
           display: grid;
           grid-template-columns: 1fr 1fr;
           place-items: center;
-
+             align-items: flex-start;
           .desti {
             .desti-title {
               color: $kuriftu-brown;
@@ -198,7 +198,7 @@ export default {};
             display: grid;
             grid-template-columns: 1fr 1fr;
             place-items: center;
-
+             align-items: flex-start;
             .desti {
               .desti-title {
                 text-align: left;

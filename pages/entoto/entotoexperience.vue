@@ -48,7 +48,7 @@
                   </li>
 
                   <li>
-                     <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+                    <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
                   </li>
                 </div>
               </ul>
@@ -93,215 +93,80 @@
               <nuxt-link class="a-link" to="entotogallery">Gallery</nuxt-link>
             </li>
             <li>
-               <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
+              <nuxt-link class="a-link" to="/book">Reserve</nuxt-link>
             </li>
           </ul>
           <hr class="line" />
         </div>
       </div>
     </div>
-    <section class="display-video">
-      <div class="container">
-        <div class="video-wrapper">
-          <img src="../../assets/image/entoto-bg2.jpg" alt="" />
-        </div>
-      </div>
-    </section>
 
-    <section class="general-experience">
-      <div class="container">
-        <div class="all-wrapper">
-          <div class="see-more">
-            <p>Experience</p>
-            <hr class="see-line" />
-          </div>
-          <div class="all-cards">
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img src="../../assets/image/archery.jpg" alt="" />
-              <h3>Archery</h3>
-              <p>
-                Archery is the Art, Sport, Practice or skill of using a bow to
-                shoot arrows. It’s mainly a competitive sport and recreatiional
-                activity.
-              </p>
-            </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img
-                class="right-card"
-                src="../../assets/image/gokart.jpg"
-                alt=""
-              />
-              <h3>Go Kart</h3>
-              <p>
-                A electronice go- kart is a type of open-wheel car.Go karts come
-                in all shapes and forms. From motherless models to high powered
-                racing machines.The electronic go kart is environmentally
-                friendly and has no noise pollution.
-              </p>
-              <!-- <img  class="right-card" src="../../assets/image/cycling.jpg" alt="">
-            <h3>Cycling</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem corrupti eos officiis est similique, quas sunt a ipsum explicabo libero aliquam sint inventore, temporibus vel. Delectus maxime magnam vitae. </p> -->
-            </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img src="../../assets/image/kart.jpg" alt="" />
-              <h3>pedal kart</h3>
-              <p>
-                A pedal go karting is a fun outdoors activity for children. Not
-                only is it safe but its also a great exercise since it requires
-                the driver to manually pedal. These karts can be driven on and
-                off road, or shine and are the perfect way for children to
-                explore the natural beauty of Entoto.
-              </p>
-            </div>
-            <div class="single-card" data-aos="fade-up">
-              <img
-                class="right-card"
-                src="../../assets/image/entoto-exper4.jpg"
-                alt=""
-              />
-              <h3>Horse Riding</h3>
-              <p>
-                Horseback riding is an enjoyable pastime for many people. It is
-                a way to enjoy nature and appreciate the majesty and beauty of
-                horses. For people who are new to horseback riding it is not
-                only important to learn how to ride, but to also learn
-                discipline and self control that can broaden their knowledge
-                while riding.
-              </p>
-            </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img src="../../assets/image/rockClimbing.jpg" alt="" />
-              <h3>Rock Climbing</h3>
-              <p>
-                Not that long ago, most people took their first climbing steps
-                on real rock, but these days it’s much more likely to be on an
-                indoor wall. Wall Climbing is an enjoyable recreational activity
-                that has the basics movement foundation with grip of hands and
-                legs, that makes the climber able to climb until reaching the
-                highest peak.
-              </p>
-            </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img
-                class="right-card"
-                src="../../assets/image/RopeCourse.jpg"
-                alt=""
-              />
-              <h3>Rope Course</h3>
-              <p>
-                A Rope Course is team based activity whereby two counter teams
-                go up and down hanging on a rope.The lower part might be
-                touching the ground while the highest on trees or poles. It’s a
-                great team bonding activity for the masses.
-              </p>
-            </div>
-
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img src="../../assets/image/entoto-exper3.jpg" alt="" />
-              <h3>Paintball</h3>
-              <p>
-                Paintball is a competitive team shooting sport in which players
-                eliminate opponents from play by hitting them with spherical dye
-                filled gelatin capsules(“paintballs”) that break upon impact.
-                Paintballs are usually shot using a low energy at weapon called
-                paintball marker that is powered by compressed air(nitrogen) or
-                carbon dioxide.
-              </p>
-            </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img
-                class="right-card"
-                src="../../assets/image/zipline.jpg"
-                alt=""
-              />
-              <h3>Zipline</h3>
-              <p>
-                A zipline is used as a cable that is suspended above an incline
-                to which a pulley and harness are attached to a rider. The
-                incline of a zipline allows the rider to be pulled by gravity
-                along the line. Mostly zip lines are used for recreation
-                purposes.
-              </p>
-            </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img src="../../assets/image/SAM09883-min (1).jpg" alt="" />
-              <h3>Trampoline World</h3>
-              <p>
-                Trampoline exercises are a convenient and enjoyable way to boost
-                cardiovascular health, improve endurance, and relieve stress and
-                tension.Also helps in developing better balance, and
-                coordination skills.
-              </p>
-            </div>
-            <div
-              class="single-card"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <img
-                class="right-card"
-                src="../../assets/image/entoto1.jpg"
-                alt=""
-              />
-              <h3>Yoga</h3>
-              <p>
-                Every detail at our spa resort is meticulously tailored to
-                create the ultimate destination for wellness and tranquility,
-                starting with the basics like yoga.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Dbox :data="exp" />
   </div>
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Event from "../../components/Event.vue";
 export default {
-  mounted() {
-    AOS.init({
-      duration: 1500,
-      offset: 120,
-      easing: "ease",
-      once: false,
-      anchorPlacement: "top-bottom",
-    });
+  data() {
+    return {
+      exp: [
+        {
+          title: "Zipline",
+          desc: `A zipline is used as a cable that is suspended above an incline to which a pulley and harness 
+are attached to a rider. The incline of a zipline allows the rider to be pulled by gravity along 
+the line. Mostly zip lines are used for recreation purposes. `,
+          img: "entoto/exp/3.webp",
+        },
+        {
+          title: "Rope Course",
+          desc: `A Rope Course is team based activity whereby two counter teams go up and down hanging on a rope.The lower part might be touching the ground while the highest on trees or poles. It’s a great team bonding activity for the masses`,
+          img: "entoto/exp/13.webp",
+        },
+        {
+          title: "Paintball",
+          desc: `Paintball is a competitive team shooting sport in which players eliminate opponents from play by hitting them with spherical dye filled gelatin capsules(“paintballs”) that break upon impact. Paintballs are usually shot using a low energy at weapon called paintball marker that is powered by compressed air(nitrogen) or carbon dioxide`,
+          img: "entoto/exp/8.webp",
+        },
+        {
+          title: "Archery",
+          desc: `Archery is the art,sport ,practice or skill of using a bow to shoot arrows. It’s mainly a competitive sport and recreatiional activity.`,
+          img: "entoto/exp/5.webp",
+        },
+        {
+          title: "Horse Riding",
+          desc: `Horseback riding is an enjoyable pAastime for many people. It is a way to enjoy nature and appreciate the majesty and beauty of horses. For people who are new to horseback riding it is not only important to learn how to ride, but to also learn discipline and self control that can broaden their knowledge while ridingAC`,
+          img: "entoto-exper4.jpg",
+        },
+        {
+          title: "Go Karts",
+          desc: `A electronice go- kart is a type of open-wheel car.Go karts come in all shapes and forms. From motherless models to high powered racing machines.The electronic go kart is environmentally friendly and has no noise pollution.`,
+          img: "entoto/exp/7.webp",
+        },
+        {
+          title: "Pedal Karts",
+          desc: `A pedal go karting is a fun outdoors activity for children. Not only is it safe but its also a great exercise since it requires the driver to manually pedal. These karts can be driven on and off road, or shine and are the perfect way for children to explore the natural beauty of Entoto.`,
+          img: "entoto/exp/10.webp",
+        },
+        {
+          title: "Trampoline World",
+          desc: `Trampoline exercises are a convenient and enjoyable way to boost cardiovascular health, improve endurance, and relieve stress and tension.Also helps in developing better balance, and coordination skills.`,
+          img: "entoto/exp/11.webp",
+        },
+        {
+          title: "Rock Climbing",
+          desc: `Not that long ago, most people took their first climbing steps on real rock, but these days it’s
+much more likely to be on an indoor wall. Wall Climbing is an enjoyable recreational activity 
+that has the basics movement foundation with grip of hands and legs, that makes the climber 
+able to climb until reaching the highest peak.`,
+          img: "entoto/exp/12.webp",
+        },
+        {
+          title: "Yoga",
+          desc: `Every detail at our spa resort is meticulously tailored to create the ultimate destination for wellness and tranquility, starting with the basics like yoga.`,
+          img: "entoto/exp/2.webp",
+        },
+      ],
+    };
   },
 };
 </script>
@@ -517,80 +382,6 @@ export default {
   @include responsive($md) {
     .display-video {
       margin-top: 5rem;
-    }
-  }
-  .general-experience {
-    margin-top: 5rem;
-    @include responsive($md) {
-      margin-top: 8rem;
-    }
-    .container {
-      .all-wrapper {
-        .see-more {
-          display: flex;
-          align-items: center;
-          gap: 2rem;
-          margin-top: 3rem;
-          @include responsive($md) {
-            margin-top: 5rem;
-          }
-          hr {
-            border-style: solid;
-            color: $kuriftu-grey;
-            opacity: 0.5;
-
-            width: 100%;
-          }
-          p {
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            color: $kuriftu-grey;
-            width: 6rem;
-          }
-        }
-        .all-cards {
-          @include responsive($md) {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-          }
-          @include responsive($lg) {
-            gap: 5rem;
-          }
-
-          .single-card {
-            margin-top: 3rem;
-
-            .right-card {
-              margin-top: 6rem;
-            }
-            img {
-              width: 20rem;
-              height: 25rem;
-              object-fit: cover;
-              @include responsive($lg) {
-                width: 100%;
-                height: 35rem;
-              }
-            }
-            h3 {
-              @extend .title;
-              font-size: 1rem;
-              margin-top: 0.98rem;
-              text-transform: uppercase;
-            }
-            p {
-              @extend .text;
-              margin-top: 0.98rem;
-              width: 20rem;
-              font-size: 0.95rem;
-              @include responsive($lg) {
-                width: 100%;
-              }
-            }
-          }
-        }
-      }
     }
   }
 }
