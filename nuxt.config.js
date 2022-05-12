@@ -36,7 +36,6 @@ export default {
     { src: '~/plugins/gsap.js', mode: 'client' },
     { src: '~/plugins/scroll.js', mode: 'client' },
     { src: '~/plugins/scrollPlugin.js', mode: 'client' },
-    { src: '~/plugins/video.js', mode: 'client' },
     // { src: '~/plugins/swiper.js', mode: 'client' }
   ],
 
