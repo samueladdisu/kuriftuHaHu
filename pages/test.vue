@@ -16,8 +16,21 @@
 
 <script>
 export default {
-  props: ["photos"],
-
+  data() {
+    return {
+      photos: [
+        "bishoftu/firstSlider/1.webp",
+        "bishoftu/firstSlider/2.webp",
+        "bishoftu/firstSlider/3.webp",
+        "bishoftu/firstSlider/4.webp",
+        "bishoftu/firstSlider/5.webp",
+        "bishoftu/firstSlider/6.webp",
+        "bishoftu/firstSlider/7.webp",
+        "bishoftu/firstSlider/8.webp",
+      ],
+    };
+  },
+  methods: {},
   mounted() {
     var swiper = new Swiper(".event-wrapper2", {
       // effect: "coverflow",

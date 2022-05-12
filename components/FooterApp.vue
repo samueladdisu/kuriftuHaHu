@@ -8,14 +8,40 @@
               <h3 class="desti-title">Destination</h3>
               <ul class="desti-list">
                 <div>
-                  <li class="footer-link">  <nuxt-link class="footer-a-link " to="/destinationbishoftu">Bishofitu</nuxt-link>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationawash">Awash</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationentoto">Entoto</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationlaketana">Lake Tana</nuxt-link>></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationafar">Afar</nuxt-link></li>
-                  
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationwaterpark">Water Park</nuxt-link></li>
-                        <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationboston">Boston Day Spa</nuxt-link></li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/bishoftu"
+                      >Bishofitu</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/awash"
+                      >Awash</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/entoto"
+                      >Entoto</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/laketana"
+                      >Lake Tana</nuxt-link
+                    >>
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/afar">Afar</nuxt-link>
+                  </li>
+
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/waterpark"
+                      >Water Park</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/destinationboston"
+                      >Boston Day Spa</nuxt-link
+                    >
+                  </li>
                 </div>
 
                 <div></div>
@@ -26,14 +52,36 @@
               <h3 class="desti-title">Wellness</h3>
               <ul class="desti-list">
                 <div>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationboston">Spa</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationboston">Pool</nuxt-link></li>
-                         <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationboston">Gym</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationboston">Hair Salon</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationboston">Maincure</nuxt-link></li>
-                    <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationboston">Pedicure</nuxt-link></li>
-                 
-              
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/destinationboston"
+                      >Spa</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/destinationboston"
+                      >Pool</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/destinationboston"
+                      >Gym</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/destinationboston"
+                      >Hair Salon</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/destinationboston"
+                      >Maincure</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/destinationboston"
+                      >Pedicure</nuxt-link
+                    >
+                  </li>
                 </div>
 
                 <div></div>
@@ -44,12 +92,36 @@
               <h3 class="desti-title">Experience</h3>
               <ul class="desti-list">
                 <div>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationbishoftu">Kayaking</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="entoto/entotoexperience">Archery</nuxt-link ></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="entoto/entotoexperience">Rope Course</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="entoto/entotoexperience">Paintball </nuxt-link ></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="entoto/entotoexperience">Horse Riding</nuxt-link ></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="entoto/entotoexperience">Trampoline World</nuxt-link ></li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/bishoftu"
+                      >Kayaking</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="entoto/exp"
+                      >Archery</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="entoto/exp"
+                      >Rope Course</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="entoto/exp"
+                      >Paintball
+                    </nuxt-link>
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="entoto/exp"
+                      >Horse Riding</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="entoto/exp"
+                      >Trampoline World</nuxt-link
+                    >
+                  </li>
                 </div>
 
                 <div></div>
@@ -60,12 +132,34 @@
               <h3 class="desti-title">Quick Links</h3>
               <ul class="desti-list">
                 <div>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/">Home</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationbishoftu">Bishofitu</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationentoto">Entoto</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/ourstory">Our Story</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationawash">Awash</nuxt-link></li>
-                  <li class="footer-link"><nuxt-link class="footer-a-link " to="/destinationlaketana">Lake Tana</nuxt-link></li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/">Home</nuxt-link>
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/bishoftu"
+                      >Bishofitu</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/entoto"
+                      >Entoto</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/ourstory"
+                      >Our Story</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/awash"
+                      >Awash</nuxt-link
+                    >
+                  </li>
+                  <li class="footer-link">
+                    <nuxt-link class="footer-a-link" to="/laketana"
+                      >Lake Tana</nuxt-link
+                    >
+                  </li>
                 </div>
 
                 <div></div>
@@ -113,7 +207,7 @@ export default {};
           display: grid;
           grid-template-columns: 1fr 1fr;
           place-items: center;
-             align-items: flex-start;
+          align-items: flex-start;
           .desti {
             .desti-title {
               color: $kuriftu-brown;
@@ -198,7 +292,7 @@ export default {};
             display: grid;
             grid-template-columns: 1fr 1fr;
             place-items: center;
-             align-items: flex-start;
+            align-items: flex-start;
             .desti {
               .desti-title {
                 text-align: left;
@@ -216,7 +310,7 @@ export default {};
                   .footer-link {
                     a {
                       color: $kuriftu-white;
-                      font-size: .9rem;
+                      font-size: 0.9rem;
                       text-align: left;
                     }
                   }
@@ -243,10 +337,10 @@ export default {};
       .footer-wrapper {
         .footer-link-container {
           place-items: center;
-     
+
           .upper {
             display: grid;
-                 align-items: flex-start;
+            align-items: flex-start;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             gap: 5rem;
             .desti {

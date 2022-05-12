@@ -1,12 +1,12 @@
 <template>
   <div class="main">
-    <HeaderApp :src="require(`../assets/image/Home.jpg`)" />
+    <LazyHeaderApp :src="require(`../assets/image/Home.jpg`)" v-if="video" />
 
     <section class="welcome">
       <div class="container">
         <div class="welcome-wrapper">
           <div class="welcome-img" data-aos="slide-up">
-            <img src="../assets/image/welcome2.jpg" alt="" />
+            <img loading="lazy" src="../assets/image/welcome2.jpg" alt="" />
           </div>
           <div class="welcome-desc" data-aos="slide-up">
             <h4>WELCOME TO KURIFTU RESORT & SPA</h4>
@@ -35,6 +35,7 @@
           <div class="bishoftu" data-aos="slide-up">
             <div class="bishoftu-img">
               <img
+                loading="lazy"
                 class="bit_small"
                 src="../assets/image/Kuriftu_Bishoftu_Exerior.png"
                 alt=""
@@ -49,7 +50,7 @@
                 genuine and sensational. -->
               </p>
               <div class="explore">
-                <nuxt-link to="/destinationbishoftu">
+                <nuxt-link to="/bishoftu">
                   EXPLORE
                   <hr />
                 </nuxt-link>
@@ -58,7 +59,11 @@
           </div>
           <div class="bishoftu1" data-aos="slide-up">
             <div class="bishoftu-img">
-              <img src="../assets/image/water-cover.jpg" alt="" />
+              <img
+                src="../assets/image/water-cover.jpg"
+                loading="lazy"
+                alt=""
+              />
             </div>
             <div class="bishoftu-desc">
               <h4>Waterpark</h4>
@@ -71,7 +76,7 @@
                 Performance Stage, Fekat Circus and a Food Court. -->
               </p>
               <div class="explore">
-                <nuxt-link to="/destinationwaterpark">
+                <nuxt-link to="/waterpark">
                   EXPLORE
                   <hr />
                 </nuxt-link>
@@ -82,7 +87,7 @@
         <div class="bottom-3">
           <div class="bishoftu" data-aos="slide-up">
             <div class="bishoftu-img">
-              <img src="../assets/image/entoto-bg.jpg" alt="" />
+              <img src="../assets/image/entoto-bg.jpg" loading="lazy" alt="" />
             </div>
             <div class="bishoftu-desc">
               <h4>Entoto</h4>
@@ -94,7 +99,7 @@
                 by Conde Nast Traveler (2021) -->
               </p>
               <div class="explore">
-                <nuxt-link to="/destinationentoto">
+                <nuxt-link to="/entoto">
                   EXPLORE
                   <hr />
                 </nuxt-link>
@@ -103,7 +108,11 @@
           </div>
           <div class="bishoftu" data-aos="slide-up">
             <div class="bishoftu-img">
-              <img src="../assets/image/KURIFTU Afar-0302-min.jpg" alt="" />
+              <img
+                loading="lazy"
+                src="../assets/image/KURIFTU Afar-0302-min.jpg"
+                alt=""
+              />
             </div>
             <div class="bishoftu-desc">
               <h4>Afar</h4>
@@ -116,7 +125,7 @@
                 desert adventure. -->
               </p>
               <div class="explore">
-                <nuxt-link to="/destinationafar">
+                <nuxt-link to="/afar">
                   EXPLORE
                   <hr />
                 </nuxt-link>
@@ -125,7 +134,7 @@
           </div>
           <div class="bishoftu" data-aos="slide-up">
             <div class="bishoftu-img">
-              <img src="../assets/image/tana.jpg" alt="" />
+              <img loading="lazy" src="../assets/image/tana.jpg" alt="" />
             </div>
             <div class="bishoftu-desc">
               <h4>Lake Tana</h4>
@@ -135,7 +144,7 @@
                 <!-- Bahir Dar's native architecture and monolithic churches. -->
               </p>
               <div class="explore">
-                <nuxt-link to="/destinationlaketana">
+                <nuxt-link to="/laketana">
                   EXPLORE
                   <hr />
                 </nuxt-link>
@@ -146,7 +155,7 @@
         <div class="top-2">
           <div class="bishoftu" data-aos="slide-up">
             <div class="bishoftu-img">
-              <img src="../assets/image/awashfalls.jpg" alt="" />
+              <img loading="lazy" src="../assets/image/awashfalls.jpg" alt="" />
             </div>
             <div class="bishoftu-desc">
               <h4>Awash</h4>
@@ -157,7 +166,7 @@
                 wonders of this amazing national park -->
               </p>
               <div class="explore">
-                <nuxt-link to="/destinationawash">
+                <nuxt-link to="/awash">
                   EXPLORE
                   <hr />
                 </nuxt-link>
@@ -166,7 +175,7 @@
           </div>
           <div class="bishoftu1" data-aos="slide-up">
             <div class="bishoftu-img">
-              <img src="../assets/image/wellness.jpg" alt="" />
+              <img loading="lazy" src="../assets/image/wellness.jpg" alt="" />
             </div>
             <div class="bishoftu-desc">
               <h4>Boston Day Spa</h4>
@@ -199,128 +208,7 @@
         </div>
       </div>
     </section>
-    <!-- <section class="memory">
-      <div class="container">
-        <h2>Make a Memory That Will Last a Life time</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="memory-slide owl-carousel">
-          <img src="../assets/image/Icons/back.svg" alt="" />
 
-          <div class="memory-slide-card item">
-            <img src="../assets/image/celeb1.jpg" class="owlImg" alt="" />
-            <div class="img-bottom">
-              <h3>lequanda</h3>
-              <div class="bottom-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img
-                  class="arrow"
-                  src="../assets/image/Icons/arrow-black.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-
-          <div class="memory-slide-card item">
-            <img src="../assets/image/celeb3.jpg" class="owlImg" alt="" />
-            <div class="img-bottom">
-              <h3>lequanda</h3>
-              <div class="bottom-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img
-                  class="arrow"
-                  src="../assets/image/Icons/arrow-black.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-          <div class="memory-slide-card item">
-            <img src="../assets/image/celeb4.jpg" class="owlImg" alt="" />
-            <div class="img-bottom">
-              <h3>lequanda</h3>
-              <div class="bottom-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img
-                  class="arrow"
-                  src="../assets/image/Icons/arrow-black.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-          <div class="memory-slide-card item">
-            <img src="../assets/image/event1.jpg" class="owlImg" alt="" />
-            <div class="img-bottom">
-              <h3>lequanda</h3>
-              <div class="bottom-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img
-                  class="arrow"
-                  src="../assets/image/Icons/arrow-black.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-
-          <img src="../assets/image/Icons/next.svg" alt="" />
-        </div>
-      </div>
-    </section> -->
-    <!-- <section class="wellness">
-      <div class="container">
-        <h2>Wellness</h2>
-      </div>
-      <div class="wellness-slide" vue-dragscroll>
-        <div class="well-1 1">
-          <img
-            class="wellness-img"
-            src="../assets/image/wellness-min.jpg"
-            alt=""
-          />
-          <div class="image-name">
-            <h5>Massages</h5>
-          </div>
-        </div>
-        <div class="well-1 2">
-          <img
-            class="wellness-img"
-            src="../assets/image/wellness-min.jpg"
-            alt=""
-          />
-          <div class="image-name">
-            <h5>Massages</h5>
-          </div>
-        </div>
-        <div class="well-1 3">
-          <img
-            class="wellness-img"
-            src="../assets/image/wellness-min.jpg"
-            alt=""
-          />
-          <div class="image-name">
-            <h5>Massages</h5>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="wellness-button">
-          <img
-            src="../assets/image/Icons/back.svg"
-            @click="move"
-            class="prev"
-            alt=""
-          />
-          <img
-            src="../assets/image/Icons/next.svg"
-            @click="move"
-            class="next"
-            alt=""
-          />
-        </div>
-      </div>
-    </section> -->
     <section class="special-offer">
       <div class="container">
         <h2>Gift Voucher</h2>
@@ -331,9 +219,9 @@
           </div>
 
           <div class="special-slide" data-aos="fade-in">
-            <img src="../assets/image/gift1.svg" alt="" />
-            <img src="../assets/image/gift2.svg" alt="" />
-            <img src="../assets/image/gift3.svg" alt="" />
+            <img loading="lazy" src="../assets/image/gift1.svg" alt="" />
+            <img loading="lazy" src="../assets/image/gift2.svg" alt="" />
+            <img loading="lazy" src="../assets/image/gift3.svg" alt="" />
           </div>
         </div>
         <div class="special-offer-all" style="overflow-x: hidden">
@@ -342,50 +230,21 @@
             <a href="">See All</a>
           </div>
           <div class="special-slide" data-aos="fade-in">
-            <img src="../assets/image/gift4.svg" alt="" />
-            <img src="../assets/image/gift5.svg" alt="" />
-            <img src="../assets/image/gift6.svg" alt="" />
+            <img loading="lazy" src="../assets/image/gift4.svg" alt="" />
+            <img loading="lazy" src="../assets/image/gift5.svg" alt="" />
+            <img loading="lazy" src="../assets/image/gift6.svg" alt="" />
           </div>
         </div>
       </div>
     </section>
-
-    <!-- <section class="construction">
-      <div class="container">
-        <h2>Construction</h2>
-        <div class="construction-all">
-          <div class="construction-img">
-            <img src="../assets/image/construction.jpg" alt="" />
-          </div>
-          <div class="constr-desc">
-            <h4>Construction 1</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
-              tincidunt nisl elementum ultrices luctus habitasse. Ut orci nam
-              lectus at massa enim elementum varius dictumst. Nulla a, sed enim
-              turpis non lacinia fusce. Quis volutpat sit ullamcorper vitae
-              magna vel sit pharetra scelerisque.
-            </p>
-            <div class="book-buttons">
-              <a class="btn btn-primary" href="#">VIEW MORE</a>
-           
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
   </div>
 </template>
 
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import HeaderApp from "../components/HeaderApp.vue";
 
 export default {
-  components: {
-    HeaderApp,
-  },
   data() {
     return {
       checkIn: "",
@@ -393,6 +252,7 @@ export default {
       location: "",
       data: "",
       showCarousel: false,
+      video: false,
     };
   },
   mounted() {
@@ -404,46 +264,7 @@ export default {
       anchorPlacement: "top-bottom",
     });
     this.showCarousel = true;
-
-    // gsap.registerPlugin(ScrollTrigger);
-
-    // let container = document.querySelector(".wellness");
-
-    // gsap.to(".well-1", {
-    //   x: () =>
-    //     -(container.scrollWidth - document.documentElement.clientWidth) + "px",
-    //   scrollTrigger: {
-    //     trigger: container,
-    //     invalidateOnRefresh: true,
-    //     // start: "top center",
-    //     toggleActions: "restart pause reverse pause",
-    //     pin: false,
-    //     scrub: 1,
-    //     end: () => "+=" + container.offsetWidth,
-    //   },
-    // });
-
-    // $(".memory-slide").owlCarousel({
-    //   margin: 10,
-    //   loop: true,
-    //   autoplay: true,
-    //   autoplayTimeout: 5000,
-    //   autoplayHoverPause: true,
-    //   responsive: {
-    //     0: {
-    //       items: 1,
-    //       nav: false,
-    //     },
-    //     600: {
-    //       items: 2,
-    //       nav: false,
-    //     },
-    //     1000: {
-    //       items: 3,
-    //       nav: false,
-    //     },
-    //   },
-    // });
+    this.video = true;
   },
   methods: {
     redirect() {
@@ -452,21 +273,6 @@ export default {
         "_blank"
       );
     },
-    // move(e) {
-    //   if (e.target.classList.contains("prev")) {
-    //     gsap.to(".well-1", {
-    //       duration: 1,
-    //       x: "50%",
-    //       ease: "expo.out",
-    //     });
-    //   } else if (e.target.classList.contains("next")) {
-    //     gsap.to(".well-1", {
-    //       duration: 1,
-    //       x: "-50%",
-    //       ease: "expo.out",
-    //     });
-    //   }
-    // },
   },
 };
 </script>

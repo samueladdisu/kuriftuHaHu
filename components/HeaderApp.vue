@@ -11,7 +11,10 @@
       <NavMenu v-if="showNav" @close="closeNav" />
     </transition>
     <header>
-      <img :src="src" class="bg-img" alt="" />
+      <!-- <img :src="src" class="bg-img" alt="" /> -->
+      <video loop autoplay muted :poster="require(`../assets/image/Home.jpg`)">
+        <source v-if="showVideo" src="../videos/720.mp4" type="video/mp4" />
+      </video>
       <div class="bg-linear"></div>
       <nav>
         <div class="top-nav">
@@ -24,7 +27,7 @@
             </div>
             <div class="logo">
               <nuxt-link to="/">
-                <img src="../assets/image/LOGO 1.svg" alt="" />
+                <img loading="lazy" src="../assets/image/LOGO 1.svg" alt="" />
               </nuxt-link>
             </div>
 
@@ -83,21 +86,17 @@
 </template>
 
 <script>
-import NavMenu from "../components/NavMenu.vue";
-
 export default {
   props: ["src"],
-  components: {
-    NavMenu,
-  },
   data() {
     return {
       showNav: false,
+      showVideo: false,
     };
   },
   mounted() {
     var element1 = document.querySelector(".element1");
-
+    this.showVideo = true;
     function Scroll() {
       var ypos = window.pageYOffset;
 
@@ -163,7 +162,14 @@ header {
   width: 100%;
   height: 100vh;
   position: relative;
-
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   &::after {
     position: absolute;
     top: 0;

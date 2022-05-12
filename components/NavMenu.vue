@@ -18,27 +18,32 @@
         <div class="main-links first" v-if="showFirst">
           <ul class="nav-links">
             <li>
-              <a @click="openNext">Destinations</a>
+              <a @click="openDesti">Destinations</a>
             </li>
             <li>
-              <nuxt-link to="/destinationwaterpark">Water Park</nuxt-link>
+              <a @click="openResorts">Resorts</a>
             </li>
             <li>
-              <nuxt-link to="/experience">Experiences</nuxt-link>
+              <a @click="openExp">Experiences</a>
             </li>
             <li>
-              <nuxt-link to="/destinationboston"> SPA & Wellness</nuxt-link>
+              <a @click="openWell">Wellness</a>
             </li>
             <li>
               <nuxt-link to="/event"> Celebration & Events</nuxt-link>
             </li>
             <li>
-              <!-- <a href="https://versavvymedia.com/reservation_system/reserve.php"
-                >Reservation</a
-              > -->
               <nuxt-link to="/giftcard">Gift Card </nuxt-link>
             </li>
 
+            <li>
+              <nuxt-link to="/book">
+                <!-- <a href="https://versavvymedia.com/reservation_system/reserve.php"
+                >Reservation</a
+              > -->
+                Reservation
+              </nuxt-link>
+            </li>
             <li class="bottom-nav">
               <nuxt-link to="/aboutus" class="bottom-link">
                 About Us
@@ -52,49 +57,125 @@
           </ul>
         </div>
         <div><hr /></div>
-
-        <transition
-          appear
-          @before-enter="beforeEnter"
-          @enter="enter"
-          @before-leave="beforeLeave"
-          @leave="leave"
-          @after-leave="afterLeave"
-        >
+        <transition appear @before-enter="beforeEnter" @enter="enter">
           <div class="main-links second" v-if="showNext">
             <img
               src="../assets/image/left.svg"
               class="back"
-              @click="openNext"
+              @click="openDesti"
               alt=""
             />
             <ul class="nav-links">
-              <li>
-                <nuxt-link to="/destinationbishoftu">Bishofitu</nuxt-link>
-              </li>
-              <li>
-                <nuxt-link to="/destinationlaketana"> Tana </nuxt-link>
-              </li>
-              <li>
-                <nuxt-link to="/destinationawash"> Awash</nuxt-link>
-              </li>
-              <li>
-                <nuxt-link to="/destinationentoto">Entoto</nuxt-link>
-              </li>
-              <li>
-                <nuxt-link to="/destinationafar">Afar</nuxt-link>
-              </li>
-              <li>
-                <nuxt-link to="/destinationboston">Boston</nuxt-link>
-              </li>
-              <li>
-                <nuxt-link to="/destinationwaterpark">Water Park</nuxt-link>
-              </li>
+              <div v-if="desti">
+                <li>
+                  <a @click="openAddis">Addis Abeba</a>
+                </li>
+                <li>
+                  <nuxt-link to="/afar"> Afar </nuxt-link>
+                </li>
+                <li>
+                  <a @click="openAwash"> Awash</a>
+                </li>
+                <li>
+                  <a @click="openBish"> Bishoftu</a>
+                </li>
+                <li>
+                  <a @click="openBahirdar"> Bahirdar</a>
+                </li>
+              </div>
+
+              <div v-if="resorts">
+                <li>
+                  <nuxt-link to="/bishoftu"
+                    >Kuriftu Resort & Spa Bishoftu</nuxt-link
+                  >
+                </li>
+                <li>
+                  <nuxt-link to="/entoto"
+                    >Kuriftu Resort & Spa Entoto</nuxt-link
+                  >
+                </li>
+                <li>
+                  <nuxt-link to="/laketana"
+                    >Kuriftu Resort & Spa Lake Tana</nuxt-link
+                  >
+                </li>
+                <li>
+                  <nuxt-link to="/awash"
+                    >Kuriftu Resort & Spa Awash Falls</nuxt-link
+                  >
+                </li>
+                <li>
+                  <nuxt-link to="/afar">Kuriftu Resort & Spa Afar</nuxt-link>
+                </li>
+              </div>
+              <div v-if="exp">
+                <li>
+                  <nuxt-link to="/entoto"
+                    >Kuriftu Resort & Spa Entoto</nuxt-link
+                  >
+                </li>
+                <li>
+                  <nuxt-link to="/waterpark">Kuriftu Water Park</nuxt-link>
+                </li>
+              </div>
+              <div v-if="well">
+                <li>
+                  <nuxt-link to="/entoto"
+                    >Kuriftu Resort & Spa Entoto</nuxt-link
+                  >
+                </li>
+                <li>
+                  <nuxt-link to="/destinationboston">Boston Day Spa</nuxt-link>
+                </li>
+              </div>
             </ul>
           </div>
         </transition>
+        <!-- <div><hr /></div> -->
+        <div class="main-links second" v-if="showThird">
+          <img
+            src="../assets/image/left.svg"
+            class="back"
+            @click="openSecond"
+            alt=""
+          />
+
+          <ul class="nav-links">
+            <div v-if="addis">
+              <li>
+                <nuxt-link to="/destinationboston">Boston Day Spa</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/entoto"> Entoto </nuxt-link>
+              </li>
+            </div>
+
+            <div v-if="awash">
+              <li>
+                <nuxt-link to="/awash"> Awash Falls</nuxt-link>
+              </li>
+            </div>
+
+            <div v-if="bish">
+              <li>
+                <nuxt-link to="/bishoftu">Bishoftu</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/waterpark">Water Park</nuxt-link>
+              </li>
+            </div>
+
+            <div v-if="bahirdar">
+              <li>
+                <nuxt-link to="/laketana">Lake Tana</nuxt-link>
+              </li>
+            </div>
+          </ul>
+        </div>
       </div>
-      <div class="destination-links">
+
+      <div class="destination-links" v-if="showFeatured">
         <div class="dest-box">
           <div class="desti-img">
             <h3>Find Your Ideal Destination</h3>
@@ -107,7 +188,7 @@
               tincidunt nis
             </p>
             <div class="explore">
-              <nuxt-link to="/destinationentoto">
+              <nuxt-link to="/entoto">
                 Discover More
                 <hr />
               </nuxt-link>
@@ -124,20 +205,203 @@ import "aos/dist/aos.css";
 export default {
   data() {
     return {
+      // main three navs
       showNext: false,
       showFirst: true,
+      showThird: false,
+      showFeatured: true,
+
+      // destination
+      addis: false,
+      awash: false,
+      bish: false,
+      bahirdar: false,
+
+      // first nav booleans
+      desti: false,
+      resorts: false,
+      exp: false,
+      well: false,
     };
   },
   methods: {
     closeNav() {
       this.$emit("close");
     },
-    openNext() {
+    openAddis() {
+      if (window.innerWidth < 768) {
+        this.showNext = !this.showNext;
+        this.showThird = true;
+
+        this.addis = true;
+        this.bish = false;
+        this.awash = false;
+        this.bahirdar = false;
+      } else {
+        this.showThird = true;
+        this.showFeatured = false;
+
+        this.addis = true;
+        this.bish = false;
+        this.awash = false;
+        this.bahirdar = false;
+      }
+    },
+    openSecond() {
+      this.showThird = false;
+      this.showNext = true;
+    },
+    openAwash() {
+      if (window.innerWidth < 768) {
+        this.showNext = !this.showNext;
+        this.showThird = true;
+
+        this.awash = true;
+        this.addis = false;
+        this.bish = false;
+        this.bahirdar = false;
+      } else {
+        this.showThird = true;
+        this.showFeatured = false;
+
+        this.awash = true;
+        this.addis = false;
+        this.bish = false;
+        this.bahirdar = false;
+      }
+    },
+    openBish() {
+      if (window.innerWidth < 768) {
+        this.showNext = !this.showNext;
+        this.showThird = true;
+
+        this.bish = true;
+        this.awash = false;
+        this.addis = false;
+        this.bahirdar = false;
+      } else {
+        this.showThird = true;
+        this.showFeatured = false;
+
+        this.bish = true;
+        this.awash = false;
+        this.addis = false;
+        this.bahirdar = false;
+      }
+    },
+    openBahirdar() {
+      if (window.innerWidth < 768) {
+        this.showNext = !this.showNext;
+        this.showThird = true;
+
+        this.bahirdar = true;
+        this.bish = false;
+        this.awash = false;
+        this.addis = false;
+      } else {
+        this.showThird = true;
+        this.showFeatured = false;
+
+        this.bahirdar = true;
+        this.bish = false;
+        this.awash = false;
+        this.addis = false;
+      }
+    },
+    openDesti() {
       if (window.innerWidth < 768) {
         this.showNext = !this.showNext;
         this.showFirst = !this.showFirst;
+
+        this.desti = true;
+        this.resorts = false;
+        this.well = false;
+        this.exp = false;
+
+        this.showFeatured = true;
+        this.showThird = false;
       } else {
+        this.showNext = true;
+
+        this.desti = true;
+        this.resorts = false;
+        this.well = false;
+        this.exp = false;
+
+        this.showFeatured = true;
+        this.showThird = false;
+      }
+    },
+    openResorts() {
+      if (window.innerWidth < 768) {
         this.showNext = !this.showNext;
+        this.showFirst = !this.showFirst;
+
+        this.resorts = !this.resorts;
+        this.desti = false;
+        this.well = false;
+        this.exp = false;
+
+        this.showFeatured = true;
+        this.showThird = false;
+      } else {
+        this.showNext = true;
+
+        this.resorts = true;
+        this.desti = false;
+        this.well = false;
+        this.exp = false;
+
+        this.showFeatured = true;
+        this.showThird = false;
+      }
+    },
+    openExp() {
+      if (window.innerWidth < 768) {
+        this.showNext = !this.showNext;
+        this.showFirst = !this.showFirst;
+
+        this.exp = !this.exp;
+        this.resorts = false;
+        this.desti = false;
+        this.well = false;
+
+        this.showFeatured = true;
+        this.showThird = false;
+      } else {
+        this.showNext = true;
+
+        this.exp = true;
+        this.resorts = false;
+        this.desti = false;
+        this.well = false;
+
+        this.showFeatured = true;
+        this.showThird = false;
+      }
+    },
+    openWell() {
+      if (window.innerWidth < 768) {
+        this.showNext = !this.showNext;
+        this.showFirst = !this.showFirst;
+
+        this.well = !this.well;
+        this.exp = false;
+        this.resorts = false;
+        this.desti = false;
+
+        this.showFeatured = true;
+        this.showThird = false;
+      } else {
+        this.showNext = true;
+
+        this.well = true;
+        this.exp = false;
+        this.resorts = false;
+        this.desti = false;
+
+        this.showFeatured = true;
+        this.showThird = false;
       }
     },
     beforeEnter(el) {
@@ -188,6 +452,7 @@ export default {
 .whole-nav {
   background: #f5f5f2;
   height: 100vh;
+  width: 100vw;
   position: fixed;
   top: 0;
   z-index: 9999;
@@ -290,7 +555,7 @@ export default {
     .destination-links {
       padding: 1rem;
       background: $kuriftu-white;
-
+      transition: all 300ms ease-in-out;
       .dest-box {
         display: flex;
         align-items: flex-end;

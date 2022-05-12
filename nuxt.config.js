@@ -19,14 +19,15 @@ export default {
     ],
     script: [
       { src: 'https://unpkg.com/swiper/swiper-bundle.min.js', defer: true },
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js', defer: true }
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js', defer: true },
+
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/scss/style.scss',
-
+    'video.js/dist/video-js.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -35,6 +36,7 @@ export default {
     { src: '~/plugins/gsap.js', mode: 'client' },
     { src: '~/plugins/scroll.js', mode: 'client' },
     { src: '~/plugins/scrollPlugin.js', mode: 'client' },
+    { src: '~/plugins/video.js', mode: 'client' },
     // { src: '~/plugins/swiper.js', mode: 'client' }
   ],
 

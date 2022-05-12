@@ -16,7 +16,9 @@
     "npm": "^8.3.0",
     "nuxt": "^2.15.7",
     "nuxt-compress": "^5.0.0",
-    "vue-dragscroll": "^3.0.1"
+    "swiper": "^8.1.4",
+    "vue-dragscroll": "^3.0.1",
+    "vue-video-player": "^5.0.2"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.2.1",
