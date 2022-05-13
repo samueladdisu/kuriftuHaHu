@@ -9,6 +9,7 @@ yarn-error.log*
 
 #image Ignore
 assets/image
+videos/
 # Runtime data
 pids
 *.pid
