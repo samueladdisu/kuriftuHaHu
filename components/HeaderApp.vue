@@ -13,7 +13,7 @@
     <header>
       <!-- <img :src="src" class="bg-img" alt="" /> -->
       <video loop autoplay muted :poster="require(`../assets/image/Home.jpg`)">
-        <source v-if="showVideo" src="../videos/720.mp4" type="video/mp4" />
+        <source v-if="showVideo" src="../videos/720.webm" type="video/mp4" />
       </video>
       <div class="bg-linear"></div>
       <nav>
