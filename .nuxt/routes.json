@@ -1,0 +1,380 @@
+[
+  {
+    "name": "aboutus",
+    "path": "/aboutus",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\aboutus.vue",
+    "chunkName": "pages/aboutus"
+  },
+  {
+    "name": "afar",
+    "path": "/afar",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\afar\\\\index.vue",
+    "chunkName": "pages/afar/index"
+  },
+  {
+    "name": "awash",
+    "path": "/awash",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\awash\\\\index.vue",
+    "chunkName": "pages/awash/index"
+  },
+  {
+    "name": "bishoftu",
+    "path": "/bishoftu",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\bishoftu\\\\index.vue",
+    "chunkName": "pages/bishoftu/index"
+  },
+  {
+    "name": "book",
+    "path": "/book",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\book.vue",
+    "chunkName": "pages/book"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact"
+  },
+  {
+    "name": "destinationboston",
+    "path": "/destinationboston",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\destinationboston.vue",
+    "chunkName": "pages/destinationboston"
+  },
+  {
+    "name": "entoto",
+    "path": "/entoto",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\entoto\\\\index.vue",
+    "chunkName": "pages/entoto/index"
+  },
+  {
+    "name": "event",
+    "path": "/event",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\event.vue",
+    "chunkName": "pages/event"
+  },
+  {
+    "name": "experience",
+    "path": "/experience",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\experience.vue",
+    "chunkName": "pages/experience"
+  },
+  {
+    "name": "giftcard",
+    "path": "/giftcard",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\giftcard.vue",
+    "chunkName": "pages/giftcard"
+  },
+  {
+    "name": "laketana",
+    "path": "/laketana",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\laketana\\\\index.vue",
+    "chunkName": "pages/laketana/index"
+  },
+  {
+    "name": "ourstory",
+    "path": "/ourstory",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\ourstory.vue",
+    "chunkName": "pages/ourstory"
+  },
+  {
+    "name": "test",
+    "path": "/test",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\test.vue",
+    "chunkName": "pages/test"
+  },
+  {
+    "name": "waterpark",
+    "path": "/waterpark",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\waterpark\\\\index.vue",
+    "chunkName": "pages/waterpark/index"
+  },
+  {
+    "name": "wellness",
+    "path": "/wellness",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\wellness.vue",
+    "chunkName": "pages/wellness"
+  },
+  {
+    "name": "afar-acc",
+    "path": "/afar/acc",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\afar\\\\acc.vue",
+    "chunkName": "pages/afar/acc"
+  },
+  {
+    "name": "afar-dining",
+    "path": "/afar/dining",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\afar\\\\dining.vue",
+    "chunkName": "pages/afar/dining"
+  },
+  {
+    "name": "afar-event",
+    "path": "/afar/event",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\afar\\\\event.vue",
+    "chunkName": "pages/afar/event"
+  },
+  {
+    "name": "afar-exp",
+    "path": "/afar/exp",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\afar\\\\exp.vue",
+    "chunkName": "pages/afar/exp"
+  },
+  {
+    "name": "afar-gallery",
+    "path": "/afar/gallery",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\afar\\\\gallery.vue",
+    "chunkName": "pages/afar/gallery"
+  },
+  {
+    "name": "afar-well",
+    "path": "/afar/well",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\afar\\\\well.vue",
+    "chunkName": "pages/afar/well"
+  },
+  {
+    "name": "awash-acc",
+    "path": "/awash/acc",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\awash\\\\acc.vue",
+    "chunkName": "pages/awash/acc"
+  },
+  {
+    "name": "awash-dining",
+    "path": "/awash/dining",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\awash\\\\dining.vue",
+    "chunkName": "pages/awash/dining"
+  },
+  {
+    "name": "awash-event",
+    "path": "/awash/event",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\awash\\\\event.vue",
+    "chunkName": "pages/awash/event"
+  },
+  {
+    "name": "awash-exp",
+    "path": "/awash/exp",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\awash\\\\exp.vue",
+    "chunkName": "pages/awash/exp"
+  },
+  {
+    "name": "awash-gallery",
+    "path": "/awash/gallery",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\awash\\\\gallery.vue",
+    "chunkName": "pages/awash/gallery"
+  },
+  {
+    "name": "awash-well",
+    "path": "/awash/well",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\awash\\\\well.vue",
+    "chunkName": "pages/awash/well"
+  },
+  {
+    "name": "bishoftu-acc",
+    "path": "/bishoftu/acc",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\bishoftu\\\\acc.vue",
+    "chunkName": "pages/bishoftu/acc"
+  },
+  {
+    "name": "bishoftu-dining",
+    "path": "/bishoftu/dining",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\bishoftu\\\\dining.vue",
+    "chunkName": "pages/bishoftu/dining"
+  },
+  {
+    "name": "bishoftu-event",
+    "path": "/bishoftu/event",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\bishoftu\\\\event.vue",
+    "chunkName": "pages/bishoftu/event"
+  },
+  {
+    "name": "bishoftu-exp",
+    "path": "/bishoftu/exp",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\bishoftu\\\\exp.vue",
+    "chunkName": "pages/bishoftu/exp"
+  },
+  {
+    "name": "bishoftu-gallery",
+    "path": "/bishoftu/gallery",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\bishoftu\\\\gallery.vue",
+    "chunkName": "pages/bishoftu/gallery"
+  },
+  {
+    "name": "bishoftu-well",
+    "path": "/bishoftu/well",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\bishoftu\\\\well.vue",
+    "chunkName": "pages/bishoftu/well"
+  },
+  {
+    "name": "boston-bostonaccommodation",
+    "path": "/boston/bostonaccommodation",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\boston\\\\bostonaccommodation.vue",
+    "chunkName": "pages/boston/bostonaccommodation"
+  },
+  {
+    "name": "boston-bostondining",
+    "path": "/boston/bostondining",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\boston\\\\bostondining.vue",
+    "chunkName": "pages/boston/bostondining"
+  },
+  {
+    "name": "boston-bostonevent",
+    "path": "/boston/bostonevent",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\boston\\\\bostonevent.vue",
+    "chunkName": "pages/boston/bostonevent"
+  },
+  {
+    "name": "boston-bostonexperience",
+    "path": "/boston/bostonexperience",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\boston\\\\bostonexperience.vue",
+    "chunkName": "pages/boston/bostonexperience"
+  },
+  {
+    "name": "boston-bostongallery",
+    "path": "/boston/bostongallery",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\boston\\\\bostongallery.vue",
+    "chunkName": "pages/boston/bostongallery"
+  },
+  {
+    "name": "boston-bostonwellness",
+    "path": "/boston/bostonwellness",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\boston\\\\bostonwellness.vue",
+    "chunkName": "pages/boston/bostonwellness"
+  },
+  {
+    "name": "destinationevent-afar",
+    "path": "/destinationevent/afar",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\destinationevent\\\\afar.vue",
+    "chunkName": "pages/destinationevent/afar"
+  },
+  {
+    "name": "destinationevent-awash",
+    "path": "/destinationevent/awash",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\destinationevent\\\\awash.vue",
+    "chunkName": "pages/destinationevent/awash"
+  },
+  {
+    "name": "destinationevent-bishoftuevent",
+    "path": "/destinationevent/bishoftuevent",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\destinationevent\\\\bishoftuevent.vue",
+    "chunkName": "pages/destinationevent/bishoftuevent"
+  },
+  {
+    "name": "destinationevent-entoto",
+    "path": "/destinationevent/entoto",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\destinationevent\\\\entoto.vue",
+    "chunkName": "pages/destinationevent/entoto"
+  },
+  {
+    "name": "destinationevent-tana",
+    "path": "/destinationevent/tana",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\destinationevent\\\\tana.vue",
+    "chunkName": "pages/destinationevent/tana"
+  },
+  {
+    "name": "destinationevent-waterpark",
+    "path": "/destinationevent/waterpark",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\destinationevent\\\\waterpark.vue",
+    "chunkName": "pages/destinationevent/waterpark"
+  },
+  {
+    "name": "entoto-acc",
+    "path": "/entoto/acc",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\entoto\\\\acc.vue",
+    "chunkName": "pages/entoto/acc"
+  },
+  {
+    "name": "entoto-dining",
+    "path": "/entoto/dining",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\entoto\\\\dining.vue",
+    "chunkName": "pages/entoto/dining"
+  },
+  {
+    "name": "entoto-event",
+    "path": "/entoto/event",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\entoto\\\\event.vue",
+    "chunkName": "pages/entoto/event"
+  },
+  {
+    "name": "entoto-exp",
+    "path": "/entoto/exp",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\entoto\\\\exp.vue",
+    "chunkName": "pages/entoto/exp"
+  },
+  {
+    "name": "entoto-gallery",
+    "path": "/entoto/gallery",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\entoto\\\\gallery.vue",
+    "chunkName": "pages/entoto/gallery"
+  },
+  {
+    "name": "entoto-well",
+    "path": "/entoto/well",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\entoto\\\\well.vue",
+    "chunkName": "pages/entoto/well"
+  },
+  {
+    "name": "laketana-acc",
+    "path": "/laketana/acc",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\laketana\\\\acc.vue",
+    "chunkName": "pages/laketana/acc"
+  },
+  {
+    "name": "laketana-dining",
+    "path": "/laketana/dining",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\laketana\\\\dining.vue",
+    "chunkName": "pages/laketana/dining"
+  },
+  {
+    "name": "laketana-event",
+    "path": "/laketana/event",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\laketana\\\\event.vue",
+    "chunkName": "pages/laketana/event"
+  },
+  {
+    "name": "laketana-exp",
+    "path": "/laketana/exp",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\laketana\\\\exp.vue",
+    "chunkName": "pages/laketana/exp"
+  },
+  {
+    "name": "laketana-gallery",
+    "path": "/laketana/gallery",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\laketana\\\\gallery.vue",
+    "chunkName": "pages/laketana/gallery"
+  },
+  {
+    "name": "laketana-well",
+    "path": "/laketana/well",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\laketana\\\\well.vue",
+    "chunkName": "pages/laketana/well"
+  },
+  {
+    "name": "waterpark-dining",
+    "path": "/waterpark/dining",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\waterpark\\\\dining.vue",
+    "chunkName": "pages/waterpark/dining"
+  },
+  {
+    "name": "waterpark-event",
+    "path": "/waterpark/event",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\waterpark\\\\event.vue",
+    "chunkName": "pages/waterpark/event"
+  },
+  {
+    "name": "waterpark-exp",
+    "path": "/waterpark/exp",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\waterpark\\\\exp.vue",
+    "chunkName": "pages/waterpark/exp"
+  },
+  {
+    "name": "waterpark-gallery",
+    "path": "/waterpark/gallery",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\waterpark\\\\gallery.vue",
+    "chunkName": "pages/waterpark/gallery"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\build\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

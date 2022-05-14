@@ -1,0 +1,62 @@
+{
+  "Afarslide": {
+    "description": "Auto imported from components/Afarslide.vue"
+  },
+  "Awashslide": {
+    "description": "Auto imported from components/Awashslide.vue"
+  },
+  "BishoftuNav": {
+    "description": "Auto imported from components/BishoftuNav.vue"
+  },
+  "Bishoftuslide": {
+    "description": "Auto imported from components/Bishoftuslide.vue"
+  },
+  "BishoftuSpa": {
+    "description": "Auto imported from components/BishoftuSpa.vue"
+  },
+  "Dbox": {
+    "description": "Auto imported from components/Dbox.vue"
+  },
+  "Destinationheader": {
+    "description": "Auto imported from components/Destinationheader.vue"
+  },
+  "Destinav": {
+    "description": "Auto imported from components/Destinav.vue"
+  },
+  "DSection": {
+    "description": "Auto imported from components/DSection.vue"
+  },
+  "Dtop": {
+    "description": "Auto imported from components/Dtop.vue"
+  },
+  "Entotoslide": {
+    "description": "Auto imported from components/Entotoslide.vue"
+  },
+  "Event": {
+    "description": "Auto imported from components/Event.vue"
+  },
+  "Fixed": {
+    "description": "Auto imported from components/Fixed.vue"
+  },
+  "FooterApp": {
+    "description": "Auto imported from components/FooterApp.vue"
+  },
+  "Giftcardsection": {
+    "description": "Auto imported from components/Giftcardsection.vue"
+  },
+  "HeaderApp": {
+    "description": "Auto imported from components/HeaderApp.vue"
+  },
+  "NavMenu": {
+    "description": "Auto imported from components/NavMenu.vue"
+  },
+  "TabHeader": {
+    "description": "Auto imported from components/TabHeader.vue"
+  },
+  "Tanaslide": {
+    "description": "Auto imported from components/Tanaslide.vue"
+  },
+  "Waterparkslide": {
+    "description": "Auto imported from components/Waterparkslide.vue"
+  }
+}
